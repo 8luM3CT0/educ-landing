@@ -70,7 +70,7 @@ function ShortCard({id, title, description, duration}) {
     </div>
   </div>
   {(courseInfo || closingCard) && (
-    <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-10 flex items-center">
+    <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-30 flex items-center">
       <div onClick={() => setClosingCard(true)} className="h-full w-[25%]"></div>
       <div className="
       h-full
@@ -105,7 +105,7 @@ function ShortCard({id, title, description, duration}) {
           from-purple-600
           to-emerald-500
           w-full
-          h-[70px]
+          h-[8%]
           ">
             <div className="
             h-full
@@ -135,6 +135,65 @@ function ShortCard({id, title, description, duration}) {
               </p>
             </div>
           </header>
+          <div className="
+          h-[92%]
+          w-full
+          bg-gradient-to-bl
+          from-emerald-500
+          to-purple-600
+          ">
+            <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-30
+            flex
+            flex-col
+            items-start
+            px-3
+            ">
+              <h3 className="
+              font-ubunto
+              font-bold
+              text-lg
+              text-emerald-100
+              ">
+                Subject name:
+              </h3>
+              <h2 className="
+              font-space-mono
+              font-semibold
+              text-emerald-300
+              text-3xl
+              mx-auto
+              ">
+                {title}
+              </h2>
+              <span className="
+              h-[25%]
+              w-[80%]
+              p-3
+              m-auto
+              bg-slate-700
+              bg-opacity-20
+              flex
+              flex-col
+              items-center
+              overflow-y-scroll
+              scrollbar-hide
+              ">
+                <p className="
+                font-montserr
+                font-normal
+                text-base
+                mx-auto
+                text-purple-100
+                ">
+                  {description}
+                </p>
+              </span>
+            </div>
+          </div>
         </div>
         <div onClick={() => setClosingCard(true)} className="h-[20%] w-full"></div>
       </div>
