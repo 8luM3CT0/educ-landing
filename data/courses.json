@@ -360,5 +360,49 @@
           "description": "Develop skills in creating visually appealing and cohesive designs that align with user experience goals.",
           "duration": "6 weeks"
         }
-      ]
-}
+      ],
+        "lecturers": [
+          {
+            "id": 1,
+            "course": "Back-end development",
+            "name": "Prof. Lucas Ramirez",
+            "experience_years": 9,
+            "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture."
+          },
+          {
+            "id": 2,
+            "course": "Cybersecurity",
+            "name": "Dr. Aisha Clarke",
+            "experience_years": 12,
+            "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response."
+          },
+          {
+            "id": 3,
+            "course": "Data science",
+            "name": "Dr. Kenji Nakamura",
+            "experience_years": 8,
+            "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems."
+          },
+          {
+            "id": 4,
+            "course": "Front-end development",
+            "name": "Ms. Natalie Cho",
+            "experience_years": 7,
+            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
+          },
+          {
+            "id": 5,
+            "course": "Project management",
+            "name": "Mr. Richard Okafor",
+            "experience_years": 15,
+            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
+          },
+          {
+            "id": 6,
+            "course": "Software engineering",
+            "name": "Dr. Elena Petrova",
+            "experience_years": 11,
+            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
+          }
+        ]
+    }

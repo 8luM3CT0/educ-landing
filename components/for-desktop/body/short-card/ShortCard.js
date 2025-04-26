@@ -9,6 +9,9 @@ function ShortCard({id, title, description, duration}) {
     const [courseInfo, setCourseInfo] = useState(false)
     const [openingCard, setOpeningCard] = useState(false)
     const [closingCard, setClosingCard] = useState(false)
+    const [openEnrollmentCard, setOpenEnrollmentCard] = useState(false)
+    const [enrollmentCard, setEnrollmentCard] = useState(false)
+    const [closeEnrollmentCard, setCloseEnrollmentCard] = useState(false)
 
     useEffect(() => {
       if(courseInfo && !openingCard){
@@ -19,7 +22,23 @@ function ShortCard({id, title, description, duration}) {
         setOpeningCard(false)
       }
     }, [courseInfo])
-   
+    
+    useEffect(() => {
+      if(enrollmentCard && !openEnrollmentCard){
+        setTimeout(() => {
+          setOpenEnrollmentCard(true)
+        }, 15)
+      } else if (!enrollmentCard){
+        setOpenEnrollmentCard(false)
+      }
+    }, [enrollmentCard])
+
+  const openingEnrollmentCard = () => {
+    {!enrollmentCard && setEnrollmentCard(true)}
+    {courseInfo && setClosingCard(true)}
+  }
+    
+
     return (
       <>
     <div 
@@ -70,7 +89,7 @@ function ShortCard({id, title, description, duration}) {
     </div>
   </div>
   {(courseInfo || closingCard) && (
-    <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-30 flex items-center">
+    <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-10 flex items-center">
       <div onClick={() => setClosingCard(true)} className="h-full w-[25%]"></div>
       <div className="
       h-full
@@ -136,7 +155,7 @@ function ShortCard({id, title, description, duration}) {
             </div>
           </header>
           <div className="
-          h-[92%]
+          h-[80%]
           w-full
           bg-gradient-to-bl
           from-emerald-500
@@ -194,13 +213,92 @@ function ShortCard({id, title, description, duration}) {
               </span>
             </div>
           </div>
+          <footer className="
+          h-[12%]
+          w-full
+          bg-gradient-to-br
+          from-purple-600
+          to-emerald-500
+          ">
+            <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-40
+            px-3
+            flex
+            items-center
+            ">
+              <span className="w-[50%]"></span>
+              <button 
+              onClick={openingEnrollmentCard}
+              className="
+              w-[45%]
+              h-[80%]
+              font-space-mono
+              font-bold
+              border-0
+              rounded
+              text-lg
+              outline-none
+              focus:outline-none
+              bg-purple-500
+              text-slate-100
+              hover:bg-purple-700
+              hover:text-slate-400
+              hover:shadow-lg
+              hover:shadow-emerald-500
+              hover:-skew-x-3
+              transform
+              transition-all
+              duration-300
+              ease-in-out
+              ">
+                Enroll
+              </button>
+            </div>
+          </footer>
         </div>
         <div onClick={() => setClosingCard(true)} className="h-[20%] w-full"></div>
       </div>
       <div onClick={() => setClosingCard(true)} className="h-full w-[25%]"></div>
-
     </div>
   )}
+
+    {(enrollmentCard || closeEnrollmentCard) && (
+      <div className="fixed inset-0 z-50 h-screen w-screen bg-opacity-10 bg-slate-800 flex items-center">
+        <div 
+        onClick={() => setCloseEnrollmentCard(true)}
+        className="h-full w-[25%]"></div>
+        <div className="h-full w-[50%] flex flex-col items-center">
+          <div onClick={() => setCloseEnrollmentCard(true)} className="h-[20%] w-full"></div>
+          <div className={`
+          h-[60%]
+          w-full
+          bg-slate-200
+          rounded
+          transition-transform
+          duration-300
+          ease-in-out
+          border-8
+          border-solid
+          [border-image:linear-gradient(to_right,skyblue,dodgerblue,darkblue,indigo,violet)_1]
+          ${openEnrollmentCard && !closeEnrollmentCard ? 'translate-x-0' : '-translate-x-full'}
+          `}
+          onTransitionEnd={() => {
+            if(closeEnrollmentCard){
+              setEnrollmentCard(false)
+              setCloseEnrollmentCard(false)
+            }
+          }}
+          ></div>
+          <div onClick={() => setCloseEnrollmentCard(true)} className="h-[20%] w-full"></div>
+        </div>
+        <div 
+        onClick={() => setCloseEnrollmentCard(true)}
+        className="h-full w-[25%]"></div>
+      </div>
+    )}
     </>
   )
 }
