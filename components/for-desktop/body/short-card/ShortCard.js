@@ -5,7 +5,7 @@ import {Modal, ModalHeader, ModalBody, ModalFooter, Button} from '../../../'
 import { useEffect, useState } from 'react'
 
 
-function ShortCard({id, title, description, duration}) {  
+function ShortCard({id, title, description, duration, name, experience_years, background}) {  
     const [courseInfo, setCourseInfo] = useState(false)
     const [openingCard, setOpeningCard] = useState(false)
     const [closingCard, setClosingCard] = useState(false)
@@ -36,6 +36,11 @@ function ShortCard({id, title, description, duration}) {
   const openingEnrollmentCard = () => {
     {!enrollmentCard && setEnrollmentCard(true)}
     {courseInfo && setClosingCard(true)}
+  }
+
+  const closingEnrollmentCard = () => {
+    {!courseInfo && setCourseInfo(true)}
+    {enrollmentCard && setCloseEnrollmentCard(true)}
   }
     
 
@@ -103,13 +108,13 @@ function ShortCard({id, title, description, duration}) {
         h-[60%]
         w-full
         bg-slate-200
-        rounded
+        rounded-xl
         transition-transform
         duration-300
         ease-in-out
-        border-8 
+        border-4
+        border-slate-800 
         border-solid
-        [border-image:linear-gradient(to_right,slateblue,dodgerblue,blue,indigo,violet)_1]
         ${openingCard && !closingCard ? 'translate-y-0' : '-translate-y-full'}
         `}
         onTransitionEnd={() => {
@@ -120,24 +125,22 @@ function ShortCard({id, title, description, duration}) {
         }}
         >
           <header className="
-          bg-gradient-to-br
-          from-purple-600
-          to-emerald-500
+          bg-slate-800
           w-full
           h-[8%]
           ">
             <div className="
             h-full
             w-full
-            bg-slate-800
-            bg-opacity-60
+            bg-sky-800
+            bg-opacity-20
             px-4
             flex
             items-center
             space-x-4
             ">
               <h3 className="
-              font-ibm-mono
+              font-robot-condensed
               font-normal
               text-lg
               text-sky-100
@@ -157,9 +160,7 @@ function ShortCard({id, title, description, duration}) {
           <div className="
           h-[80%]
           w-full
-          bg-gradient-to-bl
-          from-emerald-500
-          to-purple-600
+          bg-slate-700
           ">
             <div className="
             h-full
@@ -172,36 +173,49 @@ function ShortCard({id, title, description, duration}) {
             px-3
             ">
               <h3 className="
-              font-ubunto
-              font-bold
+              font-monrserr
+              font-normal
               text-lg
               text-emerald-100
               ">
                 Subject name:
               </h3>
               <h2 className="
-              font-space-mono
-              font-semibold
+              font-montserr
+              font-bold
               text-emerald-300
               text-3xl
               mx-auto
+              hover:-skew-x-6
+              hover:text-emerald-500
+              transform
+              transition-all
+              duration-500
+              ease-in-out
               ">
                 {title}
               </h2>
               <span className="
               h-[25%]
               w-[80%]
-              p-3
               m-auto
-              bg-slate-700
-              bg-opacity-20
+            bg-gradient-to-bl
+            from-emerald-500
+            to-purple-600
               flex
               flex-col
               items-center
+              ">
+              <span className="
+              h-full
+              w-full
+              p-3
               overflow-y-scroll
               scrollbar-hide
+              bg-slate-800
+              bg-opacity-20
               ">
-                <p className="
+                                <p className="
                 font-montserr
                 font-normal
                 text-base
@@ -211,20 +225,20 @@ function ShortCard({id, title, description, duration}) {
                   {description}
                 </p>
               </span>
+              </span>
+              <span className="w-full flex items-center justify-evenly"></span>
             </div>
           </div>
           <footer className="
           h-[12%]
           w-full
-          bg-gradient-to-br
-          from-purple-600
-          to-emerald-500
+          bg-slate-800
           ">
             <div className="
             h-full
             w-full
-            bg-slate-800
-            bg-opacity-40
+            bg-sky-800
+            bg-opacity-20            
             px-3
             flex
             items-center
@@ -242,7 +256,7 @@ function ShortCard({id, title, description, duration}) {
               text-lg
               outline-none
               focus:outline-none
-              bg-purple-500
+              bg-slate-900
               text-slate-100
               hover:bg-purple-700
               hover:text-slate-400
@@ -251,7 +265,7 @@ function ShortCard({id, title, description, duration}) {
               hover:-skew-x-3
               transform
               transition-all
-              duration-300
+              duration-500
               ease-in-out
               ">
                 Enroll
@@ -276,13 +290,12 @@ function ShortCard({id, title, description, duration}) {
           h-[60%]
           w-full
           bg-slate-200
-          rounded
+          rounded-xl
           transition-transform
           duration-300
           ease-in-out
-          border-8
-          border-solid
-          [border-image:linear-gradient(to_right,skyblue,dodgerblue,darkblue,indigo,violet)_1]
+          border-4
+          border-slate-800
           ${openEnrollmentCard && !closeEnrollmentCard ? 'translate-x-0' : '-translate-x-full'}
           `}
           onTransitionEnd={() => {
@@ -291,7 +304,36 @@ function ShortCard({id, title, description, duration}) {
               setCloseEnrollmentCard(false)
             }
           }}
-          ></div>
+          >
+            <header className="h-[8%] w-full bg-slate-800">
+              <div className="bg-sky-800 bg-opacity-20 w-full h-full px-4  flex items-center justify-between">
+              </div>
+            </header>
+            <div className="h-[80%] w-full bg-slate-800 hover:bg-slate-700 transform transition-colors duration-300 ease-in-out">
+              <div className="h-full w-full bg-opacity-30 bg-sky-900 flex flex-col items-center justify-center space-y-2">
+                <h1 className="
+                font-mont-sub
+                font-bold
+                text-sky-300
+                text-3xl
+                animate-pulse
+                ">
+                  Congratulations!
+                </h1>
+                <h1 className="
+                font-montserr
+                font-bold
+                text-sky-600
+                text-2xl
+                ">
+                  You are officially enrolled to: {title}
+                </h1>
+              </div>
+            </div>
+            <footer className="h-[12%] w-full bg-slate-800">
+              
+            </footer>
+          </div>
           <div onClick={() => setCloseEnrollmentCard(true)} className="h-[20%] w-full"></div>
         </div>
         <div 

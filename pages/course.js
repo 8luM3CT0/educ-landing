@@ -219,6 +219,9 @@ id={data?.id}
 title={data?.title}
 duration={data?.duration}
 description={data?.description}
+name={data?.name}
+experience_years={data?.experience_years}
+background={data?.background}
 />
                   ))}
                 </div>
