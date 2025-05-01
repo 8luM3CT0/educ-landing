@@ -2,7 +2,7 @@
 import React from 'react'
 import {FcAcceptDatabase} from 'react-icons/fc'
 import {FaConnectdevelop} from 'react-icons/fa'
-import {SiBmcsoftware} from '../../'
+import {BulbIcon, HammerIcon, SiBmcsoftware} from '../../'
 //back-end
 import { useRouter } from 'next/router'
 
@@ -16,8 +16,10 @@ function DesktopIndHeader() {
     '
     >
         <span className="
-        w-[0.3]
-        flex-items-center
+        w-[80%]
+        flex
+        items-center
+        space-x-8
         ">
             <SiBmcsoftware
             style={{
@@ -27,28 +29,43 @@ function DesktopIndHeader() {
             }}
             className='hover:shadow-2xl transform transition duration-200'
             />
-        </span>
-        <div className="
-        w-[50%]
-        flex
-        items-center
-        justify-between
-        ">
-        <h1 
+                    <button 
         onClick={() => router.push('/course')}
-        className="desktopHeaderTitle">
-            Courses
-        </h1>
-        <h1 
+        className="
+        diHeaderBtn
+        hover:text-amber-600
+        hover:border-amber-600
+        transform
+        transition
+        duration-300
+        ease-in-out
+        ">  <BulbIcon />
+            <p className="desktopHeaderTitle">
+                Courses
+            </p>
+        </button>
+        <button 
         onClick={() => router.push('/jobs')}
-        className="desktopHeaderTitle">
-            Job offerings
-        </h1>
+        className="
+        diHeaderBtn
+        hover:text-sky-400
+        hover:border-sky-400
+        transform
+        transition
+        duration-300
+        ease-in-out
+        ">  <HammerIcon />
+            <p className="desktopHeaderTitle">
+                Job offerings
+            </p>
+        </button>
+        </span>
+
         <span 
         onClick={() => router.push('/support')}
         className="
-        w-[0.3]
-        bg-slate-600
+        w-[0.2]
+        bg-sky-900
         rounded-lg
         px-3
         py-2
@@ -56,11 +73,12 @@ function DesktopIndHeader() {
         items-center
         space-x-3
         cursor-pointer
+        hover:-skew-x-3
         hover:shadow-xl
         hover:bg-indigo-700
         transform
         transition
-        duration-200
+        duration-[400ms]
         ease-in-out
         group
         ">
@@ -78,8 +96,6 @@ function DesktopIndHeader() {
             Connect with us
         </h1>
         </span>
-        </div>
-        
     </div>
   )
 }

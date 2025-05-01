@@ -4,18 +4,46 @@ import {
   Button,
   CourseCard,
   DIHeader,
+  HammerIcon,
   Icon,
   MIHeader,
+  PenIcon,
   ReviewCard,
   course_card,
   reviews
 } from '../components/'
 //back-end
+import {useEffect, useState} from 'react'
+import { useRouter } from 'next/router'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { creds } from '../backend/firebase'
 
 
 export default function Home () {
-  
+  const router = useRouter()
+  const [user] = useAuthState(creds)
+  const headerPics = [
+    "https://i.pinimg.com/736x/ef/19/3f/ef193fbb1889dc748ff685172d3b9217.jpg",
+    "https://i.pinimg.com/736x/93/48/48/9348482bffa077e0044de41c6676e60b.jpg",
+    "https://i.pinimg.com/736x/b2/c7/98/b2c79829d5547a54cefde3899c4a66f6.jpg",
+    "https://i.pinimg.com/736x/22/23/3a/22233a273780452686fd092b9d5f555c.jpg",
+    "https://i.pinimg.com/736x/bc/48/0d/bc480d733705203abb3c1d41e28599ca.jpg"
+  ]
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [fade, setFade] = useState(true)
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false) // start fade-out
+      setTimeout(() => {
+        setCurrentIndex(prev => (prev + 1) % headerPics.length)
+        setFade(true) // fade-in new image
+      }, 1000) // match transition duration
+    }, 3000) // longer cycle for better pacing
+
+    return () => clearInterval(interval)
+  }, [])
+  
   return (
     <div
       className='
@@ -50,17 +78,17 @@ export default function Home () {
         <div className="
         h-full
         w-full
+        bg-cover
+        bg-no-repeat
+        bg-headerpic
         flex
         items-center
         px-2
-        bg-gradient-to-br
-        from-purple-800
-        to-sky-900
         bg-opacity-80
         ">
           {/**div in the middle to show message  */}
           <div className="
-          w-5/6
+          w-[90%]
           mx-auto
           bg-slate-50
           bg-opacity-10
@@ -75,6 +103,9 @@ export default function Home () {
             <div className="
             h-full
             w-full
+            rounded
+            bg-slate-800
+            bg-opacity-90
             flex
             px-2
             flex-col
@@ -98,42 +129,103 @@ toptextDesc
               and multiple choices that would transform you from a
               junior to a master.
             </h4>
-            <button
+            <span className="
+            w-full
+            flex
+            items-center
+            ">
+              <button
+            onClick={() => router.push('/jobs')}
             className='
-            w-3/4
+            w-[40%]
             h-[50px]
-            font-robot-slab
+            font-robot
             font-light
-            text-lg
+            outline-none
+            focus:outline-none
+            text-xl
             text-sky-50 
             mx-auto 
             rounded-lg 
             bg-slate-50 
             bg-opacity-10
             hover:shadow-xl
+            hover:-translate-y-2
+            hover:-skew-x-3
             hover:shadow-slate-800
             hover:bg-slate-700
+            hover:text-indigo-200
             hover:bg-opacity-50
             transform
             transition
             duration-300
             ease-in-out
+            flex
+            justify-center
+            items-center
+            space-x-4
             '
             >
-              Apply now
+              <HammerIcon />
+              <p>
+                Apply for a job
+              </p>
             </button>
+              <button
+            onClick={() => router.push('/course')}
+            className='
+            w-[40%]
+            h-[50px]
+            font-robot
+            font-light
+            outline-none
+            focus:outline-none
+            text-xl
+            text-sky-50 
+            mx-auto 
+            rounded-lg 
+            bg-slate-50 
+            bg-opacity-10
+            hover:shadow-xl
+            hover:-translate-y-2
+            hover:-skew-x-3
+            hover:shadow-slate-800
+            hover:bg-slate-700
+            hover:text-indigo-200
+            hover:bg-opacity-50
+            transform
+            transition
+            duration-300
+            ease-in-out
+            flex
+            justify-center
+            items-center
+            space-x-4
+            '
+            >
+              <PenIcon />
+              <p>
+                Apply for a course
+              </p>
+            </button>
+            </span>
             </div>
             {/**pic */}
             <div 
         className="
-        h-full
-        w-full
-        bg-cover
-        bg-no-repeat
-        bg-headerpic
-        rounded-md
-        "
-        ></div>
+          mx-auto
+          h-full
+          w-full
+          flex
+          flex-col
+          items-center
+          "
+          >
+            <img 
+            src={headerPics[currentIndex]} 
+            alt="" 
+            className={`h-full w-full object-cover duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}/>
+          </div>
           </div>
         </div>
         {/**end of entrance message */}
