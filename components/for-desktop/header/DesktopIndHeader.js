@@ -2,7 +2,7 @@
 import React from 'react'
 import {FcAcceptDatabase} from 'react-icons/fc'
 import {FaConnectdevelop} from 'react-icons/fa'
-import {BulbIcon, HammerIcon, SiBmcsoftware} from '../../'
+import {BulbIcon, CapIcon, HammerIcon, InfoIcon, PeopleIcon, SiBmcsoftware, WorkIcon} from '../../'
 //back-end
 import { useRouter } from 'next/router'
 
@@ -21,7 +21,10 @@ function DesktopIndHeader() {
         items-center
         space-x-8
         ">
-            <SiBmcsoftware
+            <span className="
+            w-[30%]
+            ">
+                <SiBmcsoftware
             style={{
                 color: 'gold',
                 fontSize: '2.0em',
@@ -29,7 +32,36 @@ function DesktopIndHeader() {
             }}
             className='hover:shadow-2xl transform transition duration-200'
             />
-                    <button 
+            </span>
+            <span className="
+            w-[45%]
+            flex 
+            items-center
+            space-x-11
+            ">
+         <button 
+        className="
+        diHeaderBtn
+        hover:text-emerald-600
+        hover:border-emerald-600
+        transform
+        transition
+        duration-300
+        ease-in-out
+        ">  <InfoIcon />
+        </button>
+        <button 
+        className="
+        diHeaderBtn
+        hover:text-pink-600
+        hover:border-pink-600
+        transform
+        transition
+        duration-300
+        ease-in-out
+        ">  <PeopleIcon />
+        </button>
+        <button 
         onClick={() => router.push('/course')}
         className="
         diHeaderBtn
@@ -39,10 +71,7 @@ function DesktopIndHeader() {
         transition
         duration-300
         ease-in-out
-        ">  <BulbIcon />
-            <p className="desktopHeaderTitle">
-                Courses
-            </p>
+        ">  <CapIcon />
         </button>
         <button 
         onClick={() => router.push('/jobs')}
@@ -54,11 +83,9 @@ function DesktopIndHeader() {
         transition
         duration-300
         ease-in-out
-        ">  <HammerIcon />
-            <p className="desktopHeaderTitle">
-                Job offerings
-            </p>
+        ">  <WorkIcon />
         </button>
+            </span>
         </span>
 
         <span 
