@@ -467,7 +467,7 @@ toptextDesc
       </div>
       </main>
           </div>
-          {aboutModal && (
+          {(aboutModal || closeAboutModal) && (
             <div className="
             h-full
             w-full
@@ -486,6 +486,10 @@ toptextDesc
               <div 
               className={`
               midDivForModals
+              rounded
+              border
+              border-sky-300
+              bg-sky-900
               ${openAboutModal && !closeAboutModal ? 'translate-x-0' : '-translate-x-full' }
               `}
               onTransitionEnd={() => {
@@ -500,7 +504,7 @@ toptextDesc
               className="sideDivForModals"/>
             </div>
           )}
-          {managementModal && (
+          {(managementModal || closeManagementModal) && (
           <div className="
             h-full
             w-full
@@ -533,7 +537,7 @@ toptextDesc
               className="sideDivForModals"/>   
             </div>
           )}
-          {courseModal && (
+          {(courseModal || closeCourseModal) && (
             <div className="
             h-full
             w-full
@@ -566,7 +570,7 @@ toptextDesc
               className="sideDivForModals"/>
             </div>
           )}
-          {jobModal && (
+          {(jobModal || closeJobModal) && (
             <div className="
             h-full
             w-full
