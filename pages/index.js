@@ -43,8 +43,91 @@ export default function Home () {
 
     return () => clearInterval(interval)
   }, [])
-  
+ //for about modal
+   const [aboutModal, setAboutModal] = useState(false)
+   const [openAboutModal, setOpenAboutModal] = useState(false)
+   const [closeAboutModal, setCloseAboutModal] = useState(false)
+   //for management modal
+   const [managementModal, setManagementModal] = useState(false)
+   const [openManagementModal, setOpenManagementModal] = useState(false)
+   const [closeManagementModal, setCloseManagementModal] = useState(false)
+   //for course modal
+   const [courseModal, setCourseModal] = useState(false)
+   const [openCourseModal, setOpenCourseModal] = useState(false)
+   const [closeCourseModal, setCloseCourseModal] = useState(false)
+   //for job modal
+   const [jobModal, setJobModal] = useState(false)
+   const [openJobModal, setOpenJobModal] = useState(false)
+   const [closeJobModal, setCloseJobModal] = useState(false) 
+
+   //for open & close of aboutModal
+   useEffect(() => {
+    if(aboutModal && !openAboutModal){
+      setTimeout(() => {
+        setOpenAboutModal(true)
+      }, 15)
+    } else if(!aboutModal){
+      setOpenAboutModal(false)
+    }
+   }, [aboutModal])
+   const openAModal = () => {
+    {!aboutModal && setAboutModal(true)}
+    {managementModal && setManagementModal(false)}
+    {courseModal && setCourseModal(false)}
+    {jobModal && setJobModal(false)}
+   }
+   //for open & close of managementModal
+   useEffect(() => {
+    if(managementModal && !openManagementModal){
+      setTimeout(() => {
+        setOpenManagementModal(true)
+      }, 15)
+    } else if(!managementModal){
+      setOpenManagementModal(false)
+    }
+   }, [managementModal])
+   const openMModal = () => {
+    {aboutModal && setAboutModal(false)}
+    {!managementModal && setManagementModal(true)}
+    {courseModal && setCourseModal(false)}
+    {jobModal && setJobModal(false)}
+   }
+   //for open & close of courseModal
+   useEffect(() => {
+    if(courseModal && !openCourseModal){
+      setTimeout(() => {
+        setOpenCourseModal(true)
+      }, 15)
+    } else if(!courseModal){
+      setOpenCourseModal(false)
+    }
+   }, [courseModal])
+   const openCModal = () => {
+    {aboutModal && setAboutModal(false)}
+    {managementModal && setManagementModal(false)}
+    {!courseModal && setCourseModal(true)}
+    {jobModal && setJobModal(false)}
+   }
+
+   //for open & close of jobModal
+   useEffect(() => {
+    if(jobModal && !openJobModal){
+      setTimeout(() => {
+        setOpenJobModal(true)
+      }, 15)
+    } else if(!jobModal){
+      setOpenJobModal(false)
+    }
+   }, [courseModal])
+   const openJModal = () => {
+    {aboutModal && setAboutModal(false)}
+    {managementModal && setManagementModal(false)}
+    {courseModal && setCourseModal(false)}
+    {!jobModal && setJobModal(true)}
+   }
+   
   return (
+   <>
     <div
       className='
     h-screen
@@ -58,8 +141,66 @@ export default function Home () {
       <Head>
         <title>Welcome to an academy for excellence</title>
       </Head>
-      <DIHeader />
-      <MIHeader />
+      <DIHeader 
+      aboutModal={aboutModal}
+      setAboutModal={setAboutModal}
+      openAboutModal={openAboutModal}
+      setOpenAboutModal={setOpenAboutModal}
+      closeAboutModal={closeAboutModal}
+      setCloseAboutModal={setCloseAboutModal}
+      openAModal={openAModal}
+      managementModal={managementModal}
+      setManagementModal={setManagementModal}
+      openManagementModal={openManagementModal}
+      setOpenManagementModal={setOpenManagementModal}
+      closeManagementModal={closeManagementModal}
+      setCloseManagementModal={setCloseManagementModal}
+      openMModal={openMModal}
+      courseModal={courseModal}
+      setCourseModal={setCourseModal}
+      openCourseModal={openCourseModal}
+      setOpenCourseModal={setOpenCourseModal}
+      closeCourseModal={closeCourseModal}
+      setCloseCourseModal={setCloseCourseModal}
+      openCModal={openCModal}
+      jobModal={jobModal}
+      setJobModal={setJobModal}
+      openJobModal={openJobModal}
+      setOpenJobModal={setOpenJobModal}
+      closeJobModal={closeJobModal}
+      setCloseJobModal={setCloseJobModal}
+      openJModal={openJModal}
+      />
+      <MIHeader 
+      aboutModal={aboutModal}
+      setAboutModal={setAboutModal}
+      openAboutModal={openAboutModal}
+      setOpenAboutModal={setOpenAboutModal}
+      closeAboutModal={closeAboutModal}
+      setCloseAboutModal={setCloseAboutModal}
+      openAModal={openAModal}
+      managementModal={managementModal}
+      setManagementModal={setManagementModal}
+      openManagementModal={openManagementModal}
+      setOpenManagementModal={setOpenManagementModal}
+      closeManagementModal={closeManagementModal}
+      setCloseManagementModal={setCloseManagementModal}
+      openMModal={openMModal}
+      courseModal={courseModal}
+      setCourseModal={setCourseModal}
+      openCourseModal={openCourseModal}
+      setOpenCourseModal={setOpenCourseModal}
+      closeCourseModal={closeCourseModal}
+      setCloseCourseModal={setCloseCourseModal}
+      openCModal={openCModal}
+      jobModal={jobModal}
+      setJobModal={setJobModal}
+      openJobModal={openJobModal}
+      setOpenJobModal={setOpenJobModal}
+      closeJobModal={closeJobModal}
+      setCloseJobModal={setCloseJobModal}
+      openJModal={openJModal}
+      />
       {/**top of home page */}
       <main className="
       h-full
@@ -326,6 +467,139 @@ toptextDesc
       </div>
       </main>
           </div>
+          {aboutModal && (
+            <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-50
+            fixed
+            inset-0
+            z-50
+            overflow-hidden
+            flex
+            items-center
+            ">
+              <div 
+              onClick={() => setCloseAboutModal(true)}
+              className="sideDivForModals"/>
+              <div 
+              className={`
+              midDivForModals
+              ${openAboutModal && !closeAboutModal ? 'translate-x-0' : '-translate-x-full' }
+              `}
+              onTransitionEnd={() => {
+                if(closeAboutModal){
+                  setAboutModal(false)
+                  setCloseAboutModal(false)
+                }
+              }}
+              ></div>
+              <div 
+              onClick={() => setCloseAboutModal(true)}
+              className="sideDivForModals"/>
+            </div>
+          )}
+          {managementModal && (
+          <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-50
+            fixed
+            inset-0
+            z-50
+            overflow-hidden
+            flex
+            items-center
+            ">
+              <div 
+              onClick={() => setCloseManagementModal(true)}
+              className="sideDivForModals"/>
+              <div 
+              className={`
+                midDivForModals
+                ${managementModal && !closeManagementModal ? 'translate-y-0' : '-translate-y-full'}
+                `}
+              onTransitionEnd={() => {
+                if(closeManagementModal){
+                  setManagementModal(false)
+                  setCloseManagementModal(false)
+                }
+              }}
+              ></div>
+              <div 
+              onClick={() => setCloseManagementModal(false)}
+              className="sideDivForModals"/>   
+            </div>
+          )}
+          {courseModal && (
+            <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-50
+            fixed
+            inset-0
+            z-50
+            overflow-hidden
+            flex
+            items-center
+            ">
+              <div 
+              onClick={() => setCloseCourseModal(true)}
+              className="sideDivForModals"/>
+              <div 
+              className={`
+                midDivForModals
+                ${courseModal && !closeCourseModal ? '-translate-x-0' : 'translate-x-full'}
+                `}
+              onTransitionEnd={() => {
+                if(closeCourseModal){
+                  setCourseModal(false)
+                  setCloseCourseModal(false)
+                }
+              }}
+              ></div>
+              <div 
+              onClick={() => setCloseCourseModal(true)}
+              className="sideDivForModals"/>
+            </div>
+          )}
+          {jobModal && (
+            <div className="
+            h-full
+            w-full
+            bg-slate-800
+            bg-opacity-50
+            fixed
+            inset-0
+            z-50
+            overflow-hidden
+            flex
+            items-center
+            ">
+              <div 
+              onClick={() => setCloseJobModal(true)}
+              className="sideDivForModals"/>
+              <div 
+              className={`
+              midDivForModals
+              ${jobModal && !closeJobModal ? '-translate-y-0' : 'translate-y-full'}
+              `}
+              onTransitionEnd={() => {
+                if(closeJobModal){
+                  setJobModal(false)
+                  setCloseJobModal(false)
+                }
+              }}
+              ></div>
+              <div 
+              onClick={() => setCloseJobModal(true)}
+              className="sideDivForModals"/>
+            </div>
+          )}
+          </>
   )
 }
 

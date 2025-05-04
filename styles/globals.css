@@ -17,6 +17,28 @@
     hidden
   }
 
+  .sideDivForModals{
+    @apply
+    w-[10%]
+    lg:w-[20%]
+    h-full
+  }
+
+  
+  .yDivsForModal{
+    @apply
+    w-full
+    lg:h-[20%]
+    h-[10%]
+  }
+  
+  .midDivForModals{
+    @apply
+    w-full
+    lg:h-[60%]
+    h-[80%]
+  }
+
   .desktopIndexHeader{
     @apply
     z-50

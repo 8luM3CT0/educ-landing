@@ -5,11 +5,43 @@ import {FaConnectdevelop} from 'react-icons/fa'
 import {BulbIcon, CapIcon, HammerIcon, InfoIcon, PeopleIcon, SiBmcsoftware, WorkIcon} from '../../'
 //back-end
 import { useRouter } from 'next/router'
+import {useState} from 'react'
 
-function DesktopIndHeader() {
+function DesktopIndHeader({
+    aboutModal,
+    setAboutModal,
+    openAboutModal,
+    setOpenAboutModal,
+    closeAboutModal,
+    setCloseAboutModal,
+    openAModal,
+    managementModal,
+    setManagementModal,
+    openManagementModal,
+    setOpenManagementModal,
+    closeManagementModal,
+    setCloseManagementModal,
+    openMModal,
+    courseModal,
+    setCourseModal,
+    openCourseModal,
+    setOpenCourseModal,
+    closeCourseModal,
+    setCloseCourseModal,
+    openCModal,
+    jobModal,
+    setJobModal,
+    openJobModal,
+    setOpenJobModal,
+    closeJobModal,
+    setCloseJobModal,
+    openJModal
+}) {
   const router = useRouter()
+  //for opening of about modal
   
     return (
+    <>
     <div
     className='
     desktopIndexHeader
@@ -22,7 +54,7 @@ function DesktopIndHeader() {
         space-x-8
         ">
             <span className="
-            w-[30%]
+            w-[25%]
             ">
                 <SiBmcsoftware
             style={{
@@ -34,12 +66,14 @@ function DesktopIndHeader() {
             />
             </span>
             <span className="
-            w-[45%]
+            w-[75%]
+            justify-evenly
             flex 
             items-center
             space-x-11
             ">
          <button 
+         onClick={openAModal}
         className="
         diHeaderBtn
         hover:text-emerald-600
@@ -51,6 +85,7 @@ function DesktopIndHeader() {
         ">  <InfoIcon />
         </button>
         <button 
+        onClick={openMModal}
         className="
         diHeaderBtn
         hover:text-pink-600
@@ -61,8 +96,8 @@ function DesktopIndHeader() {
         ease-in-out
         ">  <PeopleIcon />
         </button>
-        <button 
-        onClick={() => router.push('/course')}
+        <button  
+        onClick={openCModal}
         className="
         diHeaderBtn
         hover:text-amber-600
@@ -74,7 +109,7 @@ function DesktopIndHeader() {
         ">  <CapIcon />
         </button>
         <button 
-        onClick={() => router.push('/jobs')}
+        onClick={openJModal}
         className="
         diHeaderBtn
         hover:text-sky-400
@@ -124,6 +159,7 @@ function DesktopIndHeader() {
         </h1>
         </span>
     </div>
+    </>
   )
 }
 

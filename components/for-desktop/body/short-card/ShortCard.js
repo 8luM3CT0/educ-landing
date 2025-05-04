@@ -38,12 +38,6 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
     {courseInfo && setClosingCard(true)}
   }
 
-  const closingEnrollmentCard = () => {
-    {!courseInfo && setCourseInfo(true)}
-    {enrollmentCard && setCloseEnrollmentCard(true)}
-  }
-    
-
     return (
       <>
     <div 
