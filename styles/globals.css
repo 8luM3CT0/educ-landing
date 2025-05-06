@@ -34,9 +34,19 @@
   
   .midDivForModals{
     @apply
+    w-[90%]
+    lg:w-[80%]
+    h-full
+    flex
+    flex-col
+    items-center
+  }
+
+  .middleDiv{
+    @apply
     w-full
-    lg:h-[60%]
-    h-[80%]
+    lg:h-[80%]
+    h-[90%]
   }
 
   .desktopIndexHeader{

@@ -44,8 +44,8 @@ export default function Home () {
     return () => clearInterval(interval)
   }, [])
  //for about modal
-   const [aboutModal, setAboutModal] = useState(false)
    const [openAboutModal, setOpenAboutModal] = useState(false)
+   const [aboutModal, setAboutModal] = useState(false)
    const [closeAboutModal, setCloseAboutModal] = useState(false)
    //for management modal
    const [managementModal, setManagementModal] = useState(false)
@@ -65,11 +65,12 @@ export default function Home () {
     if(aboutModal && !openAboutModal){
       setTimeout(() => {
         setOpenAboutModal(true)
-      }, 15)
+      }, 10)
     } else if(!aboutModal){
       setOpenAboutModal(false)
     }
    }, [aboutModal])
+
    const openAModal = () => {
     {!aboutModal && setAboutModal(true)}
     {managementModal && setManagementModal(false)}
@@ -86,6 +87,7 @@ export default function Home () {
       setOpenManagementModal(false)
     }
    }, [managementModal])
+
    const openMModal = () => {
     {aboutModal && setAboutModal(false)}
     {!managementModal && setManagementModal(true)}
@@ -102,6 +104,7 @@ export default function Home () {
       setOpenCourseModal(false)
     }
    }, [courseModal])
+   
    const openCModal = () => {
     {aboutModal && setAboutModal(false)}
     {managementModal && setManagementModal(false)}
@@ -118,7 +121,8 @@ export default function Home () {
     } else if(!jobModal){
       setOpenJobModal(false)
     }
-   }, [courseModal])
+   }, [jobModal])
+   
    const openJModal = () => {
     {aboutModal && setAboutModal(false)}
     {managementModal && setManagementModal(false)}
@@ -231,11 +235,11 @@ export default function Home () {
           <div className="
           w-[90%]
           mx-auto
-          bg-slate-50
+          bg-sky-50
           bg-opacity-10
           shadow-md
           shadow-slate-900
-          rounded-lg
+          rounded-3xl
           h-[90%]
           flex
           items-center
@@ -328,7 +332,7 @@ toptextDesc
             bg-slate-50 
             bg-opacity-10
             hover:shadow-xl
-            hover:-translate-y-2
+            hover:translate-y-2
             hover:-skew-x-3
             hover:shadow-slate-800
             hover:bg-slate-700
@@ -360,12 +364,15 @@ toptextDesc
           flex
           flex-col
           items-center
+          rounded-r-xl
+          bg-sky-300
+          bg-opacity-10
           "
           >
             <img 
             src={headerPics[currentIndex]} 
             alt="" 
-            className={`h-full w-full object-cover duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}/>
+            className={`h-[95%] w-[95%] rounded-xl m-auto object-cover duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}/>
           </div>
           </div>
         </div>
@@ -475,21 +482,21 @@ toptextDesc
             bg-opacity-50
             fixed
             inset-0
-            z-50
-            overflow-hidden
+            z-50            
             flex
             items-center
             ">
-              <div 
-              onClick={() => setCloseAboutModal(true)}
-              className="sideDivForModals"/>
-              <div 
-              className={`
-              midDivForModals
-              rounded
-              border
+              
+                <div className={`
+                w-[50%]
+                h-full
+              border-r-2
               border-sky-300
-              bg-sky-900
+              bg-emerald-700
+              transition-transform
+              ease-in-out
+              duration-300
+              space-y-3
               ${openAboutModal && !closeAboutModal ? 'translate-x-0' : '-translate-x-full' }
               `}
               onTransitionEnd={() => {
@@ -497,110 +504,114 @@ toptextDesc
                   setAboutModal(false)
                   setCloseAboutModal(false)
                 }
-              }}
-              ></div>
+              }}>
+                <div className="h-full w-full bg-slate-700 bg-opacity-80"></div>
+              </div>
               <div 
               onClick={() => setCloseAboutModal(true)}
-              className="sideDivForModals"/>
+              className="w-[50%] h-full"/>
             </div>
           )}
           {(managementModal || closeManagementModal) && (
-          <div className="
-            h-full
-            w-full
-            bg-slate-800
-            bg-opacity-50
-            fixed
-            inset-0
-            z-50
-            overflow-hidden
-            flex
-            items-center
-            ">
-              <div 
-              onClick={() => setCloseManagementModal(true)}
-              className="sideDivForModals"/>
-              <div 
-              className={`
-                midDivForModals
-                ${managementModal && !closeManagementModal ? 'translate-y-0' : '-translate-y-full'}
+            <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex items-center ">
+              <div onClick={() => setCloseManagementModal(true)} className="w-[50%] h-full"></div>
+              <div className= {`
+                w-[50%] 
+                h-full 
+                border-l-2 
+                border-pink-300 
+                bg-pink-700 
+                transition-transform 
+                ease-in-out 
+                duration-300 
+                ${openManagementModal && !closeManagementModal ? '-translate-x-0' : 'translate-x-full'}
                 `}
-              onTransitionEnd={() => {
-                if(closeManagementModal){
-                  setManagementModal(false)
-                  setCloseManagementModal(false)
-                }
-              }}
-              ></div>
-              <div 
-              onClick={() => setCloseManagementModal(false)}
-              className="sideDivForModals"/>   
+                onTransitionEnd={() => {
+                  if(closeManagementModal){
+                    setManagementModal(false)
+                    setCloseManagementModal(false)
+                  }
+                }}
+                >
+                <div className="
+                h-full
+                w-full
+                bg-slate-700
+                bg-opacity-80
+                "></div>
+                </div>
             </div>
           )}
           {(courseModal || closeCourseModal) && (
-            <div className="
-            h-full
-            w-full
-            bg-slate-800
-            bg-opacity-50
-            fixed
-            inset-0
-            z-50
-            overflow-hidden
-            flex
-            items-center
-            ">
+            <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="sideDivForModals"/>
-              <div 
-              className={`
-                midDivForModals
-                ${courseModal && !closeCourseModal ? '-translate-x-0' : 'translate-x-full'}
+              className="w-full h-[5%]"></div>
+              <div className="w-full h-[90%] flex items-center">
+              <div onClick={() => setCloseCourseModal(true)} 
+              className="w-[5%] h-full"></div>
+              <div className={`
+                w-[90%]
+                mx-auto
+                h-full
+                bg-slate-800 
+                border-2 
+                border-amber-500 
+                transition-transform
+                ease-in-out
+                duration-300
+                ${openCourseModal && !closeCourseModal ? 'translate-y-0' : '-translate-y-full'}
                 `}
-              onTransitionEnd={() => {
-                if(closeCourseModal){
-                  setCourseModal(false)
-                  setCloseCourseModal(false)
-                }
-              }}
-              ></div>
+                onTransitionEnd={() => {
+                  if(closeCourseModal){
+                    setCourseModal(false)
+                    setCloseCourseModal(false)
+                  }
+                }}
+                ></div>
+                <div onClick={() => setCloseCourseModal(true)} 
+                className="w-[5%] h-full"></div>
+              </div>
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="sideDivForModals"/>
+              className="w-full h-[5%]"></div>
             </div>
           )}
           {(jobModal || closeJobModal) && (
-            <div className="
-            h-full
-            w-full
-            bg-slate-800
-            bg-opacity-50
-            fixed
-            inset-0
-            z-50
-            overflow-hidden
-            flex
-            items-center
-            ">
+            <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
               <div 
               onClick={() => setCloseJobModal(true)}
-              className="sideDivForModals"/>
-              <div 
-              className={`
-              midDivForModals
-              ${jobModal && !closeJobModal ? '-translate-y-0' : 'translate-y-full'}
-              `}
-              onTransitionEnd={() => {
-                if(closeJobModal){
-                  setJobModal(false)
-                  setCloseJobModal(false)
-                }
-              }}
-              ></div>
+              className="w-full h-[5%]"></div>
+              <div className="w-full h-[90%] flex items-center">
+                <div 
+                onClick={() => setCloseJobModal(true)}
+                className="w-[5%] h-full"></div>
+              <div className={`
+                w-[90%]
+                mx-auto
+                h-[90%] 
+                bg-slate-800 
+                border-2 
+                border-sky-500 
+                transition-transform
+                ease-in-out
+                duration-300
+                ${openJobModal && !closeJobModal ? '-translate-y-0' : 'translate-y-full'}
+                `}
+                onTransitionEnd={() => {
+                  if(closeJobModal){
+                    setJobModal(false)
+                    setCloseJobModal(false)
+                  }
+                }}
+                ></div>
+                <div 
+                onClick={() => setCloseJobModal(true)}
+                className="w-[5%] h-full"></div>
+              </div>
               <div 
               onClick={() => setCloseJobModal(true)}
-              className="sideDivForModals"/>
+              className="w-full h-[5%]"></div>
             </div>
           )}
           </>
