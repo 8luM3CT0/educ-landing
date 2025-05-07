@@ -11,6 +11,7 @@ import {
   PenIcon,
   ReviewCard,
   course_card,
+  courses,
   reviews
 } from '../components/'
 //back-end
@@ -52,7 +53,10 @@ export default function Home () {
    const [managementModal, setManagementModal] = useState(false)
    const [openManagementModal, setOpenManagementModal] = useState(false)
    const [closeManagementModal, setCloseManagementModal] = useState(false)
-   //for course modal
+   const [openViewMentor, setOpenViewMentor] = useState(false)
+   const [viewMentor, setViewMentor] = useState(false)
+   const [closeViewMentor, setCloseViewMentor] = useState(false)
+  //for course modal
    const [courseModal, setCourseModal] = useState(false)
    const [openCourseModal, setOpenCourseModal] = useState(false)
    const [closeCourseModal, setCloseCourseModal] = useState(false)
@@ -88,13 +92,21 @@ export default function Home () {
       setOpenManagementModal(false)
     }
    }, [managementModal])
-
    const openMModal = () => {
     {aboutModal && setAboutModal(false)}
     {!managementModal && setManagementModal(true)}
     {courseModal && setCourseModal(false)}
     {jobModal && setJobModal(false)}
    }
+   useEffect(() => {
+    if(viewMentor && !openViewMentor){
+      setTimeout(() => {
+        setViewMentor(true)
+      }, 15)
+    } else if(!viewMentor){
+      setOpenViewMentor(false)
+    }
+   }, [viewMentor])
    //for open & close of courseModal
    useEffect(() => {
     if(courseModal && !openCourseModal){
@@ -492,7 +504,7 @@ toptextDesc
                 w-[50%]
                 h-full
               border-r-2
-              border-sky-300
+              border-emerald-300
               bg-emerald-700
               transition-transform
               ease-in-out
@@ -507,8 +519,8 @@ toptextDesc
                 }
               }}>
                 <div className="h-full w-full bg-slate-700 bg-opacity-80">
-                  <header className="bg-slate-800 bg-opacity-95 h-[7%] w-full border-b-2 border-sky-400 px-6 flex items-center justify-between">
-                    <h3 className="font-montserr font-semibold text-2xl text-sky-400 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
+                  <header className="bg-slate-800 bg-opacity-95 h-[7%] w-full border-b-2 border-emerald-300 px-6 flex items-center justify-between">
+                    <h3 className="font-montserr font-semibold text-2xl text-emerald-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       About
                     </h3>
                     <button 
@@ -602,7 +614,121 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                 w-full
                 bg-slate-700
                 bg-opacity-80
-                "></div>
+                ">
+                  <header className="bg-slate-800 bg-opacity-95 h-[7%] w-full border-b-2 border-pink-300 px-6 flex items-center justify-between">
+                    <h3 className="font-montserr font-semibold text-2xl text-pink-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
+                      Management
+                    </h3>
+                    <button 
+                    onClick={() => setCloseManagementModal(true)}
+                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                      <CloseIcon />
+                    </button>
+                  </header>
+                  <div className="h-[93%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
+                    {/**div that shows the team */}
+                    <div className="
+                    h-[50%] bg-slate-900 bg-opacity-20 w-[95%] mx-auto flex items-center overflow-x-scroll scrollbar-hide space-x-7
+                    ">
+                      {courses?.lecturers && courses?.lecturers.map(lecturer => (
+                        <div 
+                        key={lecturer?.id}
+                        style={{
+                          backgroundImage: `url(${lecturer.lecpic})`
+                        }}
+                        className="
+                        h-full
+                        min-w-[400px]
+                        max-w-[400px]
+                        rounded
+                        bg-cover
+                        bg-no-repeat
+                        flex
+                        flex-col
+                        items-end
+                        group
+                        ">
+                          <span className="
+                          h-[70%]
+                          "></span>
+                          <span className="
+                          h-[30%]
+                          space-y-4
+                          w-full
+                          mx-auto
+                          bg-slate-800
+                          bg-opacity-60
+                          rounded
+                          group-hover:bg-opacity-90
+                          transition-all
+                          duration-300
+                          ease-in-out
+                          px-4
+                          py-3
+                          group
+                          flex
+                          flex-col
+                          items-center
+                          ">
+                            <h3 className="font-montserr font-semibold text-xl text-pink-100 group-hover:text-pink-300">
+                              {lecturer.name}
+                            </h3>
+                            <button 
+                            onClick={() => setViewMentor(true)}
+                            className="
+                            h-[40%]
+                            w-[85%]
+                            mx-auto
+                            rounded
+                            bg-slate-900
+                            text-pink-800
+                            font-ibm-sans
+                            font-semibold
+                            focus:outline-none
+                            border-2
+                            border-pink-800
+                            hover:border-pink-200
+                            hover:bg-slate-800
+                            transition-all
+                            duration-300
+                            ease-in-out
+                            ">
+                              View
+                            </button>
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="
+                    h-[50%] w-[95%] mx-auto bg-slate-900 bg-opacity-20 rounded-lg
+                    ">
+                      {(viewMentor || closeViewMentor) && (
+                        <div 
+                        className={`
+                          h-full 
+                          w-full 
+                          bg-pink-600
+                          bg-opacity-10
+                          m-auto 
+                          flex
+                          items-center 
+                          space-x-4
+                          transition-all
+                          ease-in-out
+                          duration-300
+                          ${openViewMentor && !closeViewMentor ? 'translate-x-0' : '-translate-x-0'}
+                          `}
+                          onTransitionEnd={() => {
+                            if(closeViewMentor){
+                              setViewMentor(false)
+                              setCloseViewMentor(false)
+                            }
+                          }}
+                          ></div>
+                      )}
+                    </div>
+                  </div>
+                </div>
                 </div>
             </div>
           )}
