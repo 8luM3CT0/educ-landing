@@ -18,7 +18,7 @@ export {SiBmcsoftware} from 'react-icons/si'
 export {AiOutlineHome} from 'react-icons/ai'
 export {IoMdHammer as HammerIcon} from 'react-icons/io'
 export {CiPen as PenIcon} from 'react-icons/ci'
-export {MdOutlineWork as WorkIcon} from 'react-icons/md'
+export {MdOutlineWork as WorkIcon, MdOutlineCloseFullscreen as CloseIcon} from 'react-icons/md'
 export {FaInfo as InfoIcon} from 'react-icons/fa'
 export {SlPeople as PeopleIcon} from 'react-icons/sl'
 //local components
