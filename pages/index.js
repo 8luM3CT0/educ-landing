@@ -674,6 +674,7 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                               {lecturer.name}
                             </h3>
                             <button 
+                            disabled={viewMentor}
                             onClick={() => setViewMentor(true)}
                             className="
                             h-[40%]
@@ -707,12 +708,11 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                         className={`
                           h-full 
                           w-full 
-                          bg-pink-600
+                          bg-slate-600
                           bg-opacity-10
                           m-auto 
                           flex
                           items-center 
-                          space-x-4
                           transition-all
                           ease-in-out
                           duration-300
@@ -724,7 +724,88 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                               setCloseViewMentor(false)
                             }
                           }}
-                          ></div>
+                          >
+                            <span 
+                            style={{
+                              backgroundImage: `url(${'https://i.pinimg.com/736x/3d/85/a0/3d85a04596ee3070cffb5362bffa7202.jpg'})`
+                            }}
+                            className="h-full w-[50%] bg-cover bg-no-repeat "></span>
+                            <span className="
+                            h-full
+                            w-[50%]
+                            flex
+                            flex-col
+                            items-start
+                            ">
+                              <span className="
+                              h-[90%]
+                              space-y-2
+                              w-full
+                              flex
+                              flex-col
+                              items-start
+                              border
+                              border-slate-600
+                              rounded
+                              ">
+                                <span className="w-full px-3 py-3 bg-slate-800 bg-opacity-70">
+                                <h3 className="font-font-robot font-semibold text-lg text-slate-100">
+                                  Mentor Name
+                                </h3>
+                                </span>
+                                <span className="
+                                h-full
+                                w-full
+                              overflow-y-scroll
+                              scrollbar-hide
+                                ">
+                                  <p className="font-montserr text-base text-slate-100 font-bold px-3 py-2">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt pretium augue, in lacinia felis. Nunc vel dui ante. Nunc non odio commodo, feugiat lorem ac, interdum massa. Aenean neque nibh, rutrum non tempor quis, sollicitudin nec nulla. Etiam ut arcu bibendum, euismod nisl eget, facilisis dui. Donec malesuada imperdiet dui, eget porta ipsum ultrices sit amet. Nunc efficitur lacinia mi, eu suscipit quam ultrices sit amet. In elementum urna in mattis tristique. Aliquam non enim sapien. Vestibulum fringilla, dolor non tristique venenatis, purus felis iaculis mauris, condimentum blandit eros magna pulvinar orci. Suspendisse nec massa eleifend, finibus nunc eget, suscipit ex. Suspendisse potenti. Suspendisse dignissim erat diam.
+
+Phasellus dapibus nibh elementum ipsum placerat interdum. Nullam venenatis ut augue at congue. Phasellus vehicula lacus nec nisl luctus pharetra. Duis aliquet sit amet velit non tempor. Suspendisse pellentesque neque enim, ut aliquet erat hendrerit vitae. In ac tempus sapien. Suspendisse tristique, ex vitae condimentum blandit, elit elit faucibus turpis, vel consequat quam nunc pellentesque ex. Vestibulum dolor sem, rhoncus id metus et, egestas fringilla arcu.
+
+Vestibulum vel erat eu lectus venenatis pellentesque. Quisque luctus rutrum tempus. Nulla dignissim mi nec maximus imperdiet. Fusce velit nisl, lacinia sed magna non, posuere mollis mauris. Donec viverra ullamcorper lectus. Proin consequat euismod magna. Cras pharetra semper gravida. Curabitur sit amet imperdiet mi. In suscipit eleifend odio vitae pretium. Proin iaculis tempor imperdiet. Sed gravida quis massa nec dictum. Nam et dui dictum metus facilisis semper vel in erat. Nunc malesuada tellus sit amet orci sodales, a porttitor est malesuada. Pellentesque pharetra lectus condimentum, tincidunt odio eget, rutrum mauris. Morbi rhoncus, sem nec aliquet fringilla, dolor ipsum feugiat neque, non ultrices augue nisi a enim.
+
+Sed vel augue in erat pulvinar fermentum sagittis a est. Ut dignissim massa erat, id fermentum lorem aliquet id. Morbi placerat porta nisi id euismod. Aliquam condimentum nisi eu nisl viverra, vel dapibus orci bibendum. Maecenas et tellus maximus enim laoreet ultricies. Maecenas consequat maximus metus vel ornare. Vivamus non velit augue. Aenean condimentum luctus odio ac dictum.
+
+Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium semper purus, et placerat nisi posuere nec. Sed id volutpat nisi. In justo tellus, imperdiet elementum consectetur quis, ornare id risus. Fusce hendrerit ipsum eget lectus lacinia posuere. Proin facilisis id erat laoreet blandit. Phasellus eu diam a lectus imperdiet finibus. Donec commodo magna eget libero consectetur, vel tristique neque porta. Praesent at laoreet eros. Vestibulum congue luctus ligula. Vestibulum et ultricies massa.
+
+
+                                  </p>
+                                </span>
+                              </span>
+                              <span 
+                              onClick={() => setCloseViewMentor(true)}
+                              className="
+                              h-[10%]
+                              w-full
+                              flex
+                              justify-center
+                              items-center
+                              border-2
+                              bg-slate-700
+                              border-pink-600
+                              text-pink-600
+                              bg-opacity-30
+                              hover:bg-slate-900
+                              hover:bg-opacity-5
+                              hover:text-pink-300
+                              hover:border-pink-300
+                              transition-all
+                              duration-300
+                              ease-in-out
+                              cursor-pointer
+                              ">
+                                <p className="
+                                font-font-robot
+                                font-semibold
+                                text-lg
+                                ">
+                                  Close
+                                </p>
+                              </span>
+                            </span>
+                          </div>
                       )}
                     </div>
                   </div>
