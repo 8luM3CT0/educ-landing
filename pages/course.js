@@ -10,18 +10,12 @@ function Course() {
     <div className='
     overflow-y-scroll
     scrollbar-hide
-    h-screen
+    h-full
     flex-col
     bg-gradient-to-br
     from-cyan-500
     to-purple-800
     '>
-        <CourseHeader />
-        <MobCourseHeader />
-      <Head>
-        <title>Whole list of courses available</title>
-        
-        </Head>
         <main className="
         h-screen
         lg:w-[70%]

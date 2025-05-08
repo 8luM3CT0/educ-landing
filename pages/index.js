@@ -19,6 +19,8 @@ import {useEffect, useState} from 'react'
 import { useRouter } from 'next/router'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { creds } from '../backend/firebase'
+import Course from './course'
+import JobFeed from './jobs'
 
 
 export default function Home () {
@@ -297,7 +299,7 @@ toptextDesc
             onClick={openJModal}
             className='
             m-2
-            lg:w-[50%]
+            w-full
             px-3
             h-[50px]
             font-robot
@@ -335,7 +337,7 @@ toptextDesc
               <button
             onClick={openCModal}
             className='
-            lg:w-[50%]
+            w-full
             px-3
             h-[50px]
             font-robot
@@ -821,8 +823,8 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="w-full h-[1%]"></div>
-              <div className="w-full h-[98%] flex items-center">
+              className="w-full h-[3%]"></div>
+              <div className="w-full h-[94%] flex items-center">
               <div onClick={() => setCloseCourseModal(true)} 
               className="w-[5%] h-full"></div>
               <div className={`
@@ -843,21 +845,35 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
                     setCloseCourseModal(false)
                   }
                 }}
-                ></div>
+                >
+                  <header className="h-[7%] w-full bg-slate-800 border-b-2 border-amber-500 px-4 flex items-center justify-between ">
+                  <h3 className="font-montserr font-semibold text-2xl text-amber-500 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
+                      Course
+                    </h3>
+                    <button 
+                    onClick={() => setCloseCourseModal(true)}
+                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                      <CloseIcon />
+                    </button>
+                  </header>
+                  <div className="h-[93%] w-full ">
+                    <Course />
+                  </div>
+                </div>
                 <div onClick={() => setCloseCourseModal(true)} 
                 className="w-[5%] h-full"></div>
               </div>
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="w-full h-[1%]"></div>
+              className="w-full h-[3%]"></div>
             </div>
           )}
           {(jobModal || closeJobModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
               <div 
               onClick={() => setCloseJobModal(true)}
-              className="w-full h-[5%]"></div>
-              <div className="w-full h-[90%] flex items-center">
+              className="w-full h-[3%]"></div>
+              <div className="w-full h-[94%] flex items-center">
                 <div 
                 onClick={() => setCloseJobModal(true)}
                 className="w-[5%] h-full"></div>
@@ -879,14 +895,28 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
                     setCloseJobModal(false)
                   }
                 }}
-                ></div>
+                >
+                  <header className="h-[7%] w-full bg-slate-800 border-b-2 border-sky-500 px-4 flex items-center justify-between ">
+                  <h3 className="font-montserr font-semibold text-2xl text-sky-500 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
+                      Job
+                    </h3>
+                    <button 
+                    onClick={() => setCloseJobModal(true)}
+                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                      <CloseIcon />
+                    </button>
+                  </header>
+                  <div className="h-[93%] w-full">
+                    <JobFeed />
+                  </div>
+                </div>
                 <div 
                 onClick={() => setCloseJobModal(true)}
                 className="w-[5%] h-full"></div>
               </div>
               <div 
               onClick={() => setCloseJobModal(true)}
-              className="w-full h-[5%]"></div>
+              className="w-full h-[3%]"></div>
             </div>
           )}
           </>

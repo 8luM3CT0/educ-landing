@@ -9,19 +9,12 @@ function JobFeed() {
 
   return (
     <div className='
-    h-screen
+    h-full
     bg-gradient-to-bl
     from-cyan-900
     to-indigo-900
     overflow-hidden
     '>
-        <DeskJobHeader />
-        <MobJobHeader />
-        <Head>
-            <title>
-                List of jobs available below
-            </title>
-        </Head>
         <main className="
         h-full
         lg:w-[70%]
