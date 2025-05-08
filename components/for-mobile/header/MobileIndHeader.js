@@ -80,6 +80,7 @@ function MobileIndHeader({
             space-x-11
             ">
          <button 
+         onClick={openAModal}
         className="
         diHeaderBtn
         hover:text-emerald-600
@@ -91,6 +92,7 @@ function MobileIndHeader({
         ">  <InfoIcon />
         </button>
         <button 
+        onClick={openMModal}
         className="
         diHeaderBtn
         hover:text-pink-600
@@ -102,6 +104,7 @@ function MobileIndHeader({
         ">  <PeopleIcon />
         </button>
         <button 
+        onClick={openCModal}
         className="
         diHeaderBtn
         hover:text-amber-600
@@ -112,7 +115,8 @@ function MobileIndHeader({
         ease-in-out
         ">  <CapIcon />
         </button>
-        <button 
+        <button
+        onClick={openJModal} 
         className="
         diHeaderBtn
         hover:text-sky-400

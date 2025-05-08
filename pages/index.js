@@ -289,13 +289,16 @@ toptextDesc
             </h4>
             <span className="
             w-full
-            flex
+            lg:flex
+            flex-col
             items-center
             ">
               <button
             onClick={openJModal}
             className='
-            w-[40%]
+            m-2
+            lg:w-[50%]
+            px-3
             h-[50px]
             font-robot
             font-light
@@ -332,7 +335,8 @@ toptextDesc
               <button
             onClick={openCModal}
             className='
-            w-[40%]
+            lg:w-[50%]
+            px-3
             h-[50px]
             font-robot
             font-light
@@ -817,8 +821,8 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="w-full h-[5%]"></div>
-              <div className="w-full h-[90%] flex items-center">
+              className="w-full h-[1%]"></div>
+              <div className="w-full h-[98%] flex items-center">
               <div onClick={() => setCloseCourseModal(true)} 
               className="w-[5%] h-full"></div>
               <div className={`
@@ -845,7 +849,7 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
               </div>
               <div 
               onClick={() => setCloseCourseModal(true)}
-              className="w-full h-[5%]"></div>
+              className="w-full h-[1%]"></div>
             </div>
           )}
           {(jobModal || closeJobModal) && (
