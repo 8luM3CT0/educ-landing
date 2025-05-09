@@ -8,17 +8,30 @@ import { courses } from '../components/'
 function Course() {
   return (
     <div className='
-    overflow-y-scroll
-    scrollbar-hide
+    overflow-hidden
     h-full
     flex-col
     bg-gradient-to-br
     from-cyan-500
     to-purple-800
     '>
-        <main className="
-        h-screen
-        lg:w-[70%]
+      <main className="
+      h-full
+      w-full
+      flex
+      flex-col
+      items-center
+      ">
+        <div className="
+        h-[34%]
+        w-[95%]
+        bg-slate-800
+        bg-opacity-70
+        rounded
+        space-y-2
+        "></div>
+        <div className="
+        h-[65%]
         w-[95%]
         bg-slate-100
         bg-opacity-20
@@ -220,7 +233,9 @@ background={data?.background}
                   ))}
                 </div>
             </div>
-        </main>  
+        </div>
+      </main>
+          
     </div>
   )
 }

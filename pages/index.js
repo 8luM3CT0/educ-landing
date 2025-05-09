@@ -15,7 +15,7 @@ import {
   reviews
 } from '../components/'
 //back-end
-import {useEffect, useState} from 'react'
+import {useEffect, useRef, useState} from 'react'
 import { useRouter } from 'next/router'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { creds } from '../backend/firebase'
@@ -25,6 +25,8 @@ import JobFeed from './jobs'
 
 export default function Home () {
   const router = useRouter()
+  const scrollRef = useRef(null)
+  const [isHovered, setIsHovered] = useState(false)
   const [user] = useAuthState(creds)
   const headerPics = [
     "https://i.pinimg.com/736x/ef/19/3f/ef193fbb1889dc748ff685172d3b9217.jpg",
@@ -47,6 +49,31 @@ export default function Home () {
 
     return () => clearInterval(interval)
   }, [])
+
+  useEffect(() => {
+    const scrollContainer = scrollRef.current;
+    let scrollInterval;
+
+    const autoScroll = () => {
+      if (!scrollContainer) return;
+
+      const { scrollLeft, scrollWidth, clientWidth } = scrollContainer;
+      const atEnd = scrollLeft + clientWidth >= scrollWidth - 10;
+
+      if (atEnd) {
+        scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        scrollContainer.scrollBy({ left: 400, behavior: 'smooth' });
+      }
+    };
+
+    if (!isHovered) {
+      scrollInterval = setInterval(autoScroll, 3000);
+    }
+
+    return () => clearInterval(scrollInterval);
+  }, [isHovered]);
+  
  //for about modal
    const [openAboutModal, setOpenAboutModal] = useState(false)
    const [aboutModal, setAboutModal] = useState(false)
@@ -535,12 +562,12 @@ toptextDesc
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="h-[93%] w-full flex flex-col items-center space-y-3 px-4 py-3">
+                  <div className="h-[93%] lg:overflow-hidden overflow-y-scroll scrollbar-hide w-full flex flex-col items-center space-y-3 px-4 py-3">
                   <span className="flex flex-col items-start w-full space-y-3">
                       <h3 className="font-ibm-sans font-semibold text-xl text-emerald-200">
                         About us
                       </h3>
-                      <span className="w-[85%] px-3 py-2 rounded-md group">
+                      <span className="min-h-[200px] max-h-[350px] overflow-y-scroll scrollbar-hide scrollbar-track-slate-800 scrollbar-thumb-emerald-400 w-[85%] px-3 py-2 rounded-md group">
                         <p className="font-ubunto font-normal text-base text-emerald-500 transition-transform duration-300 ease-in-out ">
                         Located in the heart of Silicon Valley, our institution in Los Altos stands at the forefront of technology education, specializing in software engineering and data science. We are driven by a mission to equip learners with the technical expertise, critical thinking skills, and ethical foundations needed to thrive in today’s fast-evolving digital world.
 
@@ -556,7 +583,7 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                       <h3 className="font-ibm-sans font-semibold text-xl text-emerald-200">
                         Vision statement
                       </h3>
-                      <span className="w-[85%] px-3 py-2 rounded-md group">
+                      <span className="min-h-[200px] max-h-[350px] overflow-y-scroll scrollbar-hide scrollbar-track-slate-800 scrollbar-thumb-emerald-400 w-[85%] px-3 py-2 rounded-md group">
                         <p className="font-ubunto font-normal text-base text-emerald-500 transition-transform duration-300 ease-in-out ">
                         To become a globally recognized center of excellence in software engineering and data science education, empowering learners to innovate, lead, and solve real-world problems through advanced technology and ethical data practices.
                         </p>
@@ -566,7 +593,7 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                       <h3 className="font-ibm-sans font-semibold text-xl text-emerald-200">
                         Mission statement
                       </h3>
-                      <span className="w-[85%] px-3 py-2 flex flex-col items-start space-y-3 rounded-md group">
+                      <span className="min-h-[200px] max-h-[350px] overflow-y-scroll scrollbar-hide scrollbar-track-slate-800 scrollbar-thumb-emerald-400 w-[85%] px-3 py-2 flex flex-col items-start space-y-3 rounded-md group">
                         <h4 className="font-ubunto font-normal text-base text-emerald-500 transition-transform duration-300 ease-in-out ">
                           Our mission is to cultivate a new generation of skilled software and data professionals by delivering industry-relevant, research-driven, and accessible education. We are committed to:
                           </h4>
@@ -633,8 +660,12 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                   </header>
                   <div className="h-[93%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
                     {/**div that shows the team */}
-                    <div className="
-                    h-[50%] bg-slate-900 bg-opacity-20 w-[95%] mx-auto flex items-center overflow-x-scroll scrollbar-hide space-x-7
+                    <div 
+                    ref={scrollRef}
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+                    className="
+                    h-[50%] group bg-slate-900 bg-opacity-20 w-[95%] mx-auto flex items-center overflow-x-scroll scrollbar-hide space-x-7
                     ">
                       {courses?.lecturers && courses?.lecturers.map(lecturer => (
                         <div 
@@ -652,7 +683,12 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                         flex
                         flex-col
                         items-end
+                        transition-all
+                        duration-300
+                        ease-in-out
+                        blur-sm
                         group
+                        group-hover:blur-none
                         ">
                           <span className="
                           h-[70%]
@@ -713,16 +749,15 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                         <div 
                         className={`
                           h-full 
-                          w-full 
-                          bg-slate-600
-                          bg-opacity-10
-                          m-auto 
+                          w-full
                           flex
-                          items-center 
-                          transition-all
+                          items-center
+                          transition-all 
+                          duration-700 
                           ease-in-out
-                          duration-300
-                          ${openViewMentor && !closeViewMentor ? 'translate-x-0' : '-translate-x-0'}
+                          transform
+                          origin-top
+                          ${!closeViewMentor ? 'opacity-100 scale-y-100 translate-y-0' : 'opacity-0 scale-y-0 -translate-y-5'}
                           `}
                           onTransitionEnd={() => {
                             if(closeViewMentor){
@@ -764,6 +799,8 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                                 w-full
                               overflow-y-scroll
                               scrollbar-hide
+                              bg-slate-800
+                              bg-opacity-30
                                 ">
                                   <p className="font-montserr text-base text-slate-100 font-bold px-3 py-2">
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt pretium augue, in lacinia felis. Nunc vel dui ante. Nunc non odio commodo, feugiat lorem ac, interdum massa. Aenean neque nibh, rutrum non tempor quis, sollicitudin nec nulla. Etiam ut arcu bibendum, euismod nisl eget, facilisis dui. Donec malesuada imperdiet dui, eget porta ipsum ultrices sit amet. Nunc efficitur lacinia mi, eu suscipit quam ultrices sit amet. In elementum urna in mattis tristique. Aliquam non enim sapien. Vestibulum fringilla, dolor non tristique venenatis, purus felis iaculis mauris, condimentum blandit eros magna pulvinar orci. Suspendisse nec massa eleifend, finibus nunc eget, suscipit ex. Suspendisse potenti. Suspendisse dignissim erat diam.
