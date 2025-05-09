@@ -534,7 +534,8 @@ toptextDesc
             ">
               
                 <div className={`
-                w-[50%]
+                lg:w-[50%]
+                w-[70%]
                 h-full
               border-r-2
               border-emerald-300
@@ -618,14 +619,15 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
               </div>
               <div 
               onClick={() => setCloseAboutModal(true)}
-              className="w-[50%] h-full"/>
+              className="lg:w-[50%] w-[30%] h-full"/>
             </div>
           )}
           {(managementModal || closeManagementModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex items-center ">
-              <div onClick={() => setCloseManagementModal(true)} className="w-[50%] h-full"></div>
+              <div onClick={() => setCloseManagementModal(true)} className="lg:w-[50%] w-[30%] h-full"></div>
               <div className= {`
-                w-[50%] 
+                lg:w-[50%]
+                w-[70%] 
                 h-full 
                 border-l-2 
                 border-pink-300 

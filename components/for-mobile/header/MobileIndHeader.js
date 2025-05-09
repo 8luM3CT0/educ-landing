@@ -161,7 +161,7 @@ function MobileIndHeader({
     font-bold
     text-sm
     text-slate-300">
-            Connect with us
+            Connect
         </h1>
         </span>
     </div>
