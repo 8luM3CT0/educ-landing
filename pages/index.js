@@ -860,14 +860,9 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
           )}
           {(courseModal || closeCourseModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
-              <div 
-              onClick={() => setCloseCourseModal(true)}
-              className="w-full h-[3%]"></div>
-              <div className="w-full h-[94%] flex items-center">
-              <div onClick={() => setCloseCourseModal(true)} 
-              className="w-[5%] h-full"></div>
+              <div className="w-full h-[94%]">
               <div className={`
-                w-[90%]
+                w-[98%]
                 mx-auto
                 h-full
                 bg-slate-800 
@@ -899,9 +894,10 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
                     <Course />
                   </div>
                 </div>
-                <div onClick={() => setCloseCourseModal(true)} 
-                className="w-[5%] h-full"></div>
               </div>
+              <div 
+              onClick={() => setCloseCourseModal(true)}
+              className="w-full h-[3%]"></div>
               <div 
               onClick={() => setCloseCourseModal(true)}
               className="w-full h-[3%]"></div>
@@ -909,17 +905,17 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
           )}
           {(jobModal || closeJobModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex flex-col items-center">
+                            <div 
+              onClick={() => setCloseJobModal(true)}
+              className="w-full h-[3%]"></div>
               <div 
               onClick={() => setCloseJobModal(true)}
               className="w-full h-[3%]"></div>
               <div className="w-full h-[94%] flex items-center">
-                <div 
-                onClick={() => setCloseJobModal(true)}
-                className="w-[5%] h-full"></div>
               <div className={`
-                w-[90%]
+                w-[98%]
                 mx-auto
-                h-[90%] 
+                h-full
                 bg-slate-800 
                 border-2 
                 border-sky-500 
@@ -949,13 +945,7 @@ Fusce elit purus, hendrerit at pretium a, pellentesque nec metus. Etiam pretium 
                     <JobFeed />
                   </div>
                 </div>
-                <div 
-                onClick={() => setCloseJobModal(true)}
-                className="w-[5%] h-full"></div>
               </div>
-              <div 
-              onClick={() => setCloseJobModal(true)}
-              className="w-full h-[3%]"></div>
             </div>
           )}
           </>
