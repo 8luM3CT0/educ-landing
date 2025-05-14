@@ -24,7 +24,12 @@ module.exports = {
         'path-ex': ['Pathway Extreme', 'sans-serif'],
         'fira-sans': ['Fira Sans', 'sans-serif'],
         'montserr': ['Montserrat', 'sans-serif'],
-        'mont-sub': ['Montserrat Subrayada', 'sans-serif']
+        'mont-sub': ['Montserrat Subrayada', 'sans-serif'],
+        'bungee-shade': ['Bungee Shade', 'sans-serif'],
+        'bungee-inline': ['Bungee Inline', 'sans-serif'],
+        'gothic-exp': ["Special Gothic Expanded One", 'sans-serif'],
+        "share-tech": ["Share Tech", "sans-serif"],
+        "gothic-cond": ["Special Gothic Condensed One", "sans-serif"]
       },
       backgroundImage: theme => ({
         'headerpic':
@@ -32,7 +37,13 @@ module.exports = {
         'study': 
         'url(https://i.pinimg.com/564x/d9/98/e3/d998e389cec1951f4d6a5d7f4f556f90.jpg)',
         'placeholder':
-        'url(https://i.pinimg.com/564x/c7/88/8b/c7888b5308bc5c5c8e120c5b895e5982.jpg)' 
+        'url(https://i.pinimg.com/564x/c7/88/8b/c7888b5308bc5c5c8e120c5b895e5982.jpg)',
+        'about': 
+        'url(https://i.pinimg.com/736x/02/70/e4/0270e43f060c27d1fc813b0d571486ba.jpg)',
+        'about-alt':
+        'url(https://i.pinimg.com/736x/a8/86/31/a88631a6cb3782335da177c676adcf62.jpg)',
+        'about-alt-sec': 
+        'url(https://i.pinimg.com/736x/a8/86/31/a88631a6cb3782335da177c676adcf62.jpg)'
       })
     }
   },
