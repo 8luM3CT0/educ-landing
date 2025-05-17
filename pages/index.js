@@ -591,7 +591,7 @@ toptextDesc
                 bg-slate-700
                 bg-opacity-80
                 ">
-                  <header className="bg-slate-800 bg-opacity-95 h-[7%] w-full border-b-2 border-pink-300 px-6 flex items-center justify-between">
+                  <header className="bg-slate-800 bg-opacity-95 lg:h-[5%] h-[12%] w-full border-b-2 border-pink-300 px-6 flex items-center justify-between">
                     <h3 className="font-montserr font-semibold text-2xl text-pink-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       Management
                     </h3>
@@ -601,7 +601,7 @@ toptextDesc
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="h-[93%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
+                  <div className="lg:h-[95%] h-[88%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
                     {/**div that shows the team */}
                     <ManagementDiv 
                     closeManagementModal={closeManagementModal}
