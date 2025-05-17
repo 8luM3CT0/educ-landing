@@ -537,7 +537,7 @@ toptextDesc
               
                 <div className={`
                 lg:w-[50%]
-                w-[70%]
+                w-[90%]
                 h-full
               border-r-2
               border-emerald-300
@@ -561,7 +561,7 @@ toptextDesc
               </div>
               <div 
               onClick={() => setCloseAboutModal(true)}
-              className="lg:w-[50%] w-[30%] h-full"/>
+              className="lg:w-[50%] w-[10%] h-full"/>
             </div>
           )}
           {(managementModal || closeManagementModal) && (
