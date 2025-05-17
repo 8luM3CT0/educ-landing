@@ -9,7 +9,7 @@ function AboutDiv({
 }) {
   return (
     <div className="h-full w-full bg-slate-700 bg-opacity-80">
-                  <header className="bg-slate-800 bg-opacity-95 h-[5%] w-full border-b-2 border-emerald-300 px-6 flex items-center justify-between">
+                  <header className="bg-slate-800 bg-opacity-95 lg:h-[5%] h-[12%] w-full border-b-2 border-emerald-300 px-6 flex items-center justify-between">
                     <h3 className="font-montserr font-semibold text-2xl text-emerald-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       About Us
                     </h3>
@@ -19,7 +19,7 @@ function AboutDiv({
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="h-[95%] lg:overflow-hidden overflow-y-scroll scrollbar-hide w-full flex flex-col items-center justify-evenly space-y-3 px-4 py-3">
+                  <div className="lg:h-[95%] h-[88%] lg:overflow-hidden overflow-y-scroll scrollbar-hide w-full flex flex-col items-center justify-evenly space-y-3 px-4 py-3">
                     
                     <span className=" h-[33%] w-full flex items-center rounded">
                     <span className="w-[40%] h-full bg-about bg-center bg-no-repeat"></span>
