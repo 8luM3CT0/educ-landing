@@ -1046,190 +1046,894 @@
     "title": "Certificate in Data Visualization and Storytelling",
     "issuer": "Insight Analytics Institute"
   }
+},
+{
+  "id": 7,
+  "title": "Deep Learning and Neural Networks",
+  "description": "Dive deep into the world of deep learning and neural networks, exploring the architecture, training, and optimization of neural models. Learn about feedforward networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and modern frameworks like TensorFlow and PyTorch. Apply deep learning to real-world challenges in image recognition, NLP, and recommendation systems.",
+  "duration": "10 weeks",
+  "coursepic": "https://i.pinimg.com/736x/c7/4d/cf/c74dcf9a16ce71a661f3b2a4f62f34f0.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Solid foundation in machine learning",
+    "Basic linear algebra and calculus",
+    "Intermediate Python programming",
+    "Experience with NumPy or Pandas"
+  ],
+  "learning_outcomes": [
+    "Build, train, and evaluate deep neural networks",
+    "Understand backpropagation and optimization techniques",
+    "Develop CNNs for image classification tasks",
+    "Use RNNs and LSTMs for sequence modeling",
+    "Implement deep learning models with TensorFlow and PyTorch"
+  ],
+  "course_materials": [
+    "Interactive neural network visualizers",
+    "Hands-on labs using TensorFlow and PyTorch",
+    "Research paper summaries and reading guides",
+    "Practice datasets (images, text, time series)"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Ethan M.",
+      "comment": "The projects on CNNs and LSTMs were incredibly hands-on. Loved building real AI systems!",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Alisha B.",
+      "comment": "A challenging course, but the explanations were crystal clear. Dr. Nakamura makes deep learning accessible.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 899.99,
+    "with_mentorship": 1199.99,
+    "team_discount": "25% off for academic research teams"
+  },
+  "assessment_methods": [
+    "Weekly programming labs",
+    "Mini-projects in computer vision and NLP",
+    "Capstone: Deploy a deep learning model in a real-world setting"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Deep Learning and Neural Networks",
+    "issuer": "Insight Analytics Institute"
+  }
+},
+{
+  "id": 8,
+  "title": "Big Data Analytics",
+  "description": "Master the tools and techniques for analyzing massive datasets at scale. This course introduces distributed computing systems, batch and stream processing, and big data frameworks including Apache Hadoop, Spark, Hive, and Kafka. Learn how to extract value from terabytes of structured and unstructured data in real-time and batch environments.",
+  "duration": "12 weeks",
+  "coursepic": "https://i.pinimg.com/736x/a3/65/12/a365120cddcf2c214486b7cb204dbcdc.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Experience with Python or Java",
+    "Familiarity with SQL and data processing",
+    "Basic understanding of distributed systems"
+  ],
+  "learning_outcomes": [
+    "Understand big data architecture and ecosystem components",
+    "Process large-scale data using Hadoop and MapReduce",
+    "Build fast in-memory analytics using Apache Spark",
+    "Stream real-time data using Kafka and Spark Streaming",
+    "Use Hive and SQL engines for querying large datasets"
+  ],
+  "course_materials": [
+    "Big data pipeline diagrams",
+    "Hands-on Spark and Kafka notebooks",
+    "Configuration templates for Hadoop clusters",
+    "Case studies in finance, IoT, and social media analytics"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Michael T.",
+      "comment": "Spark Streaming labs were eye-opening. I can now handle real-time analytics pipelines confidently.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Grace C.",
+      "comment": "Hadoop and Hive finally made sense. This course is a must for anyone diving into big data roles.",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 999.99,
+    "with_mentorship": 1299.99,
+    "team_discount": "15% off for enterprise teams of 10+"
+  },
+  "assessment_methods": [
+    "Big data architecture design quiz",
+    "Weekly Spark programming labs",
+    "Final project: Real-time analytics pipeline with Kafka + Spark"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Big Data Analytics and Engineering",
+    "issuer": "Insight Analytics Institute"
+  }
 }],
       "fend_data": [
-        {
-            "id": 1,
-            "title": "HTML Fundamentals",
-            "description": "Learn the basics of HTML (Hypertext Markup Language) to structure and organize web content.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 2,
-            "title": "CSS Styling",
-            "description": "Explore CSS (Cascading Style Sheets) to add styles, layouts, and visual enhancements to web pages.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 3,
-            "title": "JavaScript Essentials",
-            "description": "Get started with JavaScript programming language, covering the fundamentals and essential concepts for frontend development.",
-            "duration": "6 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 4,
-            "title": "Responsive Web Design",
-            "description": "Learn techniques to create responsive and mobile-friendly websites that adapt to different screen sizes and devices.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 5,
-            "title": "Frontend Frameworks (e.g., React, Angular, Vue)",
-            "description": "Master popular frontend frameworks like React, Angular, or Vue to build dynamic and interactive web applications.",
-            "duration": "8 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 6,
-            "title": "CSS Preprocessors (e.g., Sass, Less)",
-            "description": "Explore CSS preprocessors like Sass or Less to write cleaner and more maintainable CSS code with advanced features.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 7,
-            "title": "Frontend Build Tools (e.g., Webpack, Gulp)",
-            "description": "Learn how to use frontend build tools like Webpack or Gulp to automate tasks, optimize assets, and enhance development workflow.",
-            "duration": "6 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 8,
-            "title": "Version Control Systems (e.g., Git)",
-            "description": "Gain proficiency in version control systems like Git to track changes, collaborate with others, and manage code repositories.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          },
-          {
-            "id": 9,
-            "title": "Accessibility in Web Development",
-            "description": "Understand the importance of web accessibility and learn techniques to create inclusive and usable web interfaces.",
-            "duration": "4 weeks",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design."
-          
-          }
+        [
+  {
+    "id": 1,
+    "title": "HTML Fundamentals",
+    "description": "Learn the basics of HTML (Hypertext Markup Language) to structure and organize web content.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/abcdef/ffffff?Text=HTML",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand the basic structure of an HTML document.",
+      "Use common HTML tags for text, images, and links.",
+      "Create basic forms for user input.",
+      "Structure content using semantic HTML5 elements."
+    ],
+    "course_materials": [
+      "HTML element reference sheets",
+      "Code examples and templates",
+      "Practice exercises on structuring web pages"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Alex K.",
+        "comment": "A great introduction to web development. The exercises were very helpful!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 299.99
+    },
+    "assessment_methods": [
+      "HTML structure quiz",
+      "Building a basic webpage"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in HTML Fundamentals",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 2,
+    "title": "CSS Styling",
+    "description": "Explore CSS (Cascading Style Sheets) to add styles, layouts, and visual enhancements to web pages.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/fedcba/ffffff?Text=CSS",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML"
+    ],
+    "learning_outcomes": [
+      "Apply inline, internal, and external CSS styles.",
+      "Use selectors to target HTML elements.",
+      "Understand the CSS box model.",
+      "Implement basic page layouts with CSS."
+    ],
+    "course_materials": [
+      "CSS property reference guides",
+      "Layout examples and code snippets",
+      "Challenges on styling different HTML elements"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Sarah L.",
+        "comment": "Learned so much about making my websites look good!",
+        "rating": 4.6
+      }
+    ],
+    "pricing": {
+      "standard": 349.99
+    },
+    "assessment_methods": [
+      "CSS styling challenges",
+      "Layout implementation task"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in CSS Styling",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Essentials",
+    "description": "Get started with JavaScript programming language, covering the fundamentals and essential concepts for frontend development.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=JS",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML and CSS"
+    ],
+    "learning_outcomes": [
+      "Understand JavaScript syntax and data types.",
+      "Work with variables, operators, and control flow.",
+      "Manipulate the DOM (Document Object Model).",
+      "Handle events and create interactive elements."
+    ],
+    "course_materials": [
+      "JavaScript syntax guides",
+      "Interactive coding exercises",
+      "Examples of DOM manipulation"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Emily R.",
+        "comment": "JavaScript finally clicked for me in this course!",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "JavaScript fundamentals quiz",
+      "Interactive webpage development"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in JavaScript Essentials",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Responsive Web Design",
+    "description": "Learn techniques to create responsive and mobile-friendly websites that adapt to different screen sizes and devices.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/ccbbaa/ffffff?Text=Responsive",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Intermediate knowledge of HTML and CSS"
+    ],
+    "learning_outcomes": [
+      "Implement responsive layouts using CSS media queries.",
+      "Utilize flexible box (Flexbox) and Grid layout systems.",
+      "Optimize images and other assets for different devices.",
+      "Test and debug responsive designs."
+    ],
+    "course_materials": [
+      "Responsive design patterns",
+      "Code examples using Flexbox and Grid",
+      "Device testing checklists"
+    ],
+    "testimonials": [
+      {
+        "student_name": "David M.",
+        "comment": "Now I can make sure my websites look great on any device!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 399.99
+    },
+    "assessment_methods": [
+      "Responsive layout challenges",
+      "Building a responsive portfolio page"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Responsive Web Design",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Frontend Frameworks (e.g., React, Angular, Vue)",
+    "description": "Master popular frontend frameworks like React, Angular, or Vue to build dynamic and interactive web applications.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/baccba/ffffff?Text=Frameworks",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Strong understanding of HTML, CSS, and JavaScript"
+    ],
+    "learning_outcomes": [
+      "Understand the core concepts of at least one major framework (React, Angular, or Vue).",
+      "Build reusable components and manage application state.",
+      "Work with APIs and handle asynchronous operations.",
+      "Implement routing and navigation within the framework."
+    ],
+    "course_materials": [
+      "Framework-specific documentation links",
+      "Project templates and starter kits",
+      "Examples of component-based architecture"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Jessica P.",
+        "comment": "This course gave me the skills to build complex web applications!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 799.99,
+      "with_mentorship": 999.99
+    },
+    "assessment_methods": [
+      "Building components and managing state",
+      "Developing a single-page application"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Frontend Framework Mastery",
+      "issuer": "Advanced Web Technologies Institute"
+    }
+  },
+  {
+    "id": 6,
+    "title": "CSS Preprocessors (e.g., Sass, Less)",
+    "description": "Explore CSS preprocessors like Sass or Less to write cleaner and more maintainable CSS code with advanced features.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/cabacb/ffffff?Text=Preprocessors",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Solid understanding of CSS"
+    ],
+    "learning_outcomes": [
+      "Utilize variables, nesting, and mixins in a CSS preprocessor.",
+      "Organize CSS code into modular and maintainable structures.",
+      "Understand the compilation process of preprocessor code.",
+      "Apply preprocessor features to improve styling efficiency."
+    ],
+    "course_materials": [
+      "Sass and Less syntax guides",
+      "Project examples using preprocessors",
+      "Configuration files and setup instructions"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Kevin S.",
+        "comment": "Sass has made my CSS workflow so much better!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 349.99
+    },
+    "assessment_methods": [
+      "Preprocessor syntax exercises",
+      "Refactoring CSS with a preprocessor"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in CSS Preprocessor Proficiency",
+      "issuer": "Web Styling Academy"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Frontend Build Tools (e.g., Webpack, Gulp)",
+    "description": "Learn how to use frontend build tools like Webpack or Gulp to automate tasks, optimize assets, and enhance development workflow.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/acbacb/ffffff?Text=BuildTools",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Familiarity with HTML, CSS, and JavaScript",
+      "Basic understanding of the command line"
+    ],
+    "learning_outcomes": [
+      "Configure and use a module bundler like Webpack.",
+      "Automate tasks such as code compilation and minification using Gulp.",
+      "Optimize assets like images and fonts for production.",
+      "Understand common build tool workflows."
+    ],
+    "course_materials": [
+      "Webpack and Gulp configuration files",
+      "Task automation examples",
+      "Optimization strategy guides"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Linda J.",
+        "comment": "Learning build tools has really streamlined my development process.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 449.99
+    },
+    "assessment_methods": [
+      "Configuring Webpack for a project",
+      "Automating build tasks with Gulp"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Frontend Build Tooling",
+      "issuer": "DevOps for Frontend Institute"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Version Control Systems (e.g., Git)",
+    "description": "Gain proficiency in version control systems like Git to track changes, collaborate with others, and manage code repositories.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/bcabca/ffffff?Text=Git",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand core Git concepts like repositories and commits.",
+      "Perform basic Git operations such as cloning, adding, and committing.",
+      "Work with branches and merge changes effectively.",
+      "Collaborate on projects using remote repositories (e.g., GitHub, GitLab)."
+    ],
+    "course_materials": [
+      "Git command reference sheets",
+      "Branching and merging scenarios",
+      "Collaboration workflow examples"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Omar Z.",
+        "comment": "Git is no longer a mystery! This course was very practical.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 299.99
+    },
+    "assessment_methods": [
+      "Git command quizzes",
+      "Collaborative project using Git"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Version Control with Git",
+      "issuer": "Software Collaboration Academy"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Accessibility in Web Development",
+    "description": "Understand the importance of web accessibility and learn techniques to create inclusive and usable web interfaces.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=A11y",
+    "name": "Ms. Natalie Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML"
+    ],
+    "learning_outcomes": [
+      "Understand WCAG guidelines and accessibility principles.",
+      "Implement semantic HTML for better accessibility.",
+      "Use ARIA attributes to enhance accessibility for dynamic content.",
+      "Test and evaluate web accessibility."
+    ],
+    "course_materials": [
+      "WCAG guideline summaries",
+      "ARIA attribute examples",
+      "Accessibility testing tools and techniques"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Nadia H.",
+        "comment": "This course opened my eyes to the importance of inclusive design.",
+        "rating": 5.0
+      }
+    ],
+    "pricing": {
+      "standard": 399.99
+    },
+    "assessment_methods": [
+      "Accessibility checklist application",
+      "Evaluating and improving the accessibility of a webpage"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Accessible Web Development",
+      "issuer": "Inclusive Design Institute"
+    }
+  }
+]
       ],
       "projman_data": [
-        {
-          "id": 1,
-            "title": "Introduction to Project Management",
-            "description": "Learn the fundamental principles and best practices of project management, including project planning, scheduling, and budgeting.",
-            "duration": "6 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 2,
-            "title": "Agile Project Management",
-            "description": "Explore the Agile methodology, including Scrum and Kanban, and understand how to manage projects in an iterative and flexible manner.",
-            "duration": "8 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 3,
-            "title": "Risk Management",
-            "description": "Gain knowledge of identifying, assessing, and mitigating risks in projects to minimize their impact on project success.",
-            "duration": "6 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 4,
-            "title": "Project Scope and Requirements",
-            "description": "Learn techniques for defining project scope, eliciting requirements, and managing changes throughout the project lifecycle.",
-            "duration": "8 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 5,
-            "title": "Team Collaboration and Communication",
-            "description": "Understand effective communication strategies, team dynamics, and collaboration tools to facilitate project success.",
-            "duration": "6 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 6,
-            "title": "Project Stakeholder Management",
-            "description": "Explore techniques for identifying, analyzing, and engaging stakeholders to ensure their needs are met throughout the project.",
-            "duration": "8 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 7,
-            "title": "Project Leadership",
-            "description": "Develop leadership skills required to motivate and guide project teams, resolve conflicts, and drive project success.",
-            "duration": "10 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 8,
-            "title": "Project Quality Management",
-            "description": "Learn about quality planning, assurance, and control processes to deliver projects that meet or exceed stakeholders' expectations.",
-            "duration": "6 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          },
-          {
-            "id": 9,
-            "title": "Project Procurement and Vendor Management",
-            "description": "Understand the process of procuring external resources, managing contracts, and effectively working with vendors.",
-            "duration": "8 weeks",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum."
-          
-          }
+        [
+  {
+    "id": 1,
+    "title": "Introduction to Project Management",
+    "description": "Learn the fundamental principles and best practices of project management, including project planning, scheduling, and budgeting.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/87ceeb/ffffff?Text=IntroPM",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand the project lifecycle and key project management processes.",
+      "Develop a basic project plan, including scope, schedule, and budget.",
+      "Identify project stakeholders and their roles.",
+      "Learn fundamental risk management concepts."
+    ],
+    "course_materials": [
+      "Project management process flowcharts",
+      "Sample project plan templates",
+      "Introduction to PMBOK guide"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Aisha K.",
+        "comment": "A great starting point for anyone interested in project management.",
+        "rating": 4.5
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "Project management principles quiz",
+      "Developing a basic project charter"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Introduction to Project Management",
+      "issuer": "Project Management Academy"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Agile Project Management",
+    "description": "Explore the Agile methodology, including Scrum and Kanban, and understand how to manage projects in an iterative and flexible manner.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/f08080/ffffff?Text=AgilePM",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Understand the core values and principles of the Agile Manifesto.",
+      "Apply Scrum framework, including roles, events, and artifacts.",
+      "Utilize Kanban for managing workflow and limiting work in progress.",
+      "Facilitate effective Agile ceremonies."
+    ],
+    "course_materials": [
+      "Agile Manifesto and Principles",
+      "Scrum Guide and Kanban principles",
+      "Agile tools and techniques overview"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ben L.",
+        "comment": "This course helped me understand how to be more adaptive in project management.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 699.99
+    },
+    "assessment_methods": [
+      "Agile principles and frameworks quiz",
+      "Developing a product backlog and sprint plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Agile Project Management",
+      "issuer": "Agile Project Leadership Institute"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Risk Management",
+    "description": "Gain knowledge of identifying, assessing, and mitigating risks in projects to minimize their impact on project success.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/ffa07a/ffffff?Text=RiskMgmt",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Identify potential risks in a project.",
+      "Assess the likelihood and impact of identified risks.",
+      "Develop risk response strategies and plans.",
+      "Monitor and control project risks."
+    ],
+    "course_materials": [
+      "Risk identification techniques",
+      "Risk assessment matrix templates",
+      "Examples of risk response plans"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Chloe M.",
+        "comment": "Feeling much more confident in handling project uncertainties now.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 549.99
+    },
+    "assessment_methods": [
+      "Risk identification and analysis assignment",
+      "Developing a risk management plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Risk Management",
+      "issuer": "Project Assurance Group"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Project Scope and Requirements",
+    "description": "Learn techniques for defining project scope, eliciting requirements, and managing changes throughout the project lifecycle.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/98fb98/ffffff?Text=ScopeReq",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Define and document project scope effectively.",
+      "Utilize various techniques for eliciting stakeholder requirements.",
+      "Develop a Work Breakdown Structure (WBS).",
+      "Manage scope changes and control scope creep."
+    ],
+    "course_materials": [
+      "Scope statement templates",
+      "Requirements elicitation techniques guide",
+      "WBS creation guidelines"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Daniel P.",
+        "comment": "Understanding scope management is crucial, and this course delivered!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Developing a project scope statement",
+      "Creating a Work Breakdown Structure"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Scope and Requirements Management",
+      "issuer": "Project Definition Institute"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Team Collaboration and Communication",
+    "description": "Understand effective communication strategies, team dynamics, and collaboration tools to facilitate project success.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/b0e0e6/ffffff?Text=TeamComm",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Apply effective communication techniques in project settings.",
+      "Understand team development stages and dynamics.",
+      "Utilize collaboration tools for efficient teamwork.",
+      "Manage and resolve team conflicts."
+    ],
+    "course_materials": [
+      "Communication plan templates",
+      "Team building activity guides",
+      "Overview of collaboration software"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ella S.",
+        "comment": "Improved my ability to work with project teams significantly.",
+        "rating": 4.6
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "Developing a communication plan",
+      "Case study on team conflict resolution"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Team Collaboration and Communication",
+      "issuer": "Project Leadership Collaborative"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Project Stakeholder Management",
+    "description": "Explore techniques for identifying, analyzing, and engaging stakeholders to ensure their needs are met throughout the project.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/d8bfd8/ffffff?Text=Stakeholder",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Identify and analyze project stakeholders.",
+      "Develop strategies for stakeholder engagement.",
+      "Manage stakeholder expectations and communication.",
+      "Address stakeholder issues and conflicts."
+    ],
+    "course_materials": [
+      "Stakeholder analysis templates",
+      "Engagement strategy examples",
+      "Communication matrix frameworks"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Frank T.",
+        "comment": "Learning how to manage stakeholders has been invaluable.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Stakeholder analysis report",
+      "Developing a stakeholder engagement plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Stakeholder Management",
+      "issuer": "Project Relations Institute"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Project Leadership",
+    "description": "Develop leadership skills required to motivate and guide project teams, resolve conflicts, and drive project success.",
+    "duration": "10 weeks",
+    "coursepic": "https://via.placeholder.com/300/daa520/ffffff?Text=Leadership",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Experience in project teams or basic project management knowledge"
+    ],
+    "learning_outcomes": [
+      "Understand different leadership styles and their application in projects.",
+      "Motivate and build high-performing project teams.",
+      "Develop conflict resolution and negotiation skills.",
+      "Foster a positive and collaborative project environment."
+    ],
+    "course_materials": [
+      "Leadership style assessments",
+      "Case studies on project leadership challenges",
+      "Team motivation techniques"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Gina U.",
+        "comment": "This course has helped me grow as a project leader.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 799.99,
+      "with_mentorship": 999.99
+    },
+    "assessment_methods": [
+      "Leadership style analysis",
+      "Scenario-based problem-solving for team issues"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Leadership",
+      "issuer": "Project Leadership Academy"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Project Quality Management",
+    "description": "Learn about quality planning, assurance, and control processes to deliver projects that meet or exceed stakeholders' expectations.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/66cdaa/ffffff?Text=QualityMgmt",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Develop a project quality management plan.",
+      "Apply quality assurance techniques throughout the project.",
+      "Utilize quality control tools and methods.",
+      "Understand the importance of continuous improvement in projects."
+    ],
+    "course_materials": [
+      "Quality management plan templates",
+      "Quality control charts and diagrams",
+      "Overview of quality standards (e.g., ISO 9000)"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Harry V.",
+        "comment": "Ensuring project quality is now a key focus for me.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 549.99
+    },
+    "assessment_methods": [
+      "Developing a quality management plan",
+      "Applying quality control techniques to a project scenario"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Quality Management",
+      "issuer": "Project Quality Assurance Institute"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Project Procurement and Vendor Management",
+    "description": "Understand the process of procuring external resources, managing contracts, and effectively working with vendors.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/e6e6fa/ffffff?Text=Procurement",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Plan project procurement processes.",
+      "Develop and manage contracts with vendors.",
+      "Evaluate vendor proposals and select appropriate vendors.",
+      "Monitor and control vendor performance."
+    ],
+    "course_materials": [
+      "Procurement plan templates",
+      "Sample contract agreements",
+      "Vendor evaluation criteria"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ivy W.",
+        "comment": "This course provided valuable insights into managing external resources.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Developing a procurement management plan",
+      "Analyzing vendor proposals"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Procurement and Vendor Management",
+      "issuer": "Project Resource Management Center"
+    }
+  }
+]
       ],
       "se_data": [
         {
