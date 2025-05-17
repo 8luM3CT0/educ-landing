@@ -29,7 +29,9 @@ module.exports = {
         'bungee-inline': ['Bungee Inline', 'sans-serif'],
         'gothic-exp': ["Special Gothic Expanded One", 'sans-serif'],
         "share-tech": ["Share Tech", "sans-serif"],
-        "gothic-cond": ["Special Gothic Condensed One", "sans-serif"]
+        "gothic-cond": ["Special Gothic Condensed One", "sans-serif"],
+        "merriweather": ["Merriweather", "serif"],
+        "playfair-disp": ["Playfair Display", "serif"]
       },
       backgroundImage: theme => ({
         'headerpic':
@@ -43,7 +45,7 @@ module.exports = {
         'about-alt':
         'url(https://i.pinimg.com/736x/a8/86/31/a88631a6cb3782335da177c676adcf62.jpg)',
         'about-alt-sec': 
-        'url(https://i.pinimg.com/736x/a8/86/31/a88631a6cb3782335da177c676adcf62.jpg)'
+        'url(https://i.pinimg.com/736x/00/dd/51/00dd51f71c38e46e8c12023381988970.jpg)'
       })
     }
   },

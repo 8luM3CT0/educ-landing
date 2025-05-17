@@ -30,7 +30,7 @@ export default function App ({ Component, pageProps }) {
         href='https://fonts.googleapis.com/icon?family=Material+Icons'
         rel='stylesheet'
       />
-      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Pathway+Extreme:wght@300&display=swap&family=Bungee+Shade&family=Bungee+Inline&family=Special+Gothic+Expanded+One&family=Share+Tech&family=Special+Gothic+Condensed+One" />
+      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Pathway+Extreme:wght@300&display=swap&family=Bungee+Shade&family=Bungee+Inline&family=Special+Gothic+Expanded+One&family=Share+Tech&family=Special+Gothic+Condensed+One&family=Merriweather&family=Playfair+Display" />
       <Component {...pageProps} />
     </>
   )

@@ -566,9 +566,8 @@ toptextDesc
           )}
           {(managementModal || closeManagementModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex items-center ">
-              <div onClick={() => setCloseManagementModal(true)} className="lg:w-[50%] w-[30%] h-full"></div>
+              <div onClick={() => setCloseManagementModal(true)} className="w-[30%] h-full"></div>
               <div className= {`
-                lg:w-[50%]
                 w-[70%] 
                 h-full 
                 border-l-2 
