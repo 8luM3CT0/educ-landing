@@ -1166,7 +1166,7 @@
     "description": "Learn the basics of HTML (Hypertext Markup Language) to structure and organize web content.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/abcdef/ffffff?Text=HTML",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [],
@@ -1207,7 +1207,7 @@
     "description": "Explore CSS (Cascading Style Sheets) to add styles, layouts, and visual enhancements to web pages.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/fedcba/ffffff?Text=CSS",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1250,7 +1250,7 @@
     "description": "Get started with JavaScript programming language, covering the fundamentals and essential concepts for frontend development.",
     "duration": "6 weeks",
     "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=JS",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1293,7 +1293,7 @@
     "description": "Learn techniques to create responsive and mobile-friendly websites that adapt to different screen sizes and devices.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/ccbbaa/ffffff?Text=Responsive",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1336,7 +1336,7 @@
     "description": "Master popular frontend frameworks like React, Angular, or Vue to build dynamic and interactive web applications.",
     "duration": "8 weeks",
     "coursepic": "https://via.placeholder.com/300/baccba/ffffff?Text=Frameworks",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1380,7 +1380,7 @@
     "description": "Explore CSS preprocessors like Sass or Less to write cleaner and more maintainable CSS code with advanced features.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/cabacb/ffffff?Text=Preprocessors",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1423,7 +1423,7 @@
     "description": "Learn how to use frontend build tools like Webpack or Gulp to automate tasks, optimize assets, and enhance development workflow.",
     "duration": "6 weeks",
     "coursepic": "https://via.placeholder.com/300/acbacb/ffffff?Text=BuildTools",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1467,7 +1467,7 @@
     "description": "Gain proficiency in version control systems like Git to track changes, collaborate with others, and manage code repositories.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/bcabca/ffffff?Text=Git",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [],
@@ -1508,7 +1508,7 @@
     "description": "Understand the importance of web accessibility and learn techniques to create inclusive and usable web interfaces.",
     "duration": "4 weeks",
     "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=A11y",
-    "name": "Ms. Natalie Cho",
+    "name": "Mr. Nathan Cho",
     "experience_years": 7,
     "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
     "prerequisites": [
@@ -1936,167 +1936,598 @@
 ]
       ],
       "se_data": [
-        {
-          "id": 1,
-            "title": "Introduction to Programming",
-            "description": "A beginner-friendly course that covers the fundamental concepts of programming and introduces popular programming languages.",
-            "duration": "8 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 2,
-            "title": "Web Development Basics",
-            "description": "Learn the essentials of web development, including HTML, CSS, and JavaScript, to create interactive and responsive websites.",
-            "duration": "10 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 3,
-            "title": "Object-Oriented Programming",
-            "description": "Explore the principles of object-oriented programming and learn how to design and implement efficient, modular software systems.",
-            "duration": "12 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 4,
-            "title": "Database Management",
-            "description": "Get hands-on experience with database systems, learn SQL, and understand how to design and optimize databases for software applications.",
-            "duration": "6 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 5,
-            "title": "Software Testing and Quality Assurance",
-            "description": "Discover various testing techniques and methodologies to ensure software quality, including unit testing, integration testing, and QA processes.",
-            "duration": "8 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 6,
-            "title": "Full-Stack Web Development",
-            "description": "Learn both front-end and back-end web development, covering frameworks, databases, APIs, and deployment strategies for building complete web applications.",
-            "duration": "16 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 7,
-            "title": "Mobile App Development",
-            "description": "Develop mobile applications for iOS and Android platforms using popular frameworks and languages like Swift, Java, and React Native.",
-            "duration": "14 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          },
-          {
-            "id": 8,
-            "title": "Data Structures and Algorithms",
-            "description": "Master fundamental data structures and algorithms, and gain problem-solving skills crucial for efficient software development.",
-            "duration": "10 weeks",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies."
-          
-          }
-      ],
+  {
+    "id": 1,
+    "title": "Introduction to Programming",
+    "description": "A beginner-friendly course that covers the fundamental concepts of programming and introduces popular programming languages. Students will gain a strong understanding of variables, control flow, loops, functions, and basic data structures. By the end of the course, learners will be able to write simple programs and understand the logic behind software applications.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/originals/60/10/e1/6010e1aa6224d58b92a9a8b99f588f27.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "No prior programming experience required",
+      "Basic computer literacy"
+    ],
+    "learning_outcomes": [
+      "Understand fundamental programming concepts",
+      "Write simple programs using structured logic",
+      "Understand and use variables, loops, and functions",
+      "Use debugging tools to identify and fix code issues"
+    ],
+    "course_materials": [
+      "Interactive coding exercises",
+      "Weekly quizzes and hands-on assignments",
+      "Code walkthrough videos",
+      "Sample mini-projects"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Liam R.",
+        "comment": "An excellent foundation course. It gave me the confidence to continue my programming journey.",
+        "rating": 4.7
+      },
+      {
+        "student_name": "Sofia K.",
+        "comment": "Dr. Petrova explains concepts clearly and the examples were practical and engaging.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 499.99,
+      "with_mentorship": 699.99,
+      "team_discount": "15% off for groups of 5+"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Web Development Basics",
+    "description": "Learn the essentials of front-end web development. This course introduces HTML5, CSS3, and JavaScript, enabling students to build interactive and visually appealing web pages. You'll work on real projects and gain a solid foundation for further study in web frameworks and back-end technologies.",
+    "duration": "10 weeks",
+    "coursepic": "https://i.pinimg.com/originals/d6/20/79/d62079ffb407e4deaf038e382bc6f84e.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with using web browsers and developer tools"
+    ],
+    "learning_outcomes": [
+      "Build responsive web pages using HTML and CSS",
+      "Implement dynamic behaviors with JavaScript",
+      "Understand the structure of web applications",
+      "Use browser dev tools to test and debug websites"
+    ],
+    "course_materials": [
+      "HTML/CSS templates",
+      "JavaScript playgrounds",
+      "Weekly coding labs",
+      "Mini web development projects"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Jason M.",
+        "comment": "I loved building my first interactive webpage! This course was a perfect entry point.",
+        "rating": 4.8
+      },
+      {
+        "student_name": "Maya S.",
+        "comment": "Great hands-on learning experience. The assignments helped solidify every topic.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 599.99,
+      "with_mentorship": 849.99,
+      "team_discount": "20% off for development teams of 3 or more"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Object-Oriented Programming",
+    "description": "Explore object-oriented programming principles including encapsulation, inheritance, polymorphism, and abstraction. This course focuses on designing maintainable software with OOP practices using languages such as Java or Python. You'll apply your skills in creating modular applications and reusable code components.",
+    "duration": "12 weeks",
+    "coursepic": "https://i.pinimg.com/originals/ce/df/90/cedf9002f1931b54621a67b25bff8390.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Intermediate programming skills",
+      "Familiarity with at least one high-level language"
+    ],
+    "learning_outcomes": [
+      "Design software using OOP principles",
+      "Write classes, methods, and implement inheritance structures",
+      "Refactor code to improve readability and reduce redundancy",
+      "Understand the impact of object design on performance and scalability"
+    ],
+    "course_materials": [
+      "Code refactoring labs",
+      "OOP design exercises",
+      "Access to an interactive code sandbox",
+      "Case studies on real-world OOP architectures"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Amir T.",
+        "comment": "This course took my programming skills to the next level. I now think in terms of design, not just syntax.",
+        "rating": 4.8
+      },
+      {
+        "student_name": "Clara B.",
+        "comment": "I finally understand how inheritance and polymorphism work in practice!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 749.99,
+      "with_mentorship": 999.99,
+      "team_discount": "10% off for academic cohorts"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Database Management",
+    "description": "Get hands-on experience with relational databases, mastering SQL for data manipulation and database design. This course covers normalization, indexing, and joins, along with introductory coverage of NoSQL databases and real-world database performance issues.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/originals/52/8b/6b/528b6bfc14aa536d877cf3c3f110e2e9.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Familiarity with programming concepts",
+      "Basic understanding of data structures"
+    ],
+    "learning_outcomes": [
+      "Write SQL queries to manipulate and retrieve data",
+      "Design normalized relational databases",
+      "Understand relational vs. non-relational databases",
+      "Optimize queries and understand indexing"
+    ],
+    "course_materials": [
+      "SQL cheat sheets and command references",
+      "ER diagram templates and tools",
+      "Sample datasets and exercises",
+      "Hands-on labs using MySQL or PostgreSQL"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Leo V.",
+        "comment": "Before this course, SQL looked intimidating—now I’m confident querying real databases!",
+        "rating": 4.9
+      },
+      {
+        "student_name": "Tanya E.",
+        "comment": "Straightforward teaching and practical labs. Highly recommend to any aspiring developer.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 499.99,
+      "with_mentorship": 749.99,
+      "team_discount": "15% off for internal IT teams"
+    }
+  },
+  {
+  "id": 5,
+  "title": "Software Testing and Quality Assurance",
+  "description": "Discover various testing techniques and quality assurance methodologies to ensure reliable and robust software products. This course covers unit testing, integration testing, system testing, automated testing, and QA lifecycle processes. Learn how to write testable code, apply test-driven development (TDD), and utilize frameworks such as JUnit, Selenium, and Postman.",
+  "duration": "8 weeks",
+  "coursepic": "https://i.pinimg.com/736x/19/bc/28/19bc286bc8e4f6e8c8b4f0d9faab122c.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Basic knowledge of programming concepts",
+    "Familiarity with software development lifecycle",
+    "Understanding of any programming language"
+  ],
+  "learning_outcomes": [
+    "Understand various software testing levels and methodologies",
+    "Write unit tests and use assertions effectively",
+    "Apply test-driven development in real-world scenarios",
+    "Use tools like JUnit, Selenium, and Postman for automated testing",
+    "Design test plans and test cases for functional and non-functional requirements",
+    "Implement quality assurance strategies within a development pipeline"
+  ],
+  "course_materials": [
+    "Test case templates and documentation guides",
+    "Interactive labs with mock apps for testing",
+    "Access to automation tools (open-source and trial versions)",
+    "Code repositories with test scenarios"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Leo G.",
+      "comment": "Excellent course that taught me how to integrate testing into my workflow. The automated testing exercises were a highlight.",
+      "rating": 4.7
+    },
+    {
+      "student_name": "Priya K.",
+      "comment": "Very practical and well-structured. I now approach software QA with confidence and precision.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 749.99,
+    "with_mentorship": 999.99,
+    "team_discount": "15% off for 3 or more seats"
+  }
+},
+{
+  "id": 6,
+  "title": "Full-Stack Web Development",
+  "description": "Master full-stack development with hands-on projects that guide you through building web applications from front-end to back-end. Learn how to use technologies like HTML5, CSS3, JavaScript, React, Node.js, Express, and MongoDB. The course also covers RESTful API creation, authentication strategies, and deployment on cloud platforms.",
+  "duration": "16 weeks",
+  "coursepic": "https://i.pinimg.com/736x/8e/f7/15/8ef7155157d7f7a7e10bb7e47cf1bba7.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Proficiency in HTML, CSS, and JavaScript",
+    "Basic understanding of web server concepts",
+    "Familiarity with version control (e.g., Git)"
+  ],
+  "learning_outcomes": [
+    "Build responsive front-end interfaces using React",
+    "Develop RESTful APIs with Node.js and Express",
+    "Design and integrate MongoDB databases with Mongoose",
+    "Implement authentication and user session management",
+    "Deploy applications on platforms like Heroku and Vercel",
+    "Understand MVC architecture and best practices"
+  ],
+  "course_materials": [
+    "Complete GitHub repositories for each project",
+    "Code walkthrough videos and interactive coding challenges",
+    "Deployment and CI/CD pipeline guides",
+    "Front-end and back-end debugging tools"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Rafael M.",
+      "comment": "I went from zero to building full apps with this course. Highly recommended for aspiring web developers.",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Claire H.",
+      "comment": "The final project was tough but rewarding. Great mix of instruction and practice!",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 1399.99,
+    "with_mentorship": 1799.99,
+    "team_discount": "20% off for teams of 3+"
+  }
+},
+{
+  "id": 7,
+  "title": "Mobile App Development",
+  "description": "Develop mobile applications for iOS and Android using modern frameworks such as React Native and Flutter. This course teaches UI/UX design for mobile, device hardware integration, navigation, state management, and deployment to app stores. Learn to build, test, and publish high-quality mobile apps that work across platforms.",
+  "duration": "14 weeks",
+  "coursepic": "https://i.pinimg.com/736x/45/b5/4a/45b54a32d38077f84ef63a872a25227b.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Knowledge of JavaScript or Dart",
+    "Familiarity with mobile app features and architecture",
+    "Experience with version control systems"
+  ],
+  "learning_outcomes": [
+    "Build native-like mobile apps using React Native or Flutter",
+    "Design responsive and adaptive mobile interfaces",
+    "Integrate APIs, device sensors, and local storage",
+    "Manage state using Redux or Provider",
+    "Test and debug apps on emulators and physical devices",
+    "Publish apps to the App Store and Google Play"
+  ],
+  "course_materials": [
+    "Sample codebases for mobile app features",
+    "Emulator setup and testing guides",
+    "UI component libraries for React Native and Flutter",
+    "Deployment checklists and publishing walkthroughs"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Jake Y.",
+      "comment": "Perfect for transitioning into mobile dev. The cross-platform aspect is a game-changer.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Mei L.",
+      "comment": "Very clear instruction and useful assignments. I published my first app through this course.",
+      "rating": 5.0
+    }
+  ],
+  "pricing": {
+    "standard": 1299.99,
+    "with_mentorship": 1599.99,
+    "team_discount": "15% off for teams of 4 or more"
+  }
+},
+{
+  "id": 8,
+  "title": "Data Structures and Algorithms",
+  "description": "Master core computer science concepts including data structures and algorithms. Learn to write efficient code, improve performance, and prepare for technical interviews. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, recursion, and algorithmic complexity analysis.",
+  "duration": "10 weeks",
+  "coursepic": "https://i.pinimg.com/736x/e2/e4/3f/e2e43fb20c515405a70c6d3d78677c91.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Proficient in at least one programming language (e.g., Python, Java, C++)",
+    "Familiarity with basic problem-solving techniques",
+    "Understanding of loops, functions, and data types"
+  ],
+  "learning_outcomes": [
+    "Implement core data structures like arrays, stacks, and trees",
+    "Solve algorithmic problems using sorting, searching, and recursion",
+    "Analyze time and space complexity of algorithms",
+    "Use algorithms in solving real-world software problems",
+    "Prepare for technical interviews with practice problems",
+    "Apply graph and tree traversal strategies in applications"
+  ],
+  "course_materials": [
+    "Interactive problem sets and coding puzzles",
+    "Video lectures with whiteboard walkthroughs",
+    "Algorithm cheat sheets and complexity charts",
+    "Mock interview coding problems and solutions"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Victor D.",
+      "comment": "Tough but rewarding. Essential course if you're preparing for interviews or want to sharpen your skills.",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Anna R.",
+      "comment": "Dr. Petrova breaks down complex topics into digestible parts. Highly recommend!",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 1099.99,
+    "with_mentorship": 1399.99,
+    "team_discount": "10% off for study groups"
+  }
+}],
       "ux_design": [
-        {
-          "id": 1,
-          "title": "Introduction to UX Design",
-          "description": "Learn the fundamental principles and processes of user experience design.",
-          "duration": "6 weeks"
-        },
-        {
-          "id": 2,
-          "title": "User Research and Personas",
-          "description": "Explore user research techniques to understand user needs and create personas for design decision-making.",
-          "duration": "8 weeks"
-        },
-        {
-          "id": 3,
-          "title": "Information Architecture and Interaction Design",
-          "description": "Learn how to structure and organize information effectively and design interactive user interfaces.",
-          "duration": "8 weeks"
-        },
-        {
-          "id": 4,
-          "title": "Usability Testing and User Feedback",
-          "description": "Discover methods for testing usability and gathering user feedback to improve designs.",
-          "duration": "6 weeks"
-        },
-        {
-          "id": 5,
-          "title": "Visual Design for UX",
-          "description": "Develop skills in creating visually appealing and cohesive designs that align with user experience goals.",
-          "duration": "6 weeks"
-        }
-      ],
-        "lecturers": [
-          {
-            "id": 1,
-            "course": "Back-end development",
-            "name": "Prof. Lucas Ramirez",
-            "experience_years": 9,
-            "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
-            "lecpic": "https://i.pinimg.com/736x/76/dd/a6/76dda651a36f1f876f129d8e096f1de9.jpg"
-          },
-          {
-            "id": 2,
-            "course": "Cybersecurity",
-            "name": "Dr. Aisha Clarke",
-            "experience_years": 12,
-            "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
-            "lecpic": "https://i.pinimg.com/736x/7d/da/7b/7dda7b5cbb3ca9a7aeff90aa5d983fc8.jpg"
-          },
-          {
-            "id": 3,
-            "course": "Data science",
-            "name": "Dr. Kenji Nakamura",
-            "experience_years": 8,
-            "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
-            "lecpic": "https://i.pinimg.com/736x/e1/69/86/e16986c97e5f5e7c61789887e445d50e.jpg"
-          },
-          {
-            "id": 4,
-            "course": "Front-end development",
-            "name": "Ms. Natalie Cho",
-            "experience_years": 7,
-            "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
-            "lecpic": "https://i.pinimg.com/736x/db/8f/d5/db8fd501ca5827e467128f9a04342812.jpg"
-          },
-          {
-            "id": 5,
-            "course": "Project management",
-            "name": "Mr. Richard Okafor",
-            "experience_years": 15,
-            "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
-            "lecpic": "https://i.pinimg.com/736x/8e/b6/14/8eb6148c1d0480746646a319dc278ff1.jpg"
-          },
-          {
-            "id": 6,
-            "course": "Software engineering",
-            "name": "Dr. Elena Petrova",
-            "experience_years": 11,
-            "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
-            "lecpic": "https://i.pinimg.com/736x/80/4c/33/804c33f866afd34545a17cacbabb1f4c.jpg"
-          }
-        ]
+  {
+    "id": 1,
+    "title": "Introduction to UX Design",
+    "description": "Learn the fundamental principles and processes of user experience (UX) design. This beginner-level course provides a solid foundation in UX thinking, usability, and design methodologies, preparing learners to work on user-centered products and services.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/564x/63/87/9c/63879cdedc70a3380bc3c7d6dfeb5249.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Basic computer literacy",
+      "Interest in design and user-centric thinking"
+    ],
+    "learning_outcomes": [
+      "Define core UX principles and design terminology",
+      "Understand the UX design process from start to finish",
+      "Differentiate between UX and UI",
+      "Apply user-centered thinking to problem solving"
+    ],
+    "course_materials": [
+      "Intro to UX Design handbook",
+      "Case studies on successful UX projects",
+      "Access to online UX design toolkit"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Maria L.",
+        "comment": "The course gave me the clarity I needed to start my UX career. Highly recommended for beginners.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 399.99,
+      "with_mentorship": 649.99,
+      "team_discount": "15% off for groups of 4 or more"
+    }
+  },
+  {
+    "id": 2,
+    "title": "User Research and Personas",
+    "description": "Explore user research techniques such as interviews, surveys, and field studies to gather actionable insights. Learn how to synthesize findings into effective personas that guide the design process.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/564x/b1/4e/70/b14e7060b3f02b944f39d36aef0b6f47.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Basic understanding of UX design",
+      "Interest in qualitative and quantitative research"
+    ],
+    "learning_outcomes": [
+      "Plan and conduct effective user research",
+      "Develop user personas based on real data",
+      "Identify user pain points and motivations",
+      "Translate research into actionable design insights"
+    ],
+    "course_materials": [
+      "Persona templates",
+      "Sample interview scripts and survey forms",
+      "User research case study repository"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Daryl K.",
+        "comment": "This course helped me build empathy with users and improve the impact of my designs.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 479.99,
+      "with_mentorship": 749.99,
+      "team_discount": "10% off for 3+ participants"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Information Architecture and Interaction Design",
+    "description": "Learn how to organize digital content and design intuitive interactions that support user goals. Gain hands-on skills in wireframing, site mapping, and flow creation to design effective user journeys.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/564x/fb/24/43/fb24432ec0f0217a946a4aa8cb7e5c4e.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Introduction to UX Design or equivalent experience",
+      "Familiarity with basic wireframing tools"
+    ],
+    "learning_outcomes": [
+      "Design logical information hierarchies and navigation systems",
+      "Create site maps and user flows",
+      "Build interactive wireframes and prototypes",
+      "Evaluate the effectiveness of interaction models"
+    ],
+    "course_materials": [
+      "IA and interaction design workbook",
+      "Access to wireframing/prototyping tools (e.g., Figma, Adobe XD)",
+      "Flowchart templates and examples"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Nina T.",
+        "comment": "The structured approach to IA and flow design transformed the way I build user interfaces.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 529.99,
+      "with_mentorship": 799.99,
+      "team_discount": "20% off for nonprofit teams"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Usability Testing and User Feedback",
+    "description": "Discover methods to evaluate the usability of your designs through testing and continuous feedback. Learn to plan, execute, and analyze usability tests for iterative design improvements.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/564x/d4/80/d4/d480d4647b1ad073c34894b5ebf0199d.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Understanding of user-centered design process",
+      "Experience with prototyping tools"
+    ],
+    "learning_outcomes": [
+      "Set usability goals and test hypotheses",
+      "Conduct moderated and unmoderated usability testing",
+      "Analyze qualitative and quantitative feedback",
+      "Incorporate feedback into iterative design cycles"
+    ],
+    "course_materials": [
+      "Usability testing script samples",
+      "Feedback analysis templates",
+      "Access to remote testing tools"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Leo M.",
+        "comment": "I never realized how important structured testing was. This course gave me tools I use every week.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 459.99,
+      "with_mentorship": 719.99,
+      "team_discount": "Buy 3 seats, get 1 free"
+    }
+  },
+  {
+  "id": 5,
+  "title": "Visual Design for UX",
+  "description": "Develop the skills needed to craft visually appealing and cohesive user interfaces that enhance usability and align with UX principles. This course focuses on color theory, typography, layout, and design systems tailored for digital products.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/564x/2a/99/b4/2a99b4c155ca2e708a6c68cd4c1ed41d.jpg",
+  "name": "Dr. Naomi Fraser",
+  "experience_years": 10,
+  "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+  "prerequisites": [
+    "Basic UX design knowledge",
+    "Familiarity with design tools such as Figma or Sketch"
+  ],
+  "learning_outcomes": [
+    "Apply color theory and visual hierarchy effectively",
+    "Choose appropriate typography for different platforms and contexts",
+    "Design consistent layouts that enhance readability and engagement",
+    "Create and manage design systems for scalable products"
+  ],
+  "course_materials": [
+    "Visual design reference guide",
+    "Access to UI design templates and mockups",
+    "Typography and color palette generators"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Ayesha R.",
+      "comment": "This course transformed my design approach. It made me confident in making UI choices that truly support user needs.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 499.99,
+    "with_mentorship": 749.99,
+    "team_discount": "10% off for 4+ enrollments from the same organization"
+  }
+}],
+  "lecturers": [
+  {
+    "id": 1,
+    "name": "Prof. Lucas Ramirez",
+    "experience_years": 9,
+    "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture. He is passionate about teaching scalable systems and has authored several backend architecture guides.",
+    "lecpic": "https://i.pinimg.com/736x/76/dd/a6/76dda651a36f1f876f129d8e096f1de9.jpg"
+      
+  },
+  {
+    "id": 2,
+    "name": "Dr. Aisha Clarke",
+    "experience_years": 12,
+    "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response. Dr. Clarke also leads community outreach for cybersecurity awareness.",
+    "lecpic": "https://i.pinimg.com/736x/7d/da/7b/7dda7b5cbb3ca9a7aeff90aa5d983fc8.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Kenji Nakamura",
+    "experience_years": 8,
+    "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems. He’s known for his practical workshops and contributions to open-source ML tools.",
+    "lecpic": "https://i.pinimg.com/736x/e1/69/86/e16986c97e5f5e7c61789887e445d50e.jpg"  
+  },
+  {
+    "id": 4,
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design. She actively mentors women in tech and has spoken at multiple front-end development conferences.",
+    "lecpic": "https://i.pinimg.com/736x/db/8f/d5/db8fd501ca5827e467128f9a04342812.jpg"  
+  },
+  {
+    "id": 5,
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries. He specializes in Agile and Scrum frameworks and consults on enterprise transformation.",
+    "lecpic": "https://i.pinimg.com/736x/8e/b6/14/8eb6148c1d0480746646a319dc278ff1.jpg"  
+  },
+  {
+    "id": 6,
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies. She has developed university curricula and led research in scalable software systems.",
+    "lecpic": "https://i.pinimg.com/736x/80/4c/33/804c33f866afd34545a17cacbabb1f4c.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ms. Priya Menon",
+    "experience_years": 10,
+    "background": "Lead UX strategist with a decade of experience in user-centered design across healthcare and edtech platforms. Known for her workshops on accessibility and inclusive design.",
+    "lecpic": "https://i.pinimg.com/736x/81/db/94/81db94eca161f0d01f75f0b7df9123f1.jpg"  
+  }
+]
     }
