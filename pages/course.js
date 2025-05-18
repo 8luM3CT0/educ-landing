@@ -11,16 +11,25 @@ function Course() {
     overflow-hidden
     h-full
     flex-col
-    bg-gradient-to-br
-    from-cyan-500
-    to-purple-800
+    bg-slate-800
     '>
-      <main className="
+      <div className="
+      w-[98%]
+      mx-auto
+      h-full
+      bg-gradient-to-br
+      from-amber-700
+      to-amber-400
+      overflow-hidden
+      ">
+        <main className="
       h-full
       w-full
       flex
       flex-col
       items-center
+      bg-slate-900
+      bg-opacity-80
       ">
         <div className="
         h-[34%]
@@ -29,6 +38,9 @@ function Course() {
         bg-opacity-70
         rounded
         space-y-2
+      bg-no-repeat
+      bg-cover
+      bg-study
         "></div>
         <div className="
         h-[65%]
@@ -49,7 +61,7 @@ function Course() {
         ">
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -57,6 +69,7 @@ function Course() {
             </h1>
             <div className="
             courseDiv
+            bg-cybersecurity
             ">
                 <div className="
                 courseIntDiv
@@ -75,7 +88,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -83,6 +96,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-data-sci
             ">
                                 <div className="
                 courseIntDiv
@@ -101,7 +115,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -109,6 +123,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-front-end
             ">
                                 <div className="
                 courseIntDiv
@@ -127,7 +142,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -135,6 +150,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-projman
             ">
                                 <div className="
                 courseIntDiv
@@ -153,7 +169,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -161,6 +177,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-soft-eng
             ">
 
                                 <div className="
@@ -180,7 +197,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -188,6 +205,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-ux-des
             ">
                                 <div className="
                 courseIntDiv
@@ -206,7 +224,7 @@ description={data?.description}
             </div>
             <h1 className="
             text-2xl
-            font-montserr
+            font-merriweather
             font-normal
             text-sky-50
             ">
@@ -214,6 +232,7 @@ description={data?.description}
             </h1>
                         <div className="
             courseDiv
+            bg-back-end
             ">
                                 <div className="
                 courseIntDiv
@@ -235,6 +254,7 @@ background={data?.background}
             </div>
         </div>
       </main>
+      </div>
           
     </div>
   )

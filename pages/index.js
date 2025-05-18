@@ -641,7 +641,7 @@ toptextDesc
                   }
                 }}
                 >
-                  <header className="h-[7%] w-full bg-slate-800 border-b-2 border-amber-500 px-4 flex items-center justify-between ">
+                  <header className="lg:h-[5%] h-[12%] w-full bg-slate-800 border-b-2 border-amber-500 px-4 flex items-center justify-between ">
                   <h3 className="font-montserr font-semibold text-2xl text-amber-500 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       Course
                     </h3>
@@ -651,7 +651,7 @@ toptextDesc
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="h-[93%] w-full ">
+                  <div className="lg:h-[95%] h-[88%] w-full ">
                     <Course />
                   </div>
                 </div>
