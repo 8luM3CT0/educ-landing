@@ -441,7 +441,7 @@ toptextDesc
           style={{
             backgroundImage: `url(${headerPics[currentIndex]})`
           }}
-          className={`h-[90%] w-[90%] bg-cover bg-no-repeat lg:hidden m-auto rounded duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>
+          className={`h-[90%] w-[90%] bg-cover bg-no-repeat lg:hidden m-auto rounded duration-1000 transition-opacity ease-in-out`}>
             <div className="h-full w-full bg-slate-600 bg-opacity-40 flex flex-col items-center space-y-3">
               <h3 className="topText">
                 {`<
@@ -450,7 +450,7 @@ toptextDesc
               affordable price
               />`}
               </h3>
-              <h4 className="toptextDesc">
+              <h4 className="topTextDescMob">
                 Start your journey with us, with affordable pricing
               and multiple choices that would transform you from a
               junior to a master.

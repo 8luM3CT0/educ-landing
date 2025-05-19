@@ -252,7 +252,7 @@
 
   .toptextDesc{
     @apply
-                font-ubunto
+            font-ubunto
             font-light
             lg:text-base
             text-sm
@@ -263,6 +263,20 @@
             w-full
             px-3
             hidden
+  }
+
+  .topTextDescMob{
+    @apply
+            font-ubunto
+            font-light
+            text-base
+            text-slate-50
+            h-[50%]
+            overflow-hidden
+            inline-flex
+            w-full
+            px-3
+            lg:hidden
   }
 
   .courseDiv{
