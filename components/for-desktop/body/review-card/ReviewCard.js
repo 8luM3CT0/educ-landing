@@ -60,11 +60,15 @@ function ReviewCard({
     px-4
     overflow-y-scroll
     scrollbar-hide
+    border-y
+    border-slate-800
+    bg-slate-900
+    bg-opacity-40
     ">
         <p className="
         text-base 
         font-light 
-        font-ubunto
+        font-playfair-disp
         text-sky-100
         ">
             {review}
