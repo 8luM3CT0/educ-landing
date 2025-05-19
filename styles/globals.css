@@ -161,12 +161,9 @@
 
   .reviewCardDiv{
     @apply
-    lg:max-h-[420px]
-    lg:min-h-[420px]
-    md:max-h-[340ppx]
-    md:min-h-[340ppx]
-    max-h-[300px]
-    min-h-[300px]
+    lg:h-[420px]
+    md:h-[340px]
+    h-[300px]
     /**lg:max-w-[320px]
     lg:min-w-[320px]
     md:max-w-[240px]
@@ -187,8 +184,10 @@
     transition
     duration-200
     ease-linear
-    grid
-    place-items-start
+    flex
+    flex-col
+    items-start
+
   }
 
   .courseTitleHeader{

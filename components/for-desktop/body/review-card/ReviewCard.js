@@ -16,6 +16,12 @@ function ReviewCard({
         <div className="
         bg-slate-800
         bg-opacity-40
+        h-full
+        w-full
+        flex
+        flex-col
+        items-center
+        justify-evenly
         ">
     {/**image && name at the top */}
     <span className="
@@ -48,9 +54,9 @@ function ReviewCard({
     </span>
     {/**review at the middle */}
     <div className="
-    h-[90%]
+    h-[60%]
     w-full
-    mx-auto
+    m-auto
     px-4
     overflow-y-scroll
     scrollbar-hide
