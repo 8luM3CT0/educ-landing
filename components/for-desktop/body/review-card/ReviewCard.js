@@ -13,9 +13,12 @@ function ReviewCard({
     <div className='
     reviewCardDiv
     '>
+        <div className="
+        bg-slate-800
+        bg-opacity-40
+        ">
     {/**image && name at the top */}
     <span className="
-    border-b-2
     border-slate-900
     w-full
     justify-evenly
@@ -37,7 +40,7 @@ function ReviewCard({
     <p className="
     text-xl
     text-slate-50
-    font-montserr
+    font-merriweather
     font-bold
     ">
         {name}
@@ -63,7 +66,6 @@ function ReviewCard({
     </div>
     {/**date made */}
     <span className="
-    border-t-2
     border-slate-900
     w-full
     px-3
@@ -72,12 +74,14 @@ function ReviewCard({
         <p className="
         text-sm
         text-slate-50
-        font-montserr
+        font-merriweather
         font-light
+        px-4
         ">
             {date}
         </p>
     </span>
+    </div>
     </div>
   )
 }

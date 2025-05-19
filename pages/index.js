@@ -442,7 +442,7 @@ toptextDesc
             backgroundImage: `url(${headerPics[currentIndex]})`
           }}
           className={`h-[90%] w-[90%] bg-cover bg-no-repeat lg:hidden m-auto rounded duration-1000 transition-opacity ease-in-out`}>
-            <div className="h-full w-full bg-slate-600 bg-opacity-40 flex flex-col items-center space-y-3">
+            <div className="h-full w-full bg-slate-600 bg-opacity-40 flex flex-col items-center justify-center space-y-3">
               <h3 className="topText">
                 {`<
               Online software

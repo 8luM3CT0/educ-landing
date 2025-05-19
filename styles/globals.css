@@ -161,12 +161,12 @@
 
   .reviewCardDiv{
     @apply
-    lg:max-h-[320px]
-    lg:min-h-[320px]
-    md:max-h-[240ppx]
-    md:min-h-[240ppx]
-    max-h-[200px]
-    min-h-[200px]
+    lg:max-h-[420px]
+    lg:min-h-[420px]
+    md:max-h-[340ppx]
+    md:min-h-[340ppx]
+    max-h-[300px]
+    min-h-[300px]
     /**lg:max-w-[320px]
     lg:min-w-[320px]
     md:max-w-[240px]
