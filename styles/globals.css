@@ -402,7 +402,8 @@
   flex-col
   items-center
   space-y-3
-  text-3xl
+  lg:text-3xl
+  text-xl
   focus:outline-none
   outline-none
   text-slate-300

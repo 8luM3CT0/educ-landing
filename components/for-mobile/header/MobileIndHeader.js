@@ -156,13 +156,6 @@ function MobileIndHeader({
             fontSize: '1.5em'
         }}
         />
-        <h1 className="    
-    font-robot-condensed
-    font-bold
-    text-sm
-    text-slate-300">
-            Connect
-        </h1>
         </span>
     </div>
     </>

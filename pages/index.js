@@ -275,7 +275,12 @@ export default function Home () {
         px-2
         bg-opacity-80
         ">
-          {/**div in the middle to show message  */}
+          {/**
+           * 
+           * div in the middle to show message  
+           * 
+           * (For desktop screens only)
+           * */}
           <div className="
           w-[90%]
           mx-auto
@@ -285,8 +290,9 @@ export default function Home () {
           shadow-slate-900
           rounded-3xl
           h-[90%]
-          flex
-          items-center
+          lg:flex
+          lg:items-center
+          hidden
           ">
             {/**message */}
             <div className="
@@ -422,6 +428,113 @@ toptextDesc
             alt="" 
             className={`h-[95%] w-[95%] rounded-xl m-auto object-cover duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}/>
           </div>
+          </div>
+          {/**
+           * 
+           * 
+           * div to show message
+           * 
+           * (for mobile screens only)
+           * 
+           */}
+          <div 
+          style={{
+            backgroundImage: `url(${headerPics[currentIndex]})`
+          }}
+          className={`h-[90%] w-[90%] bg-cover bg-no-repeat lg:hidden m-auto rounded duration-1000 transition-opacity ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>
+            <div className="h-full w-full bg-slate-600 bg-opacity-40 flex flex-col items-center space-y-3">
+              <h3 className="topText">
+                {`<
+              Online software
+              courses, at an
+              affordable price
+              />`}
+              </h3>
+              <h4 className="toptextDesc">
+                Start your journey with us, with affordable pricing
+              and multiple choices that would transform you from a
+              junior to a master.
+              </h4>
+              <span className="w-[80%] mx-auto flex flex-col items-center">
+                <button
+            onClick={openJModal}
+            className='
+            m-2
+            w-full
+            px-3
+            h-[50px]
+            font-robot
+            font-light
+            outline-none
+            focus:outline-none
+            text-xl
+            text-sky-50 
+            mx-auto 
+            rounded-lg 
+            bg-slate-50 
+            bg-opacity-10
+            hover:shadow-xl
+            hover:-translate-y-2
+            hover:-skew-x-3
+            hover:shadow-slate-800
+            hover:bg-slate-700
+            hover:text-indigo-200
+            hover:bg-opacity-50
+            transform
+            transition
+            duration-300
+            ease-in-out
+            flex
+            justify-center
+            items-center
+            space-x-4
+            '
+            >
+              <HammerIcon />
+              <p>
+                Apply for a job
+              </p>
+            </button>
+              <button
+            onClick={openCModal}
+            className='
+            w-full
+            px-3
+            h-[50px]
+            font-robot
+            font-light
+            outline-none
+            focus:outline-none
+            text-xl
+            text-sky-50 
+            mx-auto 
+            rounded-lg 
+            bg-slate-50 
+            bg-opacity-10
+            hover:shadow-xl
+            hover:translate-y-2
+            hover:-skew-x-3
+            hover:shadow-slate-800
+            hover:bg-slate-700
+            hover:text-indigo-200
+            hover:bg-opacity-50
+            transform
+            transition
+            duration-300
+            ease-in-out
+            flex
+            justify-center
+            items-center
+            space-x-4
+            '
+            >
+              <PenIcon />
+              <p>
+                Apply for a course
+              </p>
+            </button>
+              </span>
+            </div>
           </div>
         </div>
         {/**end of entrance message */}
