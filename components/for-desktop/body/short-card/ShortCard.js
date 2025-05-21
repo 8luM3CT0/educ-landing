@@ -122,7 +122,7 @@ function ShortCard({data}) {
         }}
         >
           <header className="
-          bg-sky-500
+          bg-sky-900
           w-full
           h-[8%]
           ">
@@ -161,7 +161,7 @@ function ShortCard({data}) {
           flex
           flex-col
           items-start
-          space-y-5
+          space-y-3
           px-4
           py-3
           ">
@@ -177,7 +177,7 @@ function ShortCard({data}) {
                   Prerequisites
                 </h4>
               </header>
-              <div className="w-full flex items-center overflow-x-scroll scrollbar-hide space-x-8 justify-between">
+              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-hide space-x-8 justify-between">
               {data.prerequisites.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-sky-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-sky-200">
@@ -193,7 +193,7 @@ function ShortCard({data}) {
                   Course materials
                 </h4>
               </header>
-              <div className="w-full flex items-center overflow-x-scroll scrollbar-hide space-x-8 justify-between">
+              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-hide space-x-8 justify-between">
               {data.course_materials.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-emerald-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-emerald-200">
@@ -209,11 +209,35 @@ function ShortCard({data}) {
                   Learning outcomes
                 </h4>
               </header>
-              <div className="w-full flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
+              <div className="w-full max-h-[150px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
               {data.learning_outcomes.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-purple-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-purple-200">
                    - {subdata}
+                  </h3>
+                  </span>
+              ))}
+              </div>
+            </div>
+            <div className="flex flex-col items-center w-full">
+              <header className="w-full flex items-center">
+                <h4 className="font-playfair-disp font-semibold text-indigo-400 text-lg">
+                  Testimonials
+                </h4>
+              </header>
+              <div className="w-full max-h-[150px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
+              {data.testimonials.map(subdata => (
+                  <span className="min-w-fit max-w-[400px] px-3 bg-indigo-700 rounded-lg bg-opacity-30 flex flex-col items-start">
+                    <span className="flex items-center w-full px-3 py-2 justify-between">
+                      <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
+                   {subdata.student_name}
+                  </h3>
+                  <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
+                   {subdata.rating}
+                  </h3>
+                    </span>
+                   <h3 className="font-playfair-disp font-bold text-sm text-indigo-50">
+                   {subdata.comment}
                   </h3>
                   </span>
               ))}
