@@ -81,16 +81,11 @@ function ShortCard({data}) {
       <div className="w-full flex flex-col space-y-3 items-start px-3 py-1 h-[90%]">
         <h1 className="font-gothic-exp group-hover:shadow-xl shadow-sky-100 font-bold text-xl text-sky-300 transform transition-all duration-300 ease-in-out">
           {data?.title}
-        </h1>
-      </div>
-      <span className="flex items-center w-[80%] mx-auto justify-evenly">
-        <p className="font-merriweather font-normal text-lg text-sky-300">
-          Taught by:
-        </p>
+        </h1>  
         <h5 className="font-merriweather font-bold text-lg text-sky-100">
           {data?.name}
         </h5>
-      </span>
+      </div>
     </div>
   </div>
   {(courseInfo || closingCard) && (
