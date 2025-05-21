@@ -1159,7 +1159,7 @@
   }
 }],
       "fend_data": [
-        [
+        
   {
     "id": 1,
     "title": "HTML Fundamentals",
@@ -1545,10 +1545,9 @@
       "issuer": "Inclusive Design Institute"
     }
   }
-]
-      ],
+],
       "projman_data": [
-        [
+        
   {
     "id": 1,
     "title": "Introduction to Project Management",
@@ -1933,8 +1932,7 @@
       "issuer": "Project Resource Management Center"
     }
   }
-]
-      ],
+],
       "se_data": [
   {
     "id": 1,

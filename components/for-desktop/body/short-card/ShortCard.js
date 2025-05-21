@@ -5,7 +5,7 @@ import {Modal, ModalHeader, ModalBody, ModalFooter, Button} from '../../../'
 import { useEffect, useState } from 'react'
 
 
-function ShortCard({id, title, description, duration, name, experience_years, background}) {  
+function ShortCard({data}) {  
     const [courseInfo, setCourseInfo] = useState(false)
     const [openingCard, setOpeningCard] = useState(false)
     const [closingCard, setClosingCard] = useState(false)
@@ -42,11 +42,11 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
       <>
     <div 
     onClick={() => setCourseInfo(true)}
-    key={id}
+    key={data?.id}
     className='
-    h-[70%]
-    max-w-[310px]
-    min-w-[310px]
+    h-[80%]
+    max-w-[420px]
+    min-w-[420px]
     rounded-xl
     bg-gradient-to-b
     from-indigo-500
@@ -62,29 +62,35 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
       <div className="
     h-full
     w-full
-    bg-slate-200
+    bg-slate-900
     bg-opacity-30
     rounded-xl
     flex
     flex-col
     items-center
-    justify-center
-    px-3
-    py-2
     group-hover:bg-opacity-40
     transform
     transition
     duration-200
     ">
-      <h1 className="
-      font-fira-sans
-      font-normal
-      text-lg
-      text-slate-50
-      mx-auto
-      ">
-        {title}
-      </h1>
+      <header className="w-full flex items-center justify-between px-3 h-[10%] border-b border-slate-500">
+        <h5 className="font-share-tech font-bold text-sky-100 text-lg">
+          {data?.duration}
+        </h5>
+      </header>
+      <div className="w-full flex flex-col space-y-3 items-start px-3 py-1 h-[90%]">
+        <h1 className="font-gothic-exp group-hover:shadow-xl shadow-sky-100 font-bold text-xl text-sky-300 transform transition-all duration-300 ease-in-out">
+          {data?.title}
+        </h1>
+      </div>
+      <span className="flex items-center w-[80%] mx-auto justify-evenly">
+        <p className="font-merriweather font-normal text-lg text-sky-300">
+          Taught by:
+        </p>
+        <h5 className="font-merriweather font-bold text-lg text-sky-100">
+          {data?.name}
+        </h5>
+      </span>
     </div>
   </div>
   {(courseInfo || closingCard) && (
@@ -147,7 +153,7 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
               text-sky-500
               text-base
               ">
-                {duration}
+                {data?.duration}
               </p>
             </div>
           </header>
@@ -187,7 +193,7 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
               duration-500
               ease-in-out
               ">
-                {title}
+                {data?.title}
               </h2>
               <span className="
               h-[25%]
@@ -216,7 +222,7 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
                 mx-auto
                 text-purple-100
                 ">
-                  {description}
+                  {data?.description}
                 </p>
               </span>
               </span>
@@ -320,7 +326,7 @@ function ShortCard({id, title, description, duration, name, experience_years, ba
                 text-sky-600
                 text-2xl
                 ">
-                  You are officially enrolled to: {title}
+                  You are officially enrolled to: {data?.title}
                 </h1>
               </div>
             </div>

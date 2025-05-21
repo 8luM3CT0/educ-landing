@@ -1,9 +1,11 @@
 //front-end
 import React from 'react'
-import {CourseHeader, MobCourseHeader, ShortCard} from '../components/'
+import {Carousel, CourseHeader, MobCourseHeader, ShortCard} from '../components/'
 import Head from 'next/head'
 //back-end
 import { courses } from '../components/'
+
+console.log('Data from front-end here >>>>', courses?.fend_data)
 
 function Course() {
   return (
@@ -78,11 +80,8 @@ function Course() {
                 ">
                   {courses?.cyb_data && courses?.cyb_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
-/>
+                    data={data}
+                    />
                   ))}
                 </div>
             </div>
@@ -105,10 +104,7 @@ description={data?.description}
                 ">
                                     {courses?.dsci_data && courses?.dsci_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 />
                   ))}
                 </div>
@@ -132,10 +128,7 @@ description={data?.description}
                 ">
                                     {courses?.fend_data && courses?.fend_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 />
                   ))}
                 </div>
@@ -159,10 +152,7 @@ description={data?.description}
                 ">
                                     {courses?.projman_data && courses?.projman_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 />
                   ))}
                 </div>
@@ -187,10 +177,7 @@ description={data?.description}
                 ">
                                     {courses?.se_data && courses?.se_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 />
                   ))}
                 </div>
@@ -214,10 +201,7 @@ description={data?.description}
                 ">
                                     {courses?.ux_design && courses?.ux_design.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 />
                   ))}
                 </div>
@@ -241,10 +225,7 @@ description={data?.description}
                 ">
                                     {courses?.bend_data && courses?.bend_data.map(data => (
                     <ShortCard 
-id={data?.id}
-title={data?.title}
-duration={data?.duration}
-description={data?.description}
+data={data}
 name={data?.name}
 experience_years={data?.experience_years}
 background={data?.background}
