@@ -1,6 +1,6 @@
 //front-end
 import React from 'react'
-import {Modal, ModalHeader, ModalBody, ModalFooter, Button} from '../../../'
+import {Modal, ModalHeader, ModalBody, ModalFooter, Button, StarIcon} from '../../../'
 //back-end
 import { useEffect, useState } from 'react'
 
@@ -232,9 +232,14 @@ function ShortCard({data}) {
                       <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
                    {subdata.student_name}
                   </h3>
-                  <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
+                <span className="flex items-center space-x-2">
+                 <h3 className="font-playfair-disp font-bold text-lg text-amber-200">
+                   <StarIcon/>
+                  </h3>
+                <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
                    {subdata.rating}
                   </h3>
+                </span>
                     </span>
                    <h3 className="font-playfair-disp font-bold text-sm text-indigo-50">
                    {subdata.comment}
