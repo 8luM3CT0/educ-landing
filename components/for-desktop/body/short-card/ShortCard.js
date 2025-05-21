@@ -150,7 +150,7 @@ function ShortCard({data}) {
               text-sky-500
               text-base
               ">
-                {data?.duration}
+                {data.duration}
               </p>
             </div>
           </header>
@@ -165,7 +165,7 @@ function ShortCard({data}) {
           px-4
           py-3
           ">
-            <h1 className="font-playfair-disp font-bold text-sky-400 text-2xl">
+            <h1 className="font-playfair-disp font-bold text-slate-100 text-2xl">
               {data.title}
             </h1>
             <span className="w-full min-h-[40px] max-h-[80px] px-4 py-3 bg-slate-800 bg-opacity-30 rounded overflow-y-scroll scrollbar-hide font-playfair-disp font-normal text-base text-slate-400">
@@ -189,14 +189,14 @@ function ShortCard({data}) {
             </div>
             <div className="flex flex-col items-center w-full">
               <header className="w-full flex items-center">
-                <h4 className="font-playfair-disp font-semibold text-sky-400 text-lg">
+                <h4 className="font-playfair-disp font-semibold text-emerald-400 text-lg">
                   Course materials
                 </h4>
               </header>
               <div className="w-full flex items-center overflow-x-scroll scrollbar-hide space-x-8 justify-between">
               {data.course_materials.map(subdata => (
-                  <span className="min-w-fit max-w-[400px] px-3 bg-sky-700 rounded-lg bg-opacity-30">
-                    <h3 className="font-playfair-disp font-bold text-base text-sky-200">
+                  <span className="min-w-fit max-w-[400px] px-3 bg-emerald-700 rounded-lg bg-opacity-30">
+                    <h3 className="font-playfair-disp font-bold text-base text-emerald-200">
                     {subdata}
                   </h3>
                   </span>
@@ -205,14 +205,14 @@ function ShortCard({data}) {
             </div>
             <div className="flex flex-col items-center w-full">
               <header className="w-full flex items-center">
-                <h4 className="font-playfair-disp font-semibold text-sky-400 text-lg">
+                <h4 className="font-playfair-disp font-semibold text-purple-400 text-lg">
                   Learning outcomes
                 </h4>
               </header>
               <div className="w-full flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
               {data.learning_outcomes.map(subdata => (
-                  <span className="min-w-fit max-w-[400px] px-3 bg-sky-700 rounded-lg bg-opacity-30">
-                    <h3 className="font-playfair-disp font-bold text-base text-sky-200">
+                  <span className="min-w-fit max-w-[400px] px-3 bg-purple-700 rounded-lg bg-opacity-30">
+                    <h3 className="font-playfair-disp font-bold text-base text-purple-200">
                    - {subdata}
                   </h3>
                   </span>
