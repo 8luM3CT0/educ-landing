@@ -710,7 +710,7 @@ toptextDesc
                     </h3>
                     <button 
                     onClick={() => setCloseManagementModal(true)}
-                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                    className="focus:outline-none text-lg rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
                       <CloseIcon />
                     </button>
                   </header>
@@ -760,7 +760,7 @@ toptextDesc
                     </h3>
                     <button 
                     onClick={() => setCloseCourseModal(true)}
-                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                    className="focus:outline-none text-lg rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
                       <CloseIcon />
                     </button>
                   </header>
@@ -811,7 +811,7 @@ toptextDesc
                     </h3>
                     <button 
                     onClick={() => setCloseJobModal(true)}
-                    className="focus:outline-none text-xl rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
+                    className="focus:outline-none text-lg rounded-full p-3 border-2 border-red-500 text-red-500 hover:-skew-x-6 hover:border-red-700 hover:text-red-700 transition-all transform duration-300 ease-in-out">
                       <CloseIcon />
                     </button>
                   </header>

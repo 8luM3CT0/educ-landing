@@ -92,10 +92,10 @@ function ShortCard({data}) {
   </div>
   {(courseInfo || closingCard) && (
     <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-10 flex items-center">
-      <div onClick={() => setClosingCard(true)} className="h-full w-[25%]"></div>
+      <div onClick={() => setClosingCard(true)} className="h-full w-[15%]"></div>
       <div className="
       h-full
-      w-[50%]
+      w-[70%]
       flex
       flex-col
       items-center
@@ -295,7 +295,7 @@ function ShortCard({data}) {
         </div>
         <div onClick={() => setClosingCard(true)} className="h-[7%] w-full"></div>
       </div>
-      <div onClick={() => setClosingCard(true)} className="h-full w-[25%]"></div>
+      <div onClick={() => setClosingCard(true)} className="h-full w-[15%]"></div>
     </div>
   )}
 
@@ -303,8 +303,8 @@ function ShortCard({data}) {
       <div className="fixed inset-0 z-50 h-screen w-screen bg-opacity-10 bg-slate-800 flex items-center">
         <div 
         onClick={() => setCloseEnrollmentCard(true)}
-        className="h-full w-[25%]"></div>
-        <div className="h-full w-[50%] flex flex-col items-center">
+        className="h-full w-[15%]"></div>
+        <div className="h-full w-[70%] flex flex-col items-center">
           <div onClick={() => setCloseEnrollmentCard(true)} className="h-[20%] w-full"></div>
           <div className={`
           h-[60%]
@@ -358,7 +358,7 @@ function ShortCard({data}) {
         </div>
         <div 
         onClick={() => setCloseEnrollmentCard(true)}
-        className="h-full w-[25%]"></div>
+        className="h-full w-[15%]"></div>
       </div>
     )}
     </>
