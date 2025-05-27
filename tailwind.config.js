@@ -38,6 +38,8 @@ module.exports = {
         'url(https://i.pinimg.com/originals/82/61/db/8261dbfb8be94c32d494ff96fe6869ab.jpg)',
         'study': 
         'url(https://i.pinimg.com/736x/00/77/cb/0077cbd5b342e791060befe976f36d71.jpg)',
+        'job':
+        'url(https://i.pinimg.com/736x/4f/35/0e/4f350e1965cdbe7789be2278de0c37d5.jpg)',
         'placeholder':
         'url(https://i.pinimg.com/564x/c7/88/8b/c7888b5308bc5c5c8e120c5b895e5982.jpg)',
         'about': 

@@ -80,7 +80,7 @@ function ShortCard({data}) {
           {data?.duration}
         </h5>
       </header>
-      <div className="w-full flex flex-col space-y-3 items-start px-3 py-1 h-[90%]">
+      <div className="w-full flex flex-col space-y-3 items-start px-3 py-1 h-[98%]">
         <h1 className="font-playfair-disp group-hover:shadow-xl shadow-sky-100 font-bold text-xl text-sky-300 transform transition-all duration-300 ease-in-out">
           {data?.title}
         </h1>  
@@ -92,17 +92,17 @@ function ShortCard({data}) {
   </div>
   {(courseInfo || closingCard) && (
     <div className="fixed inset-0 z-50 h-screen w-screen bg-slate-800 bg-opacity-10 flex items-center">
-      <div onClick={() => setClosingCard(true)} className="h-full w-[15%]"></div>
+      <div onClick={() => setClosingCard(true)} className="h-full w-[8%]"></div>
       <div className="
       h-full
-      w-[70%]
+      w-[84%]
       flex
       flex-col
       items-center
       ">
-        <div onClick={() => setClosingCard(true)} className="h-[7%] w-full"></div>
+        <div onClick={() => setClosingCard(true)} className="h-[2%] w-full"></div>
         <div className={`
-        h-[86%]
+        h-[98%]
         w-full
         bg-slate-200
         rounded-xl
@@ -155,7 +155,7 @@ function ShortCard({data}) {
             </div>
           </header>
           <div className="
-          h-[80%]
+          h-[84%]
           w-full
           bg-slate-700
           flex
@@ -168,7 +168,7 @@ function ShortCard({data}) {
             <h1 className="font-playfair-disp font-bold text-slate-100 text-2xl">
               {data.title}
             </h1>
-            <span className="w-full min-h-[40px] max-h-[80px] px-4 py-3 bg-slate-800 bg-opacity-30 rounded overflow-y-scroll scrollbar-hide font-playfair-disp font-normal text-base text-slate-400">
+            <span className="w-full min-h-[40px] max-h-[100px] px-4 py-3 bg-slate-800 bg-opacity-30 rounded overflow-y-scroll scrollbar-hide font-playfair-disp font-normal text-base text-slate-400">
               {data.description}
             </span>
             <div className="flex flex-col items-center w-full">
@@ -225,9 +225,9 @@ function ShortCard({data}) {
                   Testimonials
                 </h4>
               </header>
-              <div className="w-full max-h-[150px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
+              <div className="w-full min-h-[150px] max-h-[200px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
               {data.testimonials.map(subdata => (
-                  <span className="min-w-fit max-w-[400px] px-3 bg-indigo-700 rounded-lg bg-opacity-30 flex flex-col items-start">
+                  <span className="min-w-[90%] max-w-full px-3 bg-indigo-700 rounded-lg bg-opacity-30 flex flex-col items-start">
                     <span className="flex items-center w-full px-3 py-2 justify-between">
                       <h3 className="font-playfair-disp font-bold text-lg text-indigo-200">
                    {subdata.student_name}
@@ -250,7 +250,7 @@ function ShortCard({data}) {
             </div>
           </div>
           <footer className="
-          h-[12%]
+          h-[8%]
           w-full
           bg-slate-800
           ">
@@ -293,9 +293,9 @@ function ShortCard({data}) {
             </div>
           </footer>
         </div>
-        <div onClick={() => setClosingCard(true)} className="h-[7%] w-full"></div>
+        <div onClick={() => setClosingCard(true)} className="h-[2%] w-full"></div>
       </div>
-      <div onClick={() => setClosingCard(true)} className="h-full w-[15%]"></div>
+      <div onClick={() => setClosingCard(true)} className="h-full w-[8%]"></div>
     </div>
   )}
 
@@ -332,18 +332,9 @@ function ShortCard({data}) {
             <div className="h-[80%] w-full bg-slate-800 hover:bg-slate-700 transform transition-colors duration-300 ease-in-out">
               <div className="h-full w-full bg-opacity-30 bg-sky-900 flex flex-col items-center justify-center space-y-2">
                 <h1 className="
-                font-mont-sub
+                font-merriweather
                 font-bold
-                text-sky-300
-                text-3xl
-                animate-pulse
-                ">
-                  Congratulations!
-                </h1>
-                <h1 className="
-                font-montserr
-                font-bold
-                text-sky-600
+                text-sky-100
                 text-2xl
                 ">
                   You are officially enrolled to: {data?.title}

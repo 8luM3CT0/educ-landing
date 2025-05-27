@@ -10,51 +10,55 @@ function JobFeed() {
   return (
     <div className='
     h-full
-    bg-gradient-to-bl
-    from-cyan-900
-    to-indigo-900
+    w-full
+    bg-cover
+    bg-no-repeat
+    bg-job
     overflow-hidden
     '>
         <main className="
         h-full
-        lg:w-[70%]
-        md:w-[80%]
-        w-[95%]
+        w-full
         mx-auto
-        bg-slate-400
-        bg-opacity-40
-        overflow-y-scroll
-        grid
-        lg:grid-cols-1
-        place-items-center
-        scrollbar-hide
-        space-y-12
-        py-[120px]
-        ">
-            {jobs && jobs?.jobs.map(data => (
+        bg-cyan-800
+        bg-opacity-90">
+          <div className="
+          h-full
+          w-[90%]
+          mx-auto
+          bg-job
+          bg-no-repeat
+          bg-cover
+          ">
+            <div className="
+            h-full
+            w-full
+            mx-auto
+            bg-sky-800
+            bg-opacity-80
+            overflow-y-scroll
+            scrollbar-thin
+            scrollbar-track-slate-800
+            scrollbar-thumb-sky-500
+            flex
+            flex-col
+            items-center
+            space-y-6
+            ">
+              {jobs.jobs.map(doc => (
                 <JobCard 
-                category={data?.category}
-                title={data?.title}
-                description={data?.description}
-                mini_q={data?.minimum_qualifications}
-                reco_q={data?.recommended_qualifications}
-                salary={data?.salary}
-                company={data?.company}
-                work_h={data?.working_hours}
+                category={doc.category}
+                company={doc.company}
+                description={doc.description}
+                mini_q={doc.minimum_qualifications}
+                reco_q={doc.recommended_qualifications}
+                salary={doc.salary}
+                title={doc.title}
+                work_h={doc.working_hours}
                 />
-            ))}
-            {jobs && jobs?.jobs.slice(0, 6).map(data => (
-                <MobJob 
-                category={data?.category}
-                title={data?.title}
-                description={data?.description}
-                mini_q={data?.minimum_qualifications}
-                reco_q={data?.recommended_qualifications}
-                salary={data?.salary}
-                company={data?.company}
-                work_h={data?.working_hours}
-                />
-            ))}
+              ))}
+            </div>
+          </div>
         </main>
     </div>
   )
