@@ -1,0 +1,856 @@
+{
+  "jobs": [
+    {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Front-End Developer",
+  "description": "As a Front-End Developer at TechCo, you will be at the forefront of building seamless, intuitive web applications that empower our users and drive our mission forward. You’ll collaborate with designers and engineers to deliver polished, high-impact interfaces.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "TechCo",
+    "value": "1"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "TechCo",
+    "sameAs": "https://techco.example.com",
+    "logo": "https://techco.example.com/logo.png"
+  },
+  "industry": "Technology",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote / Onsite",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 60000,
+      "maxValue": 80000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Design, build, and maintain responsive user interfaces using modern frameworks (React, Angular).",
+    "Work closely with designers to translate wireframes and mockups into high-quality code.",
+    "Ensure cross-browser compatibility and optimize for performance.",
+    "Collaborate with backend engineers to integrate APIs and deliver end-to-end solutions.",
+    "Contribute to UI/UX improvements and advocate for best practices."
+  ],
+  "qualifications": [
+    "Proficiency in HTML, CSS, and JavaScript.",
+    "Experience with front-end frameworks (React, Angular, or similar).",
+    "Understanding of UI/UX principles and responsive design."
+  ],
+  "skills": [
+    "HTML", "CSS", "JavaScript", "React", "Angular", "UI/UX Design", "Responsive Design", "Git"
+  ],
+  "experienceRequirements": "2+ years of front-end development experience preferred.",
+  "educationRequirements": "Bachelor's degree in Computer Science or equivalent experience.",
+  "incentiveCompensation": "Equity package available",
+  "jobBenefits": [
+    "Competitive salary and equity packages",
+    "Comprehensive health, dental, and vision insurance",
+    "Flexible work hours and remote options",
+    "Professional development opportunities"
+  ],
+  "applicantLocationRequirements": "Remote / Onsite",
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-01T00:00"
+},
+ {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Backend Developer",
+  "description": "As a Backend Developer at DevTech, you will architect and implement the core systems that power our applications. You’ll ensure our platforms are scalable, secure, and reliable, working in concert with frontend and DevOps teams.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "DevTech",
+    "value": "2"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "DevTech",
+    "sameAs": "https://devtech.example.com",
+    "logo": "https://devtech.example.com/logo.png"
+  },
+  "industry": "Technology",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote / Onsite",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 70000,
+      "maxValue": 90000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Design, develop, and maintain server-side logic and APIs.",
+    "Manage and optimize database systems (MySQL, MongoDB).",
+    "Ensure system scalability, performance, and security.",
+    "Collaborate with frontend developers to deliver seamless user experiences.",
+    "Implement best practices for code quality, testing, and deployment."
+  ],
+  "qualifications": [
+    "Proficiency in a backend language (Python, Node.js, or similar).",
+    "Experience with database systems (MySQL, MongoDB).",
+    "Knowledge of server-side frameworks and RESTful API design."
+  ],
+  "skills": [
+    "Python", "Node.js", "MongoDB", "MySQL", "REST APIs", "AWS", "Azure", "Security"
+  ],
+  "experienceRequirements": "3+ years of backend development experience preferred.",
+  "educationRequirements": "Bachelor's degree in Computer Science or related field.",
+  "incentiveCompensation": "Equity options available",
+  "jobBenefits": [
+    "Competitive salary and equity options",
+    "Comprehensive health coverage",
+    "Flexible work arrangements",
+    "Continuous learning and growth opportunities"
+  ],
+  "applicantLocationRequirements": "Remote / Onsite",
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-01T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Data Scientist",
+  "description": "As a Data Scientist at InsightAI, you will leverage advanced analytics and machine learning to extract actionable insights from complex data. Your work will drive strategic decisions and power next-generation AI solutions.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "InsightAI",
+    "value": "3"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "InsightAI",
+    "sameAs": "https://insightai.example.com",
+    "logo": "https://insightai.example.com/logo.png"
+  },
+  "industry": "AI, Analytics, Technology, Consulting",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote / New York, NY",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 95000,
+      "maxValue": 130000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Analyze large datasets to identify trends, patterns, and opportunities.",
+    "Develop, validate, and deploy machine learning models.",
+    "Work with engineering teams to integrate models into production systems.",
+    "Communicate findings and recommendations to stakeholders.",
+    "Stay current with the latest research and tools in data science."
+  ],
+  "qualifications": [
+    "Strong proficiency in Python and data science libraries (Pandas, scikit-learn, NumPy).",
+    "Experience with machine learning algorithms and model evaluation.",
+    "Ability to manipulate and analyze large datasets."
+  ],
+  "skills": [
+    "Python", "Machine Learning", "Data Analysis", "Pandas", "scikit-learn", "Model Deployment", "Data Visualization"
+  ],
+  "experienceRequirements": "3+ years of experience in data science or machine learning roles.",
+  "educationRequirements": "Master’s degree or PhD in Data Science, Computer Science, or related field preferred.",
+  "incentiveCompensation": "Stock options included",
+  "jobBenefits": [
+    "Competitive salary and stock options",
+    "Comprehensive health and wellness benefits",
+    "Flexible PTO and remote work options",
+    "Annual learning stipend"
+  ],
+  "applicantLocationRequirements": "Remote / New York, NY",
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-01T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Product Manager",
+  "description": "BrightNest is looking for a Product Manager to lead the strategy and development of new consumer-facing tools. You will work cross-functionally to ensure alignment and user-centered outcomes.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "BrightNest",
+    "value": "6"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "BrightNest",
+    "sameAs": "https://brightnest.example.com",
+    "logo": "https://brightnest.example.com/logo.png"
+  },
+  "industry": "Technology, Consumer Software",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote / Chicago, IL",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 95000,
+      "maxValue": 120000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Define product vision and roadmap.",
+    "Gather user feedback and prioritize features.",
+    "Coordinate with design, engineering, and marketing teams.",
+    "Monitor metrics and continuously improve product outcomes."
+  ],
+  "qualifications": [
+    "Strong experience in product lifecycle management.",
+    "Ability to translate user needs into product strategy.",
+    "Excellent communication and leadership skills."
+  ],
+  "skills": ["Product Strategy", "Agile", "Roadmapping", "User Research", "Analytics"],
+  "experienceRequirements": "3–5 years of product management experience.",
+  "educationRequirements": "Bachelor’s degree required; MBA is a plus.",
+  "jobBenefits": [
+    "Performance bonuses",
+    "Comprehensive insurance coverage",
+    "Flexible PTO",
+    "Conference travel allowance"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-20T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "DevOps Engineer",
+  "description": "At CloudCore, we're looking for a DevOps Engineer to streamline deployments and maintain infrastructure for our suite of scalable cloud services. You'll support development workflows and ensure system reliability through automation.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "CloudCore",
+    "value": "5"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "CloudCore",
+    "sameAs": "https://cloudcore.example.com",
+    "logo": "https://cloudcore.example.com/logo.png"
+  },
+  "industry": "Cloud Computing, Infrastructure",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin, TX",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 85000,
+      "maxValue": 115000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Implement and maintain CI/CD pipelines.",
+    "Monitor infrastructure and application performance.",
+    "Automate deployment and scaling processes.",
+    "Collaborate with security and engineering teams."
+  ],
+  "qualifications": [
+    "Experience with cloud platforms like AWS, Azure, or GCP.",
+    "Knowledge of containerization (Docker, Kubernetes).",
+    "Familiarity with IaC tools (Terraform, Ansible)."
+  ],
+  "skills": ["AWS", "Docker", "CI/CD", "Kubernetes", "Terraform", "Monitoring"],
+  "experienceRequirements": "3+ years of DevOps or infrastructure experience.",
+  "educationRequirements": "Bachelor’s degree in Computer Science or related field.",
+  "jobBenefits": [
+    "Equity opportunities",
+    "Health & wellness benefits",
+    "Remote days and flexible hours",
+    "Home office stipend"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "UX/UI Designer",
+  "description": "As a UX/UI Designer at PixelForge, you will design seamless digital experiences that captivate and convert. Collaborate closely with product and engineering teams to bring interfaces to life that are both functional and delightful.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "PixelForge",
+    "value": "4"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "PixelForge",
+    "sameAs": "https://pixelforge.example.com",
+    "logo": "https://pixelforge.example.com/logo.png"
+  },
+  "industry": "Design, Technology",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 80000,
+      "maxValue": 105000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Design wireframes, user flows, and prototypes based on user needs.",
+    "Collaborate with cross-functional teams to implement effective UI designs.",
+    "Conduct user research and usability testing.",
+    "Advocate for design best practices and consistency across products."
+  ],
+  "qualifications": [
+    "Proficiency in design tools like Figma, Sketch, and Adobe XD.",
+    "Strong understanding of UX principles and accessibility standards.",
+    "Portfolio demonstrating design thinking and process."
+  ],
+  "skills": ["Figma", "Sketch", "Adobe XD", "Prototyping", "User Research", "UX Strategy"],
+  "experienceRequirements": "3+ years in a UX/UI design role.",
+  "educationRequirements": "Bachelor's degree in Design, HCI, or related field.",
+  "jobBenefits": [
+    "Health and dental insurance",
+    "Unlimited PTO",
+    "Work-from-home flexibility",
+    "Team retreats and workshops"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-15T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Data Analyst",
+  "description": "DataBridge is seeking a Data Analyst to derive actionable insights from large datasets. You'll support strategic decision-making through data modeling, dashboards, and reports.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "DataBridge",
+    "value": "7"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "DataBridge",
+    "sameAs": "https://databridge.example.com",
+    "logo": "https://databridge.example.com/logo.png"
+  },
+  "industry": "Data Analytics, Business Intelligence",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago, IL",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 70000,
+      "maxValue": 95000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Clean, transform, and analyze large datasets.",
+    "Create dashboards using BI tools.",
+    "Provide actionable insights to cross-functional teams.",
+    "Collaborate with engineers and stakeholders on data models."
+  ],
+  "qualifications": [
+    "Proficiency in SQL and Python.",
+    "Experience with data visualization tools like Tableau or Power BI.",
+    "Understanding of statistical analysis and A/B testing."
+  ],
+  "skills": ["SQL", "Python", "Power BI", "Tableau", "Data Modeling", "ETL"],
+  "experienceRequirements": "2+ years in a data analyst or similar role.",
+  "educationRequirements": "Bachelor’s in Statistics, Computer Science, or related field.",
+  "jobBenefits": [
+    "Performance bonuses",
+    "Healthcare coverage",
+    "Learning & development stipend",
+    "Commuter benefits"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "UI/UX Designer",
+  "description": "PixelForge is hiring a UI/UX Designer to create user-centered designs for web and mobile applications. You'll shape intuitive interfaces that enhance user satisfaction.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "PixelForge",
+    "value": "8"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "PixelForge",
+    "sameAs": "https://pixelforge.example.com",
+    "logo": "https://pixelforge.example.com/logo.png"
+  },
+  "industry": "Product Design, UX/UI",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 75000,
+      "maxValue": 105000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Design user interfaces for web and mobile apps.",
+    "Conduct user research and usability testing.",
+    "Create wireframes, mockups, and interactive prototypes.",
+    "Collaborate closely with developers and product managers."
+  ],
+  "qualifications": [
+    "Portfolio showcasing user-centered designs.",
+    "Proficiency with Figma, Sketch, or Adobe XD.",
+    "Understanding of accessibility and responsive design principles."
+  ],
+  "skills": ["Figma", "Sketch", "Wireframing", "Prototyping", "UX Research"],
+  "experienceRequirements": "2+ years of experience in UI/UX design.",
+  "educationRequirements": "Bachelor’s in Design, HCI, or related field.",
+  "jobBenefits": [
+    "Remote-friendly culture",
+    "Annual design conference pass",
+    "Flexible PTO",
+    "Health & dental insurance"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Junior Software Engineer",
+  "description": "Join ByteWorks as a Junior Software Engineer, where you'll help develop modern web applications and learn best practices from a collaborative team of experienced developers.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "ByteWorks",
+    "value": "9"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "ByteWorks",
+    "sameAs": "https://byteworks.example.com",
+    "logo": "https://byteworks.example.com/logo.png"
+  },
+  "industry": "Software Development, Web Applications",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver, CO",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 65000,
+      "maxValue": 80000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Assist in developing web applications using modern frameworks.",
+    "Write clean, maintainable code and contribute to code reviews.",
+    "Participate in sprint planning and daily stand-ups.",
+    "Fix bugs and test software for reliability."
+  ],
+  "qualifications": [
+    "Familiarity with JavaScript, HTML, and CSS.",
+    "Knowledge of React or similar front-end frameworks.",
+    "Basic understanding of backend concepts."
+  ],
+  "skills": ["JavaScript", "React", "HTML", "CSS", "Git", "Agile"],
+  "experienceRequirements": "Entry-level or 1+ year of internship/project experience.",
+  "educationRequirements": "Bachelor’s in Computer Science or relevant experience.",
+  "jobBenefits": [
+    "Mentorship program",
+    "On-site gym & cafeteria",
+    "Career growth path",
+    "Annual bonus eligibility"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Machine Learning Engineer",
+  "description": "Join NeuroNet as a Machine Learning Engineer to design and deploy models that power intelligent applications. You'll work with large datasets and production-level ML pipelines.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "NeuroNet",
+    "value": "10"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "NeuroNet",
+    "sameAs": "https://neuronet.example.com",
+    "logo": "https://neuronet.example.com/logo.png"
+  },
+  "industry": "Artificial Intelligence, Machine Learning",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Francisco, CA",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 115000,
+      "maxValue": 145000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Develop machine learning models for real-time applications.",
+    "Deploy models into production using scalable infrastructure.",
+    "Collaborate with data scientists and engineers.",
+    "Evaluate and improve model performance."
+  ],
+  "qualifications": [
+    "Proficiency in Python and ML frameworks like TensorFlow or PyTorch.",
+    "Experience with data pipelines and model deployment.",
+    "Understanding of ML evaluation techniques and statistics."
+  ],
+  "skills": ["Python", "TensorFlow", "PyTorch", "Data Pipelines", "ML Ops"],
+  "experienceRequirements": "3+ years of experience in machine learning engineering.",
+  "educationRequirements": "Bachelor’s or Master’s in Computer Science or related field.",
+  "jobBenefits": [
+    "Stock options",
+    "On-site meals and wellness rooms",
+    "Annual retreat",
+    "Remote work flexibility"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Junior Data Engineer",
+  "description": "DataSpring is seeking an entry-level Data Engineer to build and maintain data pipelines. This is a fully remote role ideal for recent graduates or junior professionals eager to grow in big data environments.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "DataSpring",
+    "value": "11"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "DataSpring",
+    "sameAs": "https://dataspring.example.com",
+    "logo": "https://dataspring.example.com/logo.png"
+  },
+  "industry": "Big Data, Data Engineering",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote",
+      "addressCountry": "USA"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 60000,
+      "maxValue": 75000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Assist in building and maintaining data pipelines.",
+    "Support data ingestion and transformation processes.",
+    "Collaborate with senior engineers to improve data infrastructure."
+  ],
+  "qualifications": [
+    "Familiarity with SQL and Python.",
+    "Basic knowledge of cloud services like AWS or GCP.",
+    "Strong problem-solving and communication skills."
+  ],
+  "skills": ["SQL", "Python", "ETL", "Data Pipelines", "AWS"],
+  "experienceRequirements": "0–1 year experience or relevant internships.",
+  "educationRequirements": "Bachelor’s in Computer Science, Engineering, or related field.",
+  "jobBenefits": [
+    "Monthly internet stipend",
+    "Flexible work hours",
+    "Annual learning credit ($1,200)",
+    "Wellness Fridays (half-days)"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Front-End Development Intern",
+  "description": "SparkAsia is looking for an enthusiastic intern to assist in front-end development projects. Gain real-world experience building responsive user interfaces with mentorship from seasoned developers.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "SparkAsia",
+    "value": "12"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "SparkAsia",
+    "sameAs": "https://sparkasia.example.com",
+    "logo": "https://sparkasia.example.com/logo.png"
+  },
+  "industry": "Web Development, Education Tech",
+  "employmentType": "INTERN",
+  "workHours": "Part-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Quezon City",
+      "addressCountry": "PH"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "PHP",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 8000,
+      "maxValue": 10000,
+      "unitText": "MONTH"
+    }
+  },
+  "responsibilities": [
+    "Support development of front-end features using React.",
+    "Help fix bugs and test UI components.",
+    "Participate in daily standups and code reviews."
+  ],
+  "qualifications": [
+    "Currently enrolled in or recently completed a Computer Science degree.",
+    "Basic understanding of HTML, CSS, and JavaScript.",
+    "Willingness to learn and adapt quickly."
+  ],
+  "skills": ["HTML", "CSS", "JavaScript", "React"],
+  "experienceRequirements": "No prior experience required.",
+  "educationRequirements": "Pursuing a degree in IT or related field.",
+  "jobBenefits": [
+    "Mentorship and training sessions",
+    "Letter of recommendation",
+    "Performance bonus opportunity",
+    "Remote flexibility after onboarding"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Product Designer",
+  "description": "Loop.io is hiring a Product Designer to turn complex requirements into elegant user experiences. This fully remote position offers great autonomy and creative influence.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Loop.io",
+    "value": "13"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Loop.io",
+    "sameAs": "https://loopio.example.com",
+    "logo": "https://loopio.example.com/logo.png"
+  },
+  "industry": "SaaS, User Experience",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote",
+      "addressCountry": "Worldwide"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 90000,
+      "maxValue": 115000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Design intuitive user flows and high-fidelity mockups.",
+    "Work closely with developers and stakeholders to iterate on designs.",
+    "Contribute to design systems and maintain brand consistency."
+  ],
+  "qualifications": [
+    "Proven experience designing B2B or SaaS applications.",
+    "Strong grasp of design tools like Figma and accessibility principles.",
+    "Excellent communication and presentation skills."
+  ],
+  "skills": ["Figma", "UX Research", "Design Systems", "Accessibility"],
+  "experienceRequirements": "3+ years in UI/UX or Product Design.",
+  "educationRequirements": "Any combination of formal or self-taught design education.",
+  "jobBenefits": [
+    "Work-from-anywhere stipend ($200/month)",
+    "Quarterly remote retreats",
+    "Open PTO policy",
+    "Co-working space reimbursement"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Junior QA Tester",
+  "description": "Join TestHive as a Junior QA Tester and contribute to improving software quality by executing test cases, reporting bugs, and validating fixes. This is a great entry point into QA engineering.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "TestHive",
+    "value": "14"
+  },
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "TestHive",
+    "sameAs": "https://testhive.example.com",
+    "logo": "https://testhive.example.com/logo.png"
+  },
+  "industry": "Software Testing, Quality Assurance",
+  "employmentType": "FULL_TIME",
+  "workHours": "Full-time",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Berlin",
+      "addressCountry": "DE"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 32000,
+      "maxValue": 40000,
+      "unitText": "YEAR"
+    }
+  },
+  "responsibilities": [
+    "Run manual test cases and document results.",
+    "Report and track software bugs.",
+    "Assist in developing automated test scripts."
+  ],
+  "qualifications": [
+    "Basic understanding of QA methodologies.",
+    "Detail-oriented mindset and analytical thinking.",
+    "Good communication in English and/or German."
+  ],
+  "skills": ["Manual Testing", "Bug Tracking", "Test Plans"],
+  "experienceRequirements": "0–1 year of experience or training in QA.",
+  "educationRequirements": "Vocational or undergraduate education in IT or similar field.",
+  "jobBenefits": [
+    "Public transport allowance",
+    "Gym membership discount",
+    "Paid training programs",
+    "Company-hosted tech meetups"
+  ],
+  "datePosted": "2025-06-13",
+  "validThrough": "2025-08-10T00:00"
+}
+
+  ]
+}

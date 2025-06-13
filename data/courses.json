@@ -1,0 +1,2531 @@
+{
+    "bend_data": [
+    {
+      "id": 1,
+      "title": "Introduction to Backend Development",
+      "description": "Learn the fundamentals of backend development, including server-side programming, databases, and API design. This comprehensive course covers the core concepts that power modern web applications, from setting up development environments to deploying your first API. You'll gain hands-on experience building server-side applications using industry-standard tools and frameworks.",
+      "duration": "6 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": ["Basic programming knowledge", "Familiarity with web concepts", "Command line basics"],
+      "learning_outcomes": [
+        "Set up a complete backend development environment",
+        "Understand client-server architecture fundamentals",
+        "Build RESTful APIs using modern frameworks",
+        "Implement basic database operations",
+        "Deploy backend services to production environments"
+      ],
+      "course_materials": [
+        "Backend Development Fundamentals textbook",
+        "Access to online code repositories",
+        "Virtual machine templates for development",
+        "Weekly coding assignments with solutions"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Maria J.",
+          "comment": "This course gave me a solid foundation in backend development. I went from knowing almost nothing to confidently building my own APIs.",
+          "rating": 4.8
+        },
+        {
+          "student_name": "Terrence W.",
+          "comment": "Prof. Ramirez explains complex concepts in an easy-to-understand way. The hands-on approach made learning enjoyable.",
+          "rating": 4.7
+        }
+      ],
+      "pricing": {
+        "standard": 499.99,
+        "with_mentorship": 699.99,
+        "team_discount": "10% off for groups of 3+"
+      },
+      "next_start_date": "2025-06-15",
+      "certification": "Backend Development Foundation Certificate"
+    },
+    {
+      "id": 2,
+      "title": "Programming with Python",
+      "description": "Get started with Python programming language and learn how to build backend applications using Python frameworks. This immersive course takes you from Python basics to advanced concepts, focusing specifically on server-side implementation. You'll explore Python's versatile ecosystem for web development, data handling, and system integration, all while building practical applications that solve real-world problems.",
+      "duration": "8 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": ["No prior programming experience required", "Basic computer skills"],
+      "learning_outcomes": [
+        "Master Python syntax and core programming concepts",
+        "Build command-line applications and scripts",
+        "Develop web applications using Flask and Django",
+        "Work with databases using SQLAlchemy and Django ORM",
+        "Implement authentication and authorization in Python applications",
+        "Deploy Python applications to cloud platforms"
+      ],
+      "course_materials": [
+        "Python for Backend Developers e-book",
+        "Curated collection of Python libraries and frameworks",
+        "Project-based learning resources",
+        "Access to Python development environments"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Alex T.",
+          "comment": "I tried learning Python on my own but struggled with application development. This course connected all the dots for me.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Priya S.",
+          "comment": "The projects in this course are challenging but incredibly rewarding. I now use Python daily in my work.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 599.99,
+        "with_mentorship": 799.99,
+        "team_discount": "15% off for groups of 4+"
+      },
+      "next_start_date": "2025-07-01",
+      "certification": "Python Backend Developer Certificate"
+    },
+    {
+      "id": 3,
+      "title": "Server-side Frameworks (e.g., Node.js, Django, Flask)",
+      "description": "Master popular server-side frameworks like Node.js, Django, or Flask to develop robust and scalable backend applications. This deep-dive course compares and contrasts major backend frameworks, helping you understand the strengths and appropriate use cases for each. Through hands-on projects, you'll build complete applications using multiple frameworks, gaining the versatility needed in today's diverse development landscape.",
+      "duration": "10 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Intermediate programming knowledge",
+        "Basic understanding of web protocols",
+        "Familiarity with JavaScript or Python"
+      ],
+      "learning_outcomes": [
+        "Build complete applications with Node.js and Express",
+        "Develop web applications using Django's comprehensive ecosystem",
+        "Create lightweight web services with Flask",
+        "Implement MVC architecture patterns across different frameworks",
+        "Design efficient database integrations for each framework",
+        "Scale applications to handle high traffic loads"
+      ],
+      "course_materials": [
+        "Framework Comparison Guide (exclusive course material)",
+        "Code templates for rapid development",
+        "Performance optimization cheatsheets",
+        "Video tutorials for complex implementation scenarios"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Jordan L.",
+          "comment": "Learning multiple frameworks simultaneously was challenging but incredibly valuable. I can now choose the right tool for any job.",
+          "rating": 4.7
+        },
+        {
+          "student_name": "Cameron P.",
+          "comment": "This course opened up numerous job opportunities for me. Employers value the versatility I gained.",
+          "rating": 4.9
+        }
+      ],
+      "pricing": {
+        "standard": 799.99,
+        "with_mentorship": 1099.99,
+        "team_discount": "12% off for groups of 3+"
+      },
+      "next_start_date": "2025-06-20",
+      "certification": "Full-Stack Framework Professional Certificate"
+    },
+    {
+      "id": 4,
+      "title": "Database Management Systems (e.g., SQL, MongoDB)",
+      "description": "Explore database management systems like SQL or MongoDB, and learn how to design and interact with databases in backend development. This comprehensive course covers both relational and NoSQL database paradigms, teaching you how to choose and implement the right database solution for your specific application needs. You'll master data modeling, query optimization, and database administration techniques essential for high-performance applications.",
+      "duration": "6 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Understanding of data structures",
+        "Some experience with backend development"
+      ],
+      "learning_outcomes": [
+        "Design normalized relational database schemas",
+        "Create and optimize complex SQL queries",
+        "Implement MongoDB collections with appropriate indexing",
+        "Integrate databases with backend frameworks",
+        "Ensure data integrity and security across database systems",
+        "Implement database migrations and version control"
+      ],
+      "course_materials": [
+        "Database Design Patterns handbook",
+        "SQL and MongoDB query reference guides",
+        "Performance benchmarking tools",
+        "Sample database architectures for various application types"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Leila M.",
+          "comment": "The comparative approach between SQL and NoSQL databases gave me confidence in choosing the right solution for my projects.",
+          "rating": 4.8
+        },
+        {
+          "student_name": "Derek C.",
+          "comment": "Prof. Ramirez's deep knowledge of database optimization saved our startup thousands in server costs.",
+          "rating": 5.0
+        }
+      ],
+      "pricing": {
+        "standard": 549.99,
+        "with_mentorship": 749.99,
+        "team_discount": "10% off for groups of 3+"
+      },
+      "next_start_date": "2025-07-15",
+      "certification": "Database Management Professional Certificate"
+    },
+    {
+      "id": 5,
+      "title": "API Development and Integration",
+      "description": "Learn how to design, develop, and integrate APIs (Application Programming Interfaces) for building connected and interoperable systems. This advanced course covers RESTful API design principles, GraphQL implementation, API security, documentation standards, and integration patterns. You'll create APIs that are robust, scalable, and developer-friendly while implementing best practices for real-world deployment and maintenance.",
+      "duration": "8 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Intermediate programming skills",
+        "Understanding of HTTP protocols",
+        "Basic experience with web services"
+      ],
+      "learning_outcomes": [
+        "Design RESTful APIs following industry best practices",
+        "Implement GraphQL APIs for flexible data fetching",
+        "Create comprehensive API documentation with Swagger/OpenAPI",
+        "Secure APIs with authentication and authorization mechanisms",
+        "Build webhook integrations and event-driven architectures",
+        "Implement API versioning and backwards compatibility strategies"
+      ],
+      "course_materials": [
+        "API Design Principles guidebook",
+        "API testing and monitoring tools",
+        "Authentication implementation templates",
+        "Case studies of successful API ecosystems"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Miguel S.",
+          "comment": "This course transformed how I think about API design. My team now implements the practices we learned and our developer satisfaction has skyrocketed.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Ashley T.",
+          "comment": "The security module alone was worth the price of the entire course. Essential knowledge for any backend developer.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 649.99,
+        "with_mentorship": 899.99,
+        "team_discount": "15% off for groups of 4+"
+      },
+      "next_start_date": "2025-08-01",
+      "certification": "API Development Specialist Certificate"
+    },
+    {
+      "id": 6,
+      "title": "Authentication and Authorization",
+      "description": "Understand various authentication and authorization mechanisms to secure backend APIs and manage user access control. This specialized course dives deep into security implementations for modern applications, covering everything from basic authentication schemes to OAuth2, JWT, and multi-factor authentication. You'll learn to implement robust security systems that protect user data while providing seamless access experiences.",
+      "duration": "6 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Intermediate programming knowledge",
+        "Basic understanding of HTTP and APIs",
+        "Familiarity with backend development concepts"
+      ],
+      "learning_outcomes": [
+        "Implement secure password storage and management",
+        "Build OAuth2 authentication flows for web and mobile applications",
+        "Create and validate JWT tokens for stateless authentication",
+        "Design role-based access control systems",
+        "Implement multi-factor authentication",
+        "Secure APIs against common authentication vulnerabilities"
+      ],
+      "course_materials": [
+        "Authentication Patterns reference guide",
+        "Implementation templates for various auth systems",
+        "Security testing tools and checklists",
+        "Case studies of authentication system failures and lessons learned"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Fiona L.",
+          "comment": "Security always intimidated me until this course. Now I confidently implement authentication systems that I know are secure.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Marcus J.",
+          "comment": "The practical approach with real vulnerability demonstrations made complex security concepts stick.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 599.99,
+        "with_mentorship": 849.99,
+        "team_discount": "10% off for groups of 3+"
+      },
+      "next_start_date": "2025-09-01",
+      "certification": "Application Security Specialist Certificate"
+    },
+    {
+      "id": 7,
+      "title": "Server Administration and Deployment",
+      "description": "Learn the essentials of server administration, deployment, and DevOps practices for hosting and managing backend applications. This comprehensive course bridges the gap between development and operations, teaching you how to configure servers, automate deployments, implement monitoring systems, and ensure high availability for your applications. You'll master both traditional and cloud-native deployment approaches to become a well-rounded backend professional.",
+      "duration": "8 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Backend development experience",
+        "Basic command line skills",
+        "Fundamental understanding of networking"
+      ],
+      "learning_outcomes": [
+        "Configure and secure Linux servers for production use",
+        "Implement containerization with Docker and orchestration with Kubernetes",
+        "Set up CI/CD pipelines for automated testing and deployment",
+        "Configure load balancing and auto-scaling for high-traffic applications",
+        "Implement comprehensive monitoring and alerting systems",
+        "Design disaster recovery and backup strategies"
+      ],
+      "course_materials": [
+        "Server Administration Handbook",
+        "Infrastructure-as-Code templates",
+        "Monitoring and logging configuration guides",
+        "Deployment automation scripts and examples"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Olivia R.",
+          "comment": "This course gave me the confidence to handle the full deployment cycle. I'm no longer dependent on DevOps teams to launch my applications.",
+          "rating": 4.7
+        },
+        {
+          "student_name": "Hassan K.",
+          "comment": "The real-world scenarios and troubleshooting exercises were incredibly valuable. I now address server issues before they become problems.",
+          "rating": 4.9
+        }
+      ],
+      "pricing": {
+        "standard": 699.99,
+        "with_mentorship": 949.99,
+        "team_discount": "12% off for groups of 3+"
+      },
+      "next_start_date": "2025-07-10",
+      "certification": "Server Operations Professional Certificate"
+    },
+    {
+      "id": 8,
+      "title": "Performance Optimization and Caching",
+      "description": "Explore techniques for optimizing backend performance, including caching strategies, query optimization, and resource management. This advanced course teaches you how to identify and resolve performance bottlenecks in backend systems, implement efficient caching mechanisms, and design high-throughput applications that can scale to millions of users. You'll learn both theoretical concepts and practical implementations that directly impact user experience and operational costs.",
+      "duration": "6 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Intermediate backend development experience",
+        "Basic database knowledge",
+        "Understanding of server-side applications"
+      ],
+      "learning_outcomes": [
+        "Profile and identify performance bottlenecks in backend applications",
+        "Implement multi-level caching strategies (memory, distributed, CDN)",
+        "Optimize database queries and indexing for peak performance",
+        "Design efficient data access patterns and connection pooling",
+        "Implement asynchronous processing for resource-intensive operations",
+        "Scale horizontally and vertically based on application requirements"
+      ],
+      "course_materials": [
+        "Performance Optimization Playbook",
+        "Caching implementation templates",
+        "Load testing and benchmarking tools",
+        "Case studies of successful performance optimizations"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Javier M.",
+          "comment": "The techniques I learned helped me reduce our API response times by 85%. Our users immediately noticed the difference.",
+          "rating": 5.0
+        },
+        {
+          "student_name": "Sophia W.",
+          "comment": "Prof. Ramirez's approach to performance optimization is systematic and effective. I apply these principles to every project now.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 749.99,
+        "with_mentorship": 999.99,
+        "team_discount": "10% off for groups of 3+"
+      },
+      "next_start_date": "2025-08-15",
+      "certification": "Backend Performance Optimization Specialist Certificate"
+    },
+    {
+      "id": 9,
+      "title": "Microservices Architecture",
+      "description": "Understand the concepts and principles of microservices architecture and learn how to design and build scalable distributed systems. This comprehensive course explores the transition from monolithic applications to microservices, covering service decomposition, inter-service communication, data consistency, deployment strategies, and observability. You'll gain the skills to architect complex systems that are resilient, independently scalable, and maintainable over time.",
+      "duration": "10 weeks",
+      "name": "Prof. Lucas Ramirez",
+      "experience_years": 9,
+      "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture.",
+      "prerequisites": [
+        "Advanced backend development experience",
+        "Understanding of API design",
+        "Familiarity with containerization concepts"
+      ],
+      "learning_outcomes": [
+        "Decompose monolithic applications into appropriate microservices",
+        "Implement service discovery and API gateway patterns",
+        "Design effective inter-service communication using REST, gRPC, and messaging",
+        "Manage distributed data and transactions across services",
+        "Implement circuit breakers and bulkhead patterns for resilience",
+        "Set up comprehensive monitoring and tracing for distributed systems"
+      ],
+      "course_materials": [
+        "Microservices Design Patterns guidebook",
+        "Reference architectures for common use cases",
+        "Distributed tracing and monitoring tools",
+        "Real-world case studies of microservices implementations"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Rachel T.",
+          "comment": "This course gave our team the confidence to transition our legacy monolith to microservices. The step-by-step approach made the process manageable.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Dimitri K.",
+          "comment": "Prof. Ramirez doesn't just teach the theory - he prepares you for the real challenges of running microservices in production.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 899.99,
+        "with_mentorship": 1299.99,
+        "team_discount": "15% off for groups of 4+"
+      },
+      "next_start_date": "2025-09-15",
+      "certification": "Microservices Architecture Specialist Certificate"
+    }
+  ],
+      "cyb_data": [
+    {
+      "id": 1,
+      "title": "Introduction to Cybersecurity",
+      "description": "A comprehensive introduction to the field of cybersecurity, covering basic concepts, threats, and defensive strategies. This foundation course provides a broad overview of the cybersecurity landscape, introducing essential terminology, common attack vectors, basic defense mechanisms, and the legal and ethical considerations that shape the field. You'll develop a security mindset that will serve as the foundation for more specialized cybersecurity knowledge.",
+      "duration": "6 weeks",
+      "coursepic": "https://www.pinterest.com/pin/356699233006876032/",
+      "name": "Dr. Aisha Clarke",
+      "experience_years": 12,
+      "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
+      "prerequisites": ["Basic computer literacy", "Interest in information security", "No technical background required"],
+      "learning_outcomes": [
+        "Understand fundamental cybersecurity concepts and terminology",
+        "Identify common cyber threats and attack vectors",
+        "Implement basic security measures to protect personal and organizational data",
+        "Recognize social engineering tactics and develop countermeasures",
+        "Understand the legal and ethical framework of cybersecurity"
+      ],
+      "course_materials": [
+        "Cybersecurity Essentials textbook",
+        "Interactive threat simulation platform",
+        "Security tool demonstration environment",
+        "Case studies of notable security incidents"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Thomas B.",
+          "comment": "Dr. Clarke demystified cybersecurity for me. I now feel confident implementing basic security measures across my organization.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Naomi P.",
+          "comment": "The practical approach with real-world examples made abstract security concepts tangible and applicable.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 549.99,
+        "with_mentorship": 799.99,
+        "team_discount": "10% off for groups of 5+"
+      },
+      "next_start_date": "2025-06-10",
+      "certification": "Cybersecurity Foundations Certificate"
+    },
+    {
+      "id": 2,
+      "title": "Network Security",
+      "description": "Learn about securing computer networks, including network protocols, firewalls, intrusion detection systems, and VPNs. This specialized course examines the vulnerabilities inherent in network architectures and the technologies and methodologies used to secure network infrastructure. You'll gain hands-on experience configuring security devices, analyzing network traffic for threats, and implementing comprehensive network defense strategies applicable to organizations of all sizes.",
+      "duration": "8 weeks",
+      "coursepic":"https://i.pinimg.com/736x/71/d4/31/71d431f4a98d470d3ae9de30eca48eaf.jpg",
+      "name": "Dr. Aisha Clarke",
+      "experience_years": 12,
+      "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
+      "prerequisites": [
+        "Basic understanding of computer networks",
+        "Familiarity with TCP/IP protocols",
+        "Some experience with network configuration"
+      ],
+      "learning_outcomes": [
+        "Design secure network architectures with proper segmentation",
+        "Configure firewalls, IDS/IPS, and VPNs for optimal security",
+        "Analyze network traffic to identify anomalies and potential threats",
+        "Implement secure wireless network configurations",
+        "Conduct network vulnerability assessments",
+        "Develop incident response plans for network breaches"
+      ],
+      "course_materials": [
+        "Network Security Architecture handbook",
+        "Virtual lab environment for hands-on configuration",
+        "Network analysis and security tools",
+        "Reference configurations for common security devices"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Victor L.",
+          "comment": "The virtual lab environments were exceptional. I implemented what I learned immediately at my company and identified several security gaps.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Jennifer T.",
+          "comment": "Dr. Clarke's experience with government-level security gives her insights that you won't find in typical courses or certifications.",
+          "rating": 5.0
+        }
+      ],
+      "pricing": {
+        "standard": 799.99,
+        "with_mentorship": 1099.99,
+        "team_discount": "12% off for groups of 3+"
+      },
+      "next_start_date": "2025-07-15",
+      "certification": "Network Security Professional Certificate"
+    },
+    {
+      "id": 3,
+      "title": "Ethical Hacking",
+      "description": "Explore the techniques used by ethical hackers to identify and exploit vulnerabilities in systems and networks. This intensive course teaches you to think like an attacker while maintaining a defender's ethics. You'll learn systematic approaches to vulnerability discovery, exploitation techniques, and proper documentation and reporting. Through extensive hands-on labs, you'll develop the practical skills needed to conduct authorized security assessments that strengthen organizational security posture.",
+      "duration": "10 weeks",
+      "coursepic": "https://i.pinimg.com/736x/71/d4/31/71d431f4a98d470d3ae9de30eca48eaf.jpg",
+      "name": "Dr. Aisha Clarke",
+      "experience_years": 12,
+      "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
+      "prerequisites": [
+        "Intermediate networking knowledge",
+        "Basic understanding of operating systems",
+        "Familiarity with command-line interfaces",
+        "Introduction to Cybersecurity course or equivalent experience"
+      ],
+      "learning_outcomes": [
+        "Conduct methodical reconnaissance and information gathering",
+        "Perform comprehensive vulnerability scanning and analysis",
+        "Execute controlled exploitation of common vulnerabilities",
+        "Utilize professional penetration testing tools responsibly",
+        "Document and report findings according to industry standards",
+        "Recommend appropriate remediation strategies"
+      ],
+      "course_materials": [
+        "Ethical Hacking Methodology guide",
+        "Isolated penetration testing laboratory environment",
+        "Professional security testing tools and frameworks",
+        "Vulnerability documentation templates"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Marco S.",
+          "comment": "This course is the perfect balance of theory and hands-on practice. The isolated lab environment allowed me to safely experiment with techniques that would be illegal in the wild.",
+          "rating": 4.9
+        },
+        {
+          "student_name": "Leila J.",
+          "comment": "Dr. Clarke's emphasis on ethics and responsible disclosure is refreshing. I feel prepared not just technically, but professionally.",
+          "rating": 4.8
+        }
+      ],
+      "pricing": {
+        "standard": 1299.99,
+        "with_mentorship": 1699.99,
+        "team_discount": "10% off for groups of 3+"
+      },
+      "next_start_date": "2025-08-01",
+      "certification": "Certified Ethical Hacking Professional"
+    },
+    {
+      "id": 4,
+      "title": "Digital Forensics",
+      "description": "Gain knowledge of digital evidence collection and analysis techniques for investigating cybercrimes and security incidents. This specialized course provides comprehensive training in forensic methodologies, teaching you how to properly acquire, analyze, and preserve digital evidence that can withstand legal scrutiny. You'll learn to recover deleted data, analyze malware, trace attack paths, and create detailed forensic reports that document your findings and support potential legal proceedings.",
+      "duration": "12 weeks",
+      "coursepic": "https://i.pinimg.com/736x/71/d4/31/71d431f4a98d470d3ae9de30eca48eaf.jpg",
+      "name": "Dr. Aisha Clarke",
+      "experience_years": 12,
+      "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
+      "prerequisites": [
+        "Solid understanding of operating systems",
+        "Basic knowledge of file systems and storage",
+        "Familiarity with cybersecurity concepts",
+        "Some programming or scripting experience recommended"
+      ],
+      "learning_outcomes": [
+        "Properly secure and preserve digital crime scenes",
+        "Create forensically sound copies of digital evidence",
+        "Recover deleted files and analyze file system artifacts",
+        "Extract and analyze digital evidence from various devices",
+        "Perform memory forensics to analyze volatile data",
+        "Create court-admissible forensic reports"
+      ],
+      "course_materials": [
+        "Digital Forensics Procedures manual",
+        "Forensic analysis software suite",
+        "Sample evidence datasets for analysis practice",
+        "Chain of custody documentation templates",
+        "Expert witness testimony guidelines"
+      ],
+      "testimonials": [
+        {
+          "student_name": "Diana L.",
+          "comment": "As a law enforcement officer, this course gave me skills that directly improved our department's ability to solve digital crimes.",
+          "rating": 5.0
+        },
+        {
+          "student_name": "Rashid H.",
+          "comment": "The attention to legal procedures and evidence handling sets this course apart. I feel prepared to conduct investigations that will stand up in court.",
+          "rating": 4.9
+        }
+      ],
+      "pricing": {
+        "standard": 1499.99,
+        "with_mentorship": 1899.99,
+        "team_discount": "15% off for government and law enforcement agencies"
+      },
+      "next_start_date": "2025-09-15",
+      "certification": "Professional Digital Forensics Examiner"
+    },
+{
+  "id": 5,
+  "title": "Secure Coding Practices",
+  "description": "Learn how to write secure code and identify common vulnerabilities, such as SQL injection, cross-site scripting, and buffer overflows. This practical course bridges the gap between development and security, focusing on integrating security throughout the software development lifecycle. You'll learn to identify and mitigate common vulnerability patterns in code, implement secure coding standards, and use tools and techniques to verify the security of applications before deployment.",
+  "duration": "8 weeks",
+  "coursepic": "https://i.pinimg.com/736x/8b/b9/43/8bb943bce2a0d2d7ef39506ed434b8cb.jpg",
+  "name": "Dr. Aisha Clarke",
+  "experience_years": 12,
+  "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response.",
+  "prerequisites": [
+    "Intermediate programming skills",
+    "Familiarity with web application concepts",
+    "Basic understanding of databases"
+  ],
+  "learning_outcomes": [
+    "Identify and remediate OWASP Top 10 vulnerabilities",
+    "Implement input validation and output encoding to prevent injection attacks",
+    "Design secure authentication and authorization mechanisms",
+    "Protect sensitive data through proper encryption and storage practices",
+    "Use static and dynamic analysis tools to identify code vulnerabilities",
+    "Integrate security testing into CI/CD pipelines"
+  ],
+  "course_materials": [
+    "Secure Coding Standards reference guide",
+    "Vulnerable code samples and remediation examples",
+    "Security code review checklists",
+    "Access to commercial and open-source security testing tools"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Eric J.",
+      "comment": "This course changed how I approach development entirely. Security is now an integral part of my coding process rather than an afterthought.",
+      "rating": 4.8
+    },
+    {
+      "student_name": "Sarah M.",
+      "comment": "The hands-on exercises with vulnerable code were eye-opening. I discovered security issues in our production code that I would have never noticed before.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 899.99,
+    "with_mentorship": 1199.99,
+    "team_discount": "20% off for development teams of 5 or more"
+  },
+  "delivery_mode": "Online, self-paced with optional live mentorship sessions",
+  "assessment_methods": [
+    "Weekly coding challenges",
+    "Peer-reviewed secure code submissions",
+    "Final capstone project with code audit"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certified Secure Coding Practitioner",
+    "issuer": "CyberSecure Academy"
+  }
+}, 
+{
+  "id": 6,
+  "title": "Web Application Security Fundamentals",
+  "description": "Gain a comprehensive understanding of how attackers exploit vulnerabilities in web applications and how to defend against them. This course covers threat modeling, secure session management, common attack vectors like CSRF and XSS, and security headers. Perfect for developers and QA professionals aiming to fortify their web applications.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/736x/74/95/66/749566772bde2b3db2803c43de3d3135.jpg",
+  "name": "Prof. Henry Lau",
+  "experience_years": 10,
+  "background": "Former web application penetration tester and current lead instructor at a national cyber training center.",
+  "prerequisites": [
+    "Basic knowledge of HTML, CSS, and JavaScript",
+    "Understanding of client-server architecture"
+  ],
+  "learning_outcomes": [
+    "Understand common web vulnerabilities and how they’re exploited",
+    "Implement effective CSRF and XSS protection",
+    "Use security headers to enhance application defenses",
+    "Conduct basic threat modeling for web applications",
+    "Apply secure cookie and session management techniques"
+  ],
+  "course_materials": [
+    "OWASP Web Security Testing Guide",
+    "Vulnerability simulation labs",
+    "Interactive threat modeling worksheets",
+    "Browser extension tools for testing headers and cookies"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Liam F.",
+      "comment": "A foundational course that every front-end or back-end developer should take. I now know how to spot red flags in design decisions.",
+      "rating": 4.7
+    }
+  ],
+  "pricing": {
+    "standard": 699.99,
+    "with_mentorship": 949.99,
+    "team_discount": "15% off for groups of 3 or more"
+  },
+  "delivery_mode": "Online with scheduled lab access",
+  "assessment_methods": [
+    "Quizzes after each module",
+    "Vulnerability identification tasks",
+    "Final project: Secure a demo web application"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certified Web App Security Associate",
+    "issuer": "CyberSecure Academy"
+  }
+}],
+      "dsci_data": [
+        {
+  "id": 1,
+  "title": "Introduction to Data Science",
+  "description": "Get an overview of data science, including data exploration, visualization, and introductory machine learning concepts. This foundational course guides you through the data science workflow, from gathering and cleaning data to communicating insights effectively. By the end of the course, you'll be able to make data-driven decisions and apply key techniques that underpin modern data analysis.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/736x/4e/5e/33/4e5e33d6a41b3c04f5486a0b01c4285f.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Basic computer literacy",
+    "High school-level math or statistics",
+    "Interest in data-driven problem solving"
+  ],
+  "learning_outcomes": [
+    "Understand the key stages of the data science lifecycle",
+    "Perform data collection, cleaning, and preprocessing",
+    "Visualize and explore data using industry-standard tools",
+    "Apply basic statistical methods for data interpretation",
+    "Build simple predictive models using supervised learning",
+    "Communicate data-driven insights clearly through reports and dashboards"
+  ],
+  "course_materials": [
+    "Intro to Data Science workbook",
+    "Sample datasets for hands-on exercises",
+    "Visualization templates and report formats",
+    "Video lectures and real-world case studies"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Maria L.",
+      "comment": "I came in knowing nothing about data science and left with a solid foundation. This course is an excellent springboard.",
+      "rating": 4.8
+    },
+    {
+      "student_name": "Jason W.",
+      "comment": "Dr. Nakamura explains complex topics in a very digestible way. Loved the interactive notebooks and mini-projects.",
+      "rating": 4.7
+    }
+  ],
+  "pricing": {
+    "standard": 499.99,
+    "with_mentorship": 749.99,
+    "team_discount": "15% off for teams of 4 or more"
+  },
+  "delivery_mode": "Online with interactive notebooks and instructor Q&A sessions",
+  "assessment_methods": [
+    "Weekly quizzes",
+    "Data cleaning and visualization challenges",
+    "Capstone project: Analyze and report on a real-world dataset"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Data Science Foundations Certificate",
+    "issuer": "Insight Analytics Institute"
+  }
+}
+,
+          {
+  "id": 2,
+  "title": "Python for Data Science",
+  "description": "Learn the Python programming language and its powerful libraries commonly used in data science, including NumPy, Pandas, Matplotlib, and Seaborn. This course focuses on writing efficient, readable Python code for data manipulation, analysis, and basic machine learning tasks. Ideal for beginners who want to use Python in a data-driven context.",
+  "duration": "8 weeks",
+  "coursepic": "https://i.pinimg.com/736x/9d/64/88/9d6488f5bc0c9633723c9a26de2d8588.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Basic programming logic or prior exposure to coding",
+    "Introductory statistics (recommended)",
+    "Completion of 'Introduction to Data Science' (optional but helpful)"
+  ],
+  "learning_outcomes": [
+    "Write clean and modular Python code for data tasks",
+    "Use Jupyter Notebooks for interactive coding and visualization",
+    "Perform array-based operations with NumPy",
+    "Manipulate, clean, and analyze data using Pandas",
+    "Create compelling charts and visualizations with Matplotlib and Seaborn",
+    "Build simple predictive models with scikit-learn"
+  ],
+  "course_materials": [
+    "Python notebooks and exercises",
+    "Cheat sheets for core libraries",
+    "Mini-projects with real datasets",
+    "Supplemental tutorials and coding walkthroughs"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Nathan B.",
+      "comment": "The best intro to Python I’ve taken. Everything is hands-on and you build confidence by doing.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Laila S.",
+      "comment": "I now use Pandas and Matplotlib regularly in my job. The skills I gained here were immediately useful.",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 599.99,
+    "with_mentorship": 849.99,
+    "team_discount": "20% off for educational cohorts or startups"
+  },
+  "delivery_mode": "Online, self-paced with coding labs and live help sessions",
+  "assessment_methods": [
+    "Python coding assignments",
+    "Weekly mini-projects",
+    "Final project: Analyze and visualize a dataset using all learned tools"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Python for Data Analysis Certificate",
+    "issuer": "Insight Analytics Institute"
+  }
+}, {
+  "id": 3,
+  "title": "Data Cleaning and Preprocessing",
+  "description": "Explore essential techniques for cleaning and preprocessing raw data to prepare it for effective analysis and modeling. This course focuses on handling missing data, encoding categorical variables, detecting outliers, and scaling features. You'll build reproducible pipelines to transform messy, real-world data into high-quality inputs for downstream analytics and machine learning tasks.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/736x/d4/c6/4f/d4c64fd0aeb75e193dd73cf73e946ea3.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Basic Python programming",
+    "Understanding of data structures and data types",
+    "Familiarity with Pandas and NumPy"
+  ],
+  "learning_outcomes": [
+    "Handle missing, duplicate, and inconsistent data",
+    "Normalize, scale, and encode data for modeling",
+    "Identify and treat outliers and anomalies",
+    "Construct reproducible preprocessing pipelines",
+    "Apply techniques for feature extraction and transformation"
+  ],
+  "course_materials": [
+    "Annotated Jupyter notebooks",
+    "Preprocessing cheat sheets",
+    "Raw and messy datasets for practice",
+    "Step-by-step tutorials and data quality checklists"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Angela R.",
+      "comment": "The practical tips on data wrangling saved me hours of cleaning work at my job. Very useful and clearly taught.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Paul D.",
+      "comment": "I finally understood why preprocessing is so important. Great balance of theory and hands-on practice.",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 499.99,
+    "with_mentorship": 749.99,
+    "team_discount": "15% off for nonprofit and education teams"
+  },
+  "assessment_methods": [
+    "Data wrangling challenges",
+    "Weekly preprocessing assignments",
+    "Final project: Clean and prepare a real-world dataset"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Data Preprocessing for Analytics",
+    "issuer": "Insight Analytics Institute"
+  }
+}, {
+  "id": 4,
+  "title": "Statistical Analysis and Hypothesis Testing",
+  "description": "Gain a solid foundation in statistical reasoning and inference. This course covers core statistical methods including sampling, probability distributions, hypothesis testing, confidence intervals, and correlation analysis. Apply these techniques using Python libraries such as SciPy and StatsModels to derive insights and validate assumptions with real-world data.",
+  "duration": "8 weeks",
+  "coursepic": "https://i.pinimg.com/736x/bf/93/ab/bf93abae8cb20db05b1e98a1a37e8e6d.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "College-level algebra",
+    "Familiarity with Python or R",
+    "Basic data handling experience"
+  ],
+  "learning_outcomes": [
+    "Perform descriptive and inferential statistical analysis",
+    "Conduct hypothesis tests and interpret p-values",
+    "Build confidence intervals and assess statistical significance",
+    "Use t-tests, ANOVA, chi-square, and non-parametric tests",
+    "Apply statistical tests using Python"
+  ],
+  "course_materials": [
+    "Lecture slides and video walkthroughs",
+    "Python notebooks with real datasets",
+    "Statistical formula reference sheets",
+    "Interactive quizzes and problem sets"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Carlos V.",
+      "comment": "Clear explanations of p-values and confidence intervals. Helped me get through my analytics job interview!",
+      "rating": 4.7
+    },
+    {
+      "student_name": "Lisa W.",
+      "comment": "Loved the combination of stats theory with practical coding exercises.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 599.99,
+    "with_mentorship": 849.99,
+    "team_discount": "10% off for teams of 5 or more"
+  },
+  "assessment_methods": [
+    "Weekly statistical exercises",
+    "Mini-projects on hypothesis testing",
+    "Final exam and presentation"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Applied Statistics for Data Science",
+    "issuer": "Insight Analytics Institute"
+  }
+},
+{
+  "id": 5,
+  "title": "Machine Learning Algorithms",
+  "description": "Learn foundational machine learning algorithms and techniques, including supervised and unsupervised learning. This course covers models such as linear regression, logistic regression, k-nearest neighbors, support vector machines, decision trees, and clustering algorithms. Focus on performance evaluation, overfitting, and hands-on model development using scikit-learn.",
+  "duration": "10 weeks",
+  "coursepic": "https://i.pinimg.com/736x/1e/62/31/1e623180f3426c3890d173a14a0179d2.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Intermediate Python",
+    "Understanding of linear algebra and probability",
+    "Prior exposure to data analysis"
+  ],
+  "learning_outcomes": [
+    "Understand supervised vs. unsupervised learning",
+    "Train and evaluate core ML models using scikit-learn",
+    "Perform feature selection and model tuning",
+    "Apply cross-validation and ROC analysis",
+    "Deploy models for real-world tasks"
+  ],
+  "course_materials": [
+    "Model-specific tutorials",
+    "Real-world datasets and use cases",
+    "Evaluation metric cheat sheets",
+    "Interactive coding labs"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Neha S.",
+      "comment": "This course finally demystified machine learning for me. The scikit-learn labs were fantastic.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Tom B.",
+      "comment": "Each algorithm was clearly explained with great visualizations and hands-on tasks.",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 799.99,
+    "with_mentorship": 1049.99,
+    "team_discount": "20% off for startup teams"
+  },
+  "assessment_methods": [
+    "Algorithm mini-labs",
+    "Model evaluation tasks",
+    "Final machine learning capstone project"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Applied Machine Learning",
+    "issuer": "Insight Analytics Institute"
+  }
+},
+{
+  "id": 6,
+  "title": "Data Visualization",
+  "description": "Master the art and science of visual storytelling with data. This course teaches principles of visual design, data-to-ink ratio, color theory, and dashboard creation. Learn to use Matplotlib, Seaborn, and Tableau to transform datasets into impactful visual narratives tailored for business, scientific, or public communication.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/736x/4f/2b/43/4f2b43c303765fbfa6dd233b7e0c71d0.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Basic data analysis experience",
+    "Familiarity with Python and Pandas",
+    "Understanding of data types and distributions"
+  ],
+  "learning_outcomes": [
+    "Build insightful visualizations using Python and Tableau",
+    "Apply best practices in chart selection and design",
+    "Create interactive dashboards and storyboards",
+    "Communicate findings visually to stakeholders",
+    "Avoid common visualization pitfalls"
+  ],
+  "course_materials": [
+    "Visualization pattern library",
+    "Custom datasets for each tool",
+    "Tableau dashboard templates",
+    "Python-based plotting scripts"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Melissa Y.",
+      "comment": "Now I create visuals that actually tell a story. This course made a big difference in my presentations.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Dino L.",
+      "comment": "The focus on design theory and tool practice was perfectly balanced.",
+      "rating": 4.7
+    }
+  ],
+  "pricing": {
+    "standard": 599.99,
+    "with_mentorship": 849.99,
+    "team_discount": "10% off for NGOs and educators"
+  },
+  "assessment_methods": [
+    "Weekly visualization assignments",
+    "Peer-reviewed dashboard projects",
+    "Final storytelling portfolio"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Data Visualization and Storytelling",
+    "issuer": "Insight Analytics Institute"
+  }
+},
+{
+  "id": 7,
+  "title": "Deep Learning and Neural Networks",
+  "description": "Dive deep into the world of deep learning and neural networks, exploring the architecture, training, and optimization of neural models. Learn about feedforward networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and modern frameworks like TensorFlow and PyTorch. Apply deep learning to real-world challenges in image recognition, NLP, and recommendation systems.",
+  "duration": "10 weeks",
+  "coursepic": "https://i.pinimg.com/736x/c7/4d/cf/c74dcf9a16ce71a661f3b2a4f62f34f0.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Solid foundation in machine learning",
+    "Basic linear algebra and calculus",
+    "Intermediate Python programming",
+    "Experience with NumPy or Pandas"
+  ],
+  "learning_outcomes": [
+    "Build, train, and evaluate deep neural networks",
+    "Understand backpropagation and optimization techniques",
+    "Develop CNNs for image classification tasks",
+    "Use RNNs and LSTMs for sequence modeling",
+    "Implement deep learning models with TensorFlow and PyTorch"
+  ],
+  "course_materials": [
+    "Interactive neural network visualizers",
+    "Hands-on labs using TensorFlow and PyTorch",
+    "Research paper summaries and reading guides",
+    "Practice datasets (images, text, time series)"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Ethan M.",
+      "comment": "The projects on CNNs and LSTMs were incredibly hands-on. Loved building real AI systems!",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Alisha B.",
+      "comment": "A challenging course, but the explanations were crystal clear. Dr. Nakamura makes deep learning accessible.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 899.99,
+    "with_mentorship": 1199.99,
+    "team_discount": "25% off for academic research teams"
+  },
+  "assessment_methods": [
+    "Weekly programming labs",
+    "Mini-projects in computer vision and NLP",
+    "Capstone: Deploy a deep learning model in a real-world setting"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Deep Learning and Neural Networks",
+    "issuer": "Insight Analytics Institute"
+  }
+},
+{
+  "id": 8,
+  "title": "Big Data Analytics",
+  "description": "Master the tools and techniques for analyzing massive datasets at scale. This course introduces distributed computing systems, batch and stream processing, and big data frameworks including Apache Hadoop, Spark, Hive, and Kafka. Learn how to extract value from terabytes of structured and unstructured data in real-time and batch environments.",
+  "duration": "12 weeks",
+  "coursepic": "https://i.pinimg.com/736x/a3/65/12/a365120cddcf2c214486b7cb204dbcdc.jpg",
+  "name": "Dr. Kenji Nakamura",
+  "experience_years": 8,
+  "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems.",
+  "prerequisites": [
+    "Experience with Python or Java",
+    "Familiarity with SQL and data processing",
+    "Basic understanding of distributed systems"
+  ],
+  "learning_outcomes": [
+    "Understand big data architecture and ecosystem components",
+    "Process large-scale data using Hadoop and MapReduce",
+    "Build fast in-memory analytics using Apache Spark",
+    "Stream real-time data using Kafka and Spark Streaming",
+    "Use Hive and SQL engines for querying large datasets"
+  ],
+  "course_materials": [
+    "Big data pipeline diagrams",
+    "Hands-on Spark and Kafka notebooks",
+    "Configuration templates for Hadoop clusters",
+    "Case studies in finance, IoT, and social media analytics"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Michael T.",
+      "comment": "Spark Streaming labs were eye-opening. I can now handle real-time analytics pipelines confidently.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Grace C.",
+      "comment": "Hadoop and Hive finally made sense. This course is a must for anyone diving into big data roles.",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 999.99,
+    "with_mentorship": 1299.99,
+    "team_discount": "15% off for enterprise teams of 10+"
+  },
+  "assessment_methods": [
+    "Big data architecture design quiz",
+    "Weekly Spark programming labs",
+    "Final project: Real-time analytics pipeline with Kafka + Spark"
+  ],
+  "certificate": {
+    "offered": true,
+    "title": "Certificate in Big Data Analytics and Engineering",
+    "issuer": "Insight Analytics Institute"
+  }
+}],
+      "fend_data": [
+        
+  {
+    "id": 1,
+    "title": "HTML Fundamentals",
+    "description": "Learn the basics of HTML (Hypertext Markup Language) to structure and organize web content.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/abcdef/ffffff?Text=HTML",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand the basic structure of an HTML document.",
+      "Use common HTML tags for text, images, and links.",
+      "Create basic forms for user input.",
+      "Structure content using semantic HTML5 elements."
+    ],
+    "course_materials": [
+      "HTML element reference sheets",
+      "Code examples and templates",
+      "Practice exercises on structuring web pages"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Alex K.",
+        "comment": "A great introduction to web development. The exercises were very helpful!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 299.99
+    },
+    "assessment_methods": [
+      "HTML structure quiz",
+      "Building a basic webpage"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in HTML Fundamentals",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 2,
+    "title": "CSS Styling",
+    "description": "Explore CSS (Cascading Style Sheets) to add styles, layouts, and visual enhancements to web pages.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/fedcba/ffffff?Text=CSS",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML"
+    ],
+    "learning_outcomes": [
+      "Apply inline, internal, and external CSS styles.",
+      "Use selectors to target HTML elements.",
+      "Understand the CSS box model.",
+      "Implement basic page layouts with CSS."
+    ],
+    "course_materials": [
+      "CSS property reference guides",
+      "Layout examples and code snippets",
+      "Challenges on styling different HTML elements"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Sarah L.",
+        "comment": "Learned so much about making my websites look good!",
+        "rating": 4.6
+      }
+    ],
+    "pricing": {
+      "standard": 349.99
+    },
+    "assessment_methods": [
+      "CSS styling challenges",
+      "Layout implementation task"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in CSS Styling",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Essentials",
+    "description": "Get started with JavaScript programming language, covering the fundamentals and essential concepts for frontend development.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=JS",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML and CSS"
+    ],
+    "learning_outcomes": [
+      "Understand JavaScript syntax and data types.",
+      "Work with variables, operators, and control flow.",
+      "Manipulate the DOM (Document Object Model).",
+      "Handle events and create interactive elements."
+    ],
+    "course_materials": [
+      "JavaScript syntax guides",
+      "Interactive coding exercises",
+      "Examples of DOM manipulation"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Emily R.",
+        "comment": "JavaScript finally clicked for me in this course!",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "JavaScript fundamentals quiz",
+      "Interactive webpage development"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in JavaScript Essentials",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Responsive Web Design",
+    "description": "Learn techniques to create responsive and mobile-friendly websites that adapt to different screen sizes and devices.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/ccbbaa/ffffff?Text=Responsive",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Intermediate knowledge of HTML and CSS"
+    ],
+    "learning_outcomes": [
+      "Implement responsive layouts using CSS media queries.",
+      "Utilize flexible box (Flexbox) and Grid layout systems.",
+      "Optimize images and other assets for different devices.",
+      "Test and debug responsive designs."
+    ],
+    "course_materials": [
+      "Responsive design patterns",
+      "Code examples using Flexbox and Grid",
+      "Device testing checklists"
+    ],
+    "testimonials": [
+      {
+        "student_name": "David M.",
+        "comment": "Now I can make sure my websites look great on any device!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 399.99
+    },
+    "assessment_methods": [
+      "Responsive layout challenges",
+      "Building a responsive portfolio page"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Responsive Web Design",
+      "issuer": "Web Development Institute"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Frontend Frameworks (e.g., React, Angular, Vue)",
+    "description": "Master popular frontend frameworks like React, Angular, or Vue to build dynamic and interactive web applications.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/baccba/ffffff?Text=Frameworks",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Strong understanding of HTML, CSS, and JavaScript"
+    ],
+    "learning_outcomes": [
+      "Understand the core concepts of at least one major framework (React, Angular, or Vue).",
+      "Build reusable components and manage application state.",
+      "Work with APIs and handle asynchronous operations.",
+      "Implement routing and navigation within the framework."
+    ],
+    "course_materials": [
+      "Framework-specific documentation links",
+      "Project templates and starter kits",
+      "Examples of component-based architecture"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Jessica P.",
+        "comment": "This course gave me the skills to build complex web applications!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 799.99,
+      "with_mentorship": 999.99
+    },
+    "assessment_methods": [
+      "Building components and managing state",
+      "Developing a single-page application"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Frontend Framework Mastery",
+      "issuer": "Advanced Web Technologies Institute"
+    }
+  },
+  {
+    "id": 6,
+    "title": "CSS Preprocessors (e.g., Sass, Less)",
+    "description": "Explore CSS preprocessors like Sass or Less to write cleaner and more maintainable CSS code with advanced features.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/cabacb/ffffff?Text=Preprocessors",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Solid understanding of CSS"
+    ],
+    "learning_outcomes": [
+      "Utilize variables, nesting, and mixins in a CSS preprocessor.",
+      "Organize CSS code into modular and maintainable structures.",
+      "Understand the compilation process of preprocessor code.",
+      "Apply preprocessor features to improve styling efficiency."
+    ],
+    "course_materials": [
+      "Sass and Less syntax guides",
+      "Project examples using preprocessors",
+      "Configuration files and setup instructions"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Kevin S.",
+        "comment": "Sass has made my CSS workflow so much better!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 349.99
+    },
+    "assessment_methods": [
+      "Preprocessor syntax exercises",
+      "Refactoring CSS with a preprocessor"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in CSS Preprocessor Proficiency",
+      "issuer": "Web Styling Academy"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Frontend Build Tools (e.g., Webpack, Gulp)",
+    "description": "Learn how to use frontend build tools like Webpack or Gulp to automate tasks, optimize assets, and enhance development workflow.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/acbacb/ffffff?Text=BuildTools",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Familiarity with HTML, CSS, and JavaScript",
+      "Basic understanding of the command line"
+    ],
+    "learning_outcomes": [
+      "Configure and use a module bundler like Webpack.",
+      "Automate tasks such as code compilation and minification using Gulp.",
+      "Optimize assets like images and fonts for production.",
+      "Understand common build tool workflows."
+    ],
+    "course_materials": [
+      "Webpack and Gulp configuration files",
+      "Task automation examples",
+      "Optimization strategy guides"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Linda J.",
+        "comment": "Learning build tools has really streamlined my development process.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 449.99
+    },
+    "assessment_methods": [
+      "Configuring Webpack for a project",
+      "Automating build tasks with Gulp"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Frontend Build Tooling",
+      "issuer": "DevOps for Frontend Institute"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Version Control Systems (e.g., Git)",
+    "description": "Gain proficiency in version control systems like Git to track changes, collaborate with others, and manage code repositories.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/bcabca/ffffff?Text=Git",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand core Git concepts like repositories and commits.",
+      "Perform basic Git operations such as cloning, adding, and committing.",
+      "Work with branches and merge changes effectively.",
+      "Collaborate on projects using remote repositories (e.g., GitHub, GitLab)."
+    ],
+    "course_materials": [
+      "Git command reference sheets",
+      "Branching and merging scenarios",
+      "Collaboration workflow examples"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Omar Z.",
+        "comment": "Git is no longer a mystery! This course was very practical.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 299.99
+    },
+    "assessment_methods": [
+      "Git command quizzes",
+      "Collaborative project using Git"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Version Control with Git",
+      "issuer": "Software Collaboration Academy"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Accessibility in Web Development",
+    "description": "Understand the importance of web accessibility and learn techniques to create inclusive and usable web interfaces.",
+    "duration": "4 weeks",
+    "coursepic": "https://via.placeholder.com/300/aabbcc/ffffff?Text=A11y",
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design.",
+    "prerequisites": [
+      "Basic understanding of HTML"
+    ],
+    "learning_outcomes": [
+      "Understand WCAG guidelines and accessibility principles.",
+      "Implement semantic HTML for better accessibility.",
+      "Use ARIA attributes to enhance accessibility for dynamic content.",
+      "Test and evaluate web accessibility."
+    ],
+    "course_materials": [
+      "WCAG guideline summaries",
+      "ARIA attribute examples",
+      "Accessibility testing tools and techniques"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Nadia H.",
+        "comment": "This course opened my eyes to the importance of inclusive design.",
+        "rating": 5.0
+      }
+    ],
+    "pricing": {
+      "standard": 399.99
+    },
+    "assessment_methods": [
+      "Accessibility checklist application",
+      "Evaluating and improving the accessibility of a webpage"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Accessible Web Development",
+      "issuer": "Inclusive Design Institute"
+    }
+  }
+],
+      "projman_data": [
+        
+  {
+    "id": 1,
+    "title": "Introduction to Project Management",
+    "description": "Learn the fundamental principles and best practices of project management, including project planning, scheduling, and budgeting.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/87ceeb/ffffff?Text=IntroPM",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Understand the project lifecycle and key project management processes.",
+      "Develop a basic project plan, including scope, schedule, and budget.",
+      "Identify project stakeholders and their roles.",
+      "Learn fundamental risk management concepts."
+    ],
+    "course_materials": [
+      "Project management process flowcharts",
+      "Sample project plan templates",
+      "Introduction to PMBOK guide"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Aisha K.",
+        "comment": "A great starting point for anyone interested in project management.",
+        "rating": 4.5
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "Project management principles quiz",
+      "Developing a basic project charter"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Introduction to Project Management",
+      "issuer": "Project Management Academy"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Agile Project Management",
+    "description": "Explore the Agile methodology, including Scrum and Kanban, and understand how to manage projects in an iterative and flexible manner.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/f08080/ffffff?Text=AgilePM",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Understand the core values and principles of the Agile Manifesto.",
+      "Apply Scrum framework, including roles, events, and artifacts.",
+      "Utilize Kanban for managing workflow and limiting work in progress.",
+      "Facilitate effective Agile ceremonies."
+    ],
+    "course_materials": [
+      "Agile Manifesto and Principles",
+      "Scrum Guide and Kanban principles",
+      "Agile tools and techniques overview"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ben L.",
+        "comment": "This course helped me understand how to be more adaptive in project management.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 699.99
+    },
+    "assessment_methods": [
+      "Agile principles and frameworks quiz",
+      "Developing a product backlog and sprint plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Agile Project Management",
+      "issuer": "Agile Project Leadership Institute"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Risk Management",
+    "description": "Gain knowledge of identifying, assessing, and mitigating risks in projects to minimize their impact on project success.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/ffa07a/ffffff?Text=RiskMgmt",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Identify potential risks in a project.",
+      "Assess the likelihood and impact of identified risks.",
+      "Develop risk response strategies and plans.",
+      "Monitor and control project risks."
+    ],
+    "course_materials": [
+      "Risk identification techniques",
+      "Risk assessment matrix templates",
+      "Examples of risk response plans"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Chloe M.",
+        "comment": "Feeling much more confident in handling project uncertainties now.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 549.99
+    },
+    "assessment_methods": [
+      "Risk identification and analysis assignment",
+      "Developing a risk management plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Risk Management",
+      "issuer": "Project Assurance Group"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Project Scope and Requirements",
+    "description": "Learn techniques for defining project scope, eliciting requirements, and managing changes throughout the project lifecycle.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/98fb98/ffffff?Text=ScopeReq",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Define and document project scope effectively.",
+      "Utilize various techniques for eliciting stakeholder requirements.",
+      "Develop a Work Breakdown Structure (WBS).",
+      "Manage scope changes and control scope creep."
+    ],
+    "course_materials": [
+      "Scope statement templates",
+      "Requirements elicitation techniques guide",
+      "WBS creation guidelines"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Daniel P.",
+        "comment": "Understanding scope management is crucial, and this course delivered!",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Developing a project scope statement",
+      "Creating a Work Breakdown Structure"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Scope and Requirements Management",
+      "issuer": "Project Definition Institute"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Team Collaboration and Communication",
+    "description": "Understand effective communication strategies, team dynamics, and collaboration tools to facilitate project success.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/b0e0e6/ffffff?Text=TeamComm",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Apply effective communication techniques in project settings.",
+      "Understand team development stages and dynamics.",
+      "Utilize collaboration tools for efficient teamwork.",
+      "Manage and resolve team conflicts."
+    ],
+    "course_materials": [
+      "Communication plan templates",
+      "Team building activity guides",
+      "Overview of collaboration software"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ella S.",
+        "comment": "Improved my ability to work with project teams significantly.",
+        "rating": 4.6
+      }
+    ],
+    "pricing": {
+      "standard": 499.99
+    },
+    "assessment_methods": [
+      "Developing a communication plan",
+      "Case study on team conflict resolution"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Team Collaboration and Communication",
+      "issuer": "Project Leadership Collaborative"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Project Stakeholder Management",
+    "description": "Explore techniques for identifying, analyzing, and engaging stakeholders to ensure their needs are met throughout the project.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/d8bfd8/ffffff?Text=Stakeholder",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Identify and analyze project stakeholders.",
+      "Develop strategies for stakeholder engagement.",
+      "Manage stakeholder expectations and communication.",
+      "Address stakeholder issues and conflicts."
+    ],
+    "course_materials": [
+      "Stakeholder analysis templates",
+      "Engagement strategy examples",
+      "Communication matrix frameworks"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Frank T.",
+        "comment": "Learning how to manage stakeholders has been invaluable.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Stakeholder analysis report",
+      "Developing a stakeholder engagement plan"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Stakeholder Management",
+      "issuer": "Project Relations Institute"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Project Leadership",
+    "description": "Develop leadership skills required to motivate and guide project teams, resolve conflicts, and drive project success.",
+    "duration": "10 weeks",
+    "coursepic": "https://via.placeholder.com/300/daa520/ffffff?Text=Leadership",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Experience in project teams or basic project management knowledge"
+    ],
+    "learning_outcomes": [
+      "Understand different leadership styles and their application in projects.",
+      "Motivate and build high-performing project teams.",
+      "Develop conflict resolution and negotiation skills.",
+      "Foster a positive and collaborative project environment."
+    ],
+    "course_materials": [
+      "Leadership style assessments",
+      "Case studies on project leadership challenges",
+      "Team motivation techniques"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Gina U.",
+        "comment": "This course has helped me grow as a project leader.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 799.99,
+      "with_mentorship": 999.99
+    },
+    "assessment_methods": [
+      "Leadership style analysis",
+      "Scenario-based problem-solving for team issues"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Leadership",
+      "issuer": "Project Leadership Academy"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Project Quality Management",
+    "description": "Learn about quality planning, assurance, and control processes to deliver projects that meet or exceed stakeholders' expectations.",
+    "duration": "6 weeks",
+    "coursepic": "https://via.placeholder.com/300/66cdaa/ffffff?Text=QualityMgmt",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Develop a project quality management plan.",
+      "Apply quality assurance techniques throughout the project.",
+      "Utilize quality control tools and methods.",
+      "Understand the importance of continuous improvement in projects."
+    ],
+    "course_materials": [
+      "Quality management plan templates",
+      "Quality control charts and diagrams",
+      "Overview of quality standards (e.g., ISO 9000)"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Harry V.",
+        "comment": "Ensuring project quality is now a key focus for me.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 549.99
+    },
+    "assessment_methods": [
+      "Developing a quality management plan",
+      "Applying quality control techniques to a project scenario"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Quality Management",
+      "issuer": "Project Quality Assurance Institute"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Project Procurement and Vendor Management",
+    "description": "Understand the process of procuring external resources, managing contracts, and effectively working with vendors.",
+    "duration": "8 weeks",
+    "coursepic": "https://via.placeholder.com/300/e6e6fa/ffffff?Text=Procurement",
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries; passionate about Agile and Scrum.",
+    "prerequisites": [
+      "Basic understanding of project management concepts"
+    ],
+    "learning_outcomes": [
+      "Plan project procurement processes.",
+      "Develop and manage contracts with vendors.",
+      "Evaluate vendor proposals and select appropriate vendors.",
+      "Monitor and control vendor performance."
+    ],
+    "course_materials": [
+      "Procurement plan templates",
+      "Sample contract agreements",
+      "Vendor evaluation criteria"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Ivy W.",
+        "comment": "This course provided valuable insights into managing external resources.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 649.99
+    },
+    "assessment_methods": [
+      "Developing a procurement management plan",
+      "Analyzing vendor proposals"
+    ],
+    "certificate": {
+      "offered": true,
+      "title": "Certificate in Project Procurement and Vendor Management",
+      "issuer": "Project Resource Management Center"
+    }
+  }
+],
+      "se_data": [
+  {
+    "id": 1,
+    "title": "Introduction to Programming",
+    "description": "A beginner-friendly course that covers the fundamental concepts of programming and introduces popular programming languages. Students will gain a strong understanding of variables, control flow, loops, functions, and basic data structures. By the end of the course, learners will be able to write simple programs and understand the logic behind software applications.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/originals/60/10/e1/6010e1aa6224d58b92a9a8b99f588f27.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "No prior programming experience required",
+      "Basic computer literacy"
+    ],
+    "learning_outcomes": [
+      "Understand fundamental programming concepts",
+      "Write simple programs using structured logic",
+      "Understand and use variables, loops, and functions",
+      "Use debugging tools to identify and fix code issues"
+    ],
+    "course_materials": [
+      "Interactive coding exercises",
+      "Weekly quizzes and hands-on assignments",
+      "Code walkthrough videos",
+      "Sample mini-projects"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Liam R.",
+        "comment": "An excellent foundation course. It gave me the confidence to continue my programming journey.",
+        "rating": 4.7
+      },
+      {
+        "student_name": "Sofia K.",
+        "comment": "Dr. Petrova explains concepts clearly and the examples were practical and engaging.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 499.99,
+      "with_mentorship": 699.99,
+      "team_discount": "15% off for groups of 5+"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Web Development Basics",
+    "description": "Learn the essentials of front-end web development. This course introduces HTML5, CSS3, and JavaScript, enabling students to build interactive and visually appealing web pages. You'll work on real projects and gain a solid foundation for further study in web frameworks and back-end technologies.",
+    "duration": "10 weeks",
+    "coursepic": "https://i.pinimg.com/originals/d6/20/79/d62079ffb407e4deaf038e382bc6f84e.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with using web browsers and developer tools"
+    ],
+    "learning_outcomes": [
+      "Build responsive web pages using HTML and CSS",
+      "Implement dynamic behaviors with JavaScript",
+      "Understand the structure of web applications",
+      "Use browser dev tools to test and debug websites"
+    ],
+    "course_materials": [
+      "HTML/CSS templates",
+      "JavaScript playgrounds",
+      "Weekly coding labs",
+      "Mini web development projects"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Jason M.",
+        "comment": "I loved building my first interactive webpage! This course was a perfect entry point.",
+        "rating": 4.8
+      },
+      {
+        "student_name": "Maya S.",
+        "comment": "Great hands-on learning experience. The assignments helped solidify every topic.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 599.99,
+      "with_mentorship": 849.99,
+      "team_discount": "20% off for development teams of 3 or more"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Object-Oriented Programming",
+    "description": "Explore object-oriented programming principles including encapsulation, inheritance, polymorphism, and abstraction. This course focuses on designing maintainable software with OOP practices using languages such as Java or Python. You'll apply your skills in creating modular applications and reusable code components.",
+    "duration": "12 weeks",
+    "coursepic": "https://i.pinimg.com/originals/ce/df/90/cedf9002f1931b54621a67b25bff8390.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Intermediate programming skills",
+      "Familiarity with at least one high-level language"
+    ],
+    "learning_outcomes": [
+      "Design software using OOP principles",
+      "Write classes, methods, and implement inheritance structures",
+      "Refactor code to improve readability and reduce redundancy",
+      "Understand the impact of object design on performance and scalability"
+    ],
+    "course_materials": [
+      "Code refactoring labs",
+      "OOP design exercises",
+      "Access to an interactive code sandbox",
+      "Case studies on real-world OOP architectures"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Amir T.",
+        "comment": "This course took my programming skills to the next level. I now think in terms of design, not just syntax.",
+        "rating": 4.8
+      },
+      {
+        "student_name": "Clara B.",
+        "comment": "I finally understand how inheritance and polymorphism work in practice!",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 749.99,
+      "with_mentorship": 999.99,
+      "team_discount": "10% off for academic cohorts"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Database Management",
+    "description": "Get hands-on experience with relational databases, mastering SQL for data manipulation and database design. This course covers normalization, indexing, and joins, along with introductory coverage of NoSQL databases and real-world database performance issues.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/originals/52/8b/6b/528b6bfc14aa536d877cf3c3f110e2e9.jpg",
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+    "prerequisites": [
+      "Familiarity with programming concepts",
+      "Basic understanding of data structures"
+    ],
+    "learning_outcomes": [
+      "Write SQL queries to manipulate and retrieve data",
+      "Design normalized relational databases",
+      "Understand relational vs. non-relational databases",
+      "Optimize queries and understand indexing"
+    ],
+    "course_materials": [
+      "SQL cheat sheets and command references",
+      "ER diagram templates and tools",
+      "Sample datasets and exercises",
+      "Hands-on labs using MySQL or PostgreSQL"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Leo V.",
+        "comment": "Before this course, SQL looked intimidating—now I’m confident querying real databases!",
+        "rating": 4.9
+      },
+      {
+        "student_name": "Tanya E.",
+        "comment": "Straightforward teaching and practical labs. Highly recommend to any aspiring developer.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 499.99,
+      "with_mentorship": 749.99,
+      "team_discount": "15% off for internal IT teams"
+    }
+  },
+  {
+  "id": 5,
+  "title": "Software Testing and Quality Assurance",
+  "description": "Discover various testing techniques and quality assurance methodologies to ensure reliable and robust software products. This course covers unit testing, integration testing, system testing, automated testing, and QA lifecycle processes. Learn how to write testable code, apply test-driven development (TDD), and utilize frameworks such as JUnit, Selenium, and Postman.",
+  "duration": "8 weeks",
+  "coursepic": "https://i.pinimg.com/736x/19/bc/28/19bc286bc8e4f6e8c8b4f0d9faab122c.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Basic knowledge of programming concepts",
+    "Familiarity with software development lifecycle",
+    "Understanding of any programming language"
+  ],
+  "learning_outcomes": [
+    "Understand various software testing levels and methodologies",
+    "Write unit tests and use assertions effectively",
+    "Apply test-driven development in real-world scenarios",
+    "Use tools like JUnit, Selenium, and Postman for automated testing",
+    "Design test plans and test cases for functional and non-functional requirements",
+    "Implement quality assurance strategies within a development pipeline"
+  ],
+  "course_materials": [
+    "Test case templates and documentation guides",
+    "Interactive labs with mock apps for testing",
+    "Access to automation tools (open-source and trial versions)",
+    "Code repositories with test scenarios"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Leo G.",
+      "comment": "Excellent course that taught me how to integrate testing into my workflow. The automated testing exercises were a highlight.",
+      "rating": 4.7
+    },
+    {
+      "student_name": "Priya K.",
+      "comment": "Very practical and well-structured. I now approach software QA with confidence and precision.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 749.99,
+    "with_mentorship": 999.99,
+    "team_discount": "15% off for 3 or more seats"
+  }
+},
+{
+  "id": 6,
+  "title": "Full-Stack Web Development",
+  "description": "Master full-stack development with hands-on projects that guide you through building web applications from front-end to back-end. Learn how to use technologies like HTML5, CSS3, JavaScript, React, Node.js, Express, and MongoDB. The course also covers RESTful API creation, authentication strategies, and deployment on cloud platforms.",
+  "duration": "16 weeks",
+  "coursepic": "https://i.pinimg.com/736x/8e/f7/15/8ef7155157d7f7a7e10bb7e47cf1bba7.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Proficiency in HTML, CSS, and JavaScript",
+    "Basic understanding of web server concepts",
+    "Familiarity with version control (e.g., Git)"
+  ],
+  "learning_outcomes": [
+    "Build responsive front-end interfaces using React",
+    "Develop RESTful APIs with Node.js and Express",
+    "Design and integrate MongoDB databases with Mongoose",
+    "Implement authentication and user session management",
+    "Deploy applications on platforms like Heroku and Vercel",
+    "Understand MVC architecture and best practices"
+  ],
+  "course_materials": [
+    "Complete GitHub repositories for each project",
+    "Code walkthrough videos and interactive coding challenges",
+    "Deployment and CI/CD pipeline guides",
+    "Front-end and back-end debugging tools"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Rafael M.",
+      "comment": "I went from zero to building full apps with this course. Highly recommended for aspiring web developers.",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Claire H.",
+      "comment": "The final project was tough but rewarding. Great mix of instruction and practice!",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 1399.99,
+    "with_mentorship": 1799.99,
+    "team_discount": "20% off for teams of 3+"
+  }
+},
+{
+  "id": 7,
+  "title": "Mobile App Development",
+  "description": "Develop mobile applications for iOS and Android using modern frameworks such as React Native and Flutter. This course teaches UI/UX design for mobile, device hardware integration, navigation, state management, and deployment to app stores. Learn to build, test, and publish high-quality mobile apps that work across platforms.",
+  "duration": "14 weeks",
+  "coursepic": "https://i.pinimg.com/736x/45/b5/4a/45b54a32d38077f84ef63a872a25227b.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Knowledge of JavaScript or Dart",
+    "Familiarity with mobile app features and architecture",
+    "Experience with version control systems"
+  ],
+  "learning_outcomes": [
+    "Build native-like mobile apps using React Native or Flutter",
+    "Design responsive and adaptive mobile interfaces",
+    "Integrate APIs, device sensors, and local storage",
+    "Manage state using Redux or Provider",
+    "Test and debug apps on emulators and physical devices",
+    "Publish apps to the App Store and Google Play"
+  ],
+  "course_materials": [
+    "Sample codebases for mobile app features",
+    "Emulator setup and testing guides",
+    "UI component libraries for React Native and Flutter",
+    "Deployment checklists and publishing walkthroughs"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Jake Y.",
+      "comment": "Perfect for transitioning into mobile dev. The cross-platform aspect is a game-changer.",
+      "rating": 4.9
+    },
+    {
+      "student_name": "Mei L.",
+      "comment": "Very clear instruction and useful assignments. I published my first app through this course.",
+      "rating": 5.0
+    }
+  ],
+  "pricing": {
+    "standard": 1299.99,
+    "with_mentorship": 1599.99,
+    "team_discount": "15% off for teams of 4 or more"
+  }
+},
+{
+  "id": 8,
+  "title": "Data Structures and Algorithms",
+  "description": "Master core computer science concepts including data structures and algorithms. Learn to write efficient code, improve performance, and prepare for technical interviews. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, recursion, and algorithmic complexity analysis.",
+  "duration": "10 weeks",
+  "coursepic": "https://i.pinimg.com/736x/e2/e4/3f/e2e43fb20c515405a70c6d3d78677c91.jpg",
+  "name": "Dr. Elena Petrova",
+  "experience_years": 11,
+  "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies.",
+  "prerequisites": [
+    "Proficient in at least one programming language (e.g., Python, Java, C++)",
+    "Familiarity with basic problem-solving techniques",
+    "Understanding of loops, functions, and data types"
+  ],
+  "learning_outcomes": [
+    "Implement core data structures like arrays, stacks, and trees",
+    "Solve algorithmic problems using sorting, searching, and recursion",
+    "Analyze time and space complexity of algorithms",
+    "Use algorithms in solving real-world software problems",
+    "Prepare for technical interviews with practice problems",
+    "Apply graph and tree traversal strategies in applications"
+  ],
+  "course_materials": [
+    "Interactive problem sets and coding puzzles",
+    "Video lectures with whiteboard walkthroughs",
+    "Algorithm cheat sheets and complexity charts",
+    "Mock interview coding problems and solutions"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Victor D.",
+      "comment": "Tough but rewarding. Essential course if you're preparing for interviews or want to sharpen your skills.",
+      "rating": 5.0
+    },
+    {
+      "student_name": "Anna R.",
+      "comment": "Dr. Petrova breaks down complex topics into digestible parts. Highly recommend!",
+      "rating": 4.8
+    }
+  ],
+  "pricing": {
+    "standard": 1099.99,
+    "with_mentorship": 1399.99,
+    "team_discount": "10% off for study groups"
+  }
+}],
+      "ux_design": [
+  {
+    "id": 1,
+    "title": "Introduction to UX Design",
+    "description": "Learn the fundamental principles and processes of user experience (UX) design. This beginner-level course provides a solid foundation in UX thinking, usability, and design methodologies, preparing learners to work on user-centered products and services.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/564x/63/87/9c/63879cdedc70a3380bc3c7d6dfeb5249.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Basic computer literacy",
+      "Interest in design and user-centric thinking"
+    ],
+    "learning_outcomes": [
+      "Define core UX principles and design terminology",
+      "Understand the UX design process from start to finish",
+      "Differentiate between UX and UI",
+      "Apply user-centered thinking to problem solving"
+    ],
+    "course_materials": [
+      "Intro to UX Design handbook",
+      "Case studies on successful UX projects",
+      "Access to online UX design toolkit"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Maria L.",
+        "comment": "The course gave me the clarity I needed to start my UX career. Highly recommended for beginners.",
+        "rating": 4.7
+      }
+    ],
+    "pricing": {
+      "standard": 399.99,
+      "with_mentorship": 649.99,
+      "team_discount": "15% off for groups of 4 or more"
+    }
+  },
+  {
+    "id": 2,
+    "title": "User Research and Personas",
+    "description": "Explore user research techniques such as interviews, surveys, and field studies to gather actionable insights. Learn how to synthesize findings into effective personas that guide the design process.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/564x/b1/4e/70/b14e7060b3f02b944f39d36aef0b6f47.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Basic understanding of UX design",
+      "Interest in qualitative and quantitative research"
+    ],
+    "learning_outcomes": [
+      "Plan and conduct effective user research",
+      "Develop user personas based on real data",
+      "Identify user pain points and motivations",
+      "Translate research into actionable design insights"
+    ],
+    "course_materials": [
+      "Persona templates",
+      "Sample interview scripts and survey forms",
+      "User research case study repository"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Daryl K.",
+        "comment": "This course helped me build empathy with users and improve the impact of my designs.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 479.99,
+      "with_mentorship": 749.99,
+      "team_discount": "10% off for 3+ participants"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Information Architecture and Interaction Design",
+    "description": "Learn how to organize digital content and design intuitive interactions that support user goals. Gain hands-on skills in wireframing, site mapping, and flow creation to design effective user journeys.",
+    "duration": "8 weeks",
+    "coursepic": "https://i.pinimg.com/564x/fb/24/43/fb24432ec0f0217a946a4aa8cb7e5c4e.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Introduction to UX Design or equivalent experience",
+      "Familiarity with basic wireframing tools"
+    ],
+    "learning_outcomes": [
+      "Design logical information hierarchies and navigation systems",
+      "Create site maps and user flows",
+      "Build interactive wireframes and prototypes",
+      "Evaluate the effectiveness of interaction models"
+    ],
+    "course_materials": [
+      "IA and interaction design workbook",
+      "Access to wireframing/prototyping tools (e.g., Figma, Adobe XD)",
+      "Flowchart templates and examples"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Nina T.",
+        "comment": "The structured approach to IA and flow design transformed the way I build user interfaces.",
+        "rating": 4.9
+      }
+    ],
+    "pricing": {
+      "standard": 529.99,
+      "with_mentorship": 799.99,
+      "team_discount": "20% off for nonprofit teams"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Usability Testing and User Feedback",
+    "description": "Discover methods to evaluate the usability of your designs through testing and continuous feedback. Learn to plan, execute, and analyze usability tests for iterative design improvements.",
+    "duration": "6 weeks",
+    "coursepic": "https://i.pinimg.com/564x/d4/80/d4/d480d4647b1ad073c34894b5ebf0199d.jpg",
+    "name": "Dr. Naomi Fraser",
+    "experience_years": 10,
+    "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+    "prerequisites": [
+      "Understanding of user-centered design process",
+      "Experience with prototyping tools"
+    ],
+    "learning_outcomes": [
+      "Set usability goals and test hypotheses",
+      "Conduct moderated and unmoderated usability testing",
+      "Analyze qualitative and quantitative feedback",
+      "Incorporate feedback into iterative design cycles"
+    ],
+    "course_materials": [
+      "Usability testing script samples",
+      "Feedback analysis templates",
+      "Access to remote testing tools"
+    ],
+    "testimonials": [
+      {
+        "student_name": "Leo M.",
+        "comment": "I never realized how important structured testing was. This course gave me tools I use every week.",
+        "rating": 4.8
+      }
+    ],
+    "pricing": {
+      "standard": 459.99,
+      "with_mentorship": 719.99,
+      "team_discount": "Buy 3 seats, get 1 free"
+    }
+  },
+  {
+  "id": 5,
+  "title": "Visual Design for UX",
+  "description": "Develop the skills needed to craft visually appealing and cohesive user interfaces that enhance usability and align with UX principles. This course focuses on color theory, typography, layout, and design systems tailored for digital products.",
+  "duration": "6 weeks",
+  "coursepic": "https://i.pinimg.com/564x/2a/99/b4/2a99b4c155ca2e708a6c68cd4c1ed41d.jpg",
+  "name": "Dr. Naomi Fraser",
+  "experience_years": 10,
+  "background": "PhD in Human-Computer Interaction; UX strategist with experience leading enterprise-level design teams at global tech firms.",
+  "prerequisites": [
+    "Basic UX design knowledge",
+    "Familiarity with design tools such as Figma or Sketch"
+  ],
+  "learning_outcomes": [
+    "Apply color theory and visual hierarchy effectively",
+    "Choose appropriate typography for different platforms and contexts",
+    "Design consistent layouts that enhance readability and engagement",
+    "Create and manage design systems for scalable products"
+  ],
+  "course_materials": [
+    "Visual design reference guide",
+    "Access to UI design templates and mockups",
+    "Typography and color palette generators"
+  ],
+  "testimonials": [
+    {
+      "student_name": "Ayesha R.",
+      "comment": "This course transformed my design approach. It made me confident in making UI choices that truly support user needs.",
+      "rating": 4.9
+    }
+  ],
+  "pricing": {
+    "standard": 499.99,
+    "with_mentorship": 749.99,
+    "team_discount": "10% off for 4+ enrollments from the same organization"
+  }
+}],
+  "lecturers": [
+  {
+    "id": 1,
+    "name": "Prof. Lucas Ramirez",
+    "experience_years": 9,
+    "background": "Former senior backend engineer at a fintech startup; specializes in Python, Node.js, and microservices architecture. He is passionate about teaching scalable systems and has authored several backend architecture guides.",
+    "lecpic": "https://i.pinimg.com/736x/76/dd/a6/76dda651a36f1f876f129d8e096f1de9.jpg"
+      
+  },
+  {
+    "id": 2,
+    "name": "Dr. Aisha Clarke",
+    "experience_years": 12,
+    "background": "Holds a PhD in Information Security; worked with national cybersecurity agencies and consults on penetration testing and incident response. Dr. Clarke also leads community outreach for cybersecurity awareness.",
+    "lecpic": "https://i.pinimg.com/736x/7d/da/7b/7dda7b5cbb3ca9a7aeff90aa5d983fc8.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Kenji Nakamura",
+    "experience_years": 8,
+    "background": "Statistician turned data scientist with a focus on machine learning, predictive analytics, and big data systems. He’s known for his practical workshops and contributions to open-source ML tools.",
+    "lecpic": "https://i.pinimg.com/736x/e1/69/86/e16986c97e5f5e7c61789887e445d50e.jpg"  
+  },
+  {
+    "id": 4,
+    "name": "Mr. Nathan Cho",
+    "experience_years": 7,
+    "background": "UI/UX designer turned developer; expert in React, Vue, accessibility, and responsive design. She actively mentors women in tech and has spoken at multiple front-end development conferences.",
+    "lecpic": "https://i.pinimg.com/736x/db/8f/d5/db8fd501ca5827e467128f9a04342812.jpg"  
+  },
+  {
+    "id": 5,
+    "name": "Mr. Richard Okafor",
+    "experience_years": 15,
+    "background": "PMP-certified project manager with global experience across IT and construction industries. He specializes in Agile and Scrum frameworks and consults on enterprise transformation.",
+    "lecpic": "https://i.pinimg.com/736x/8e/b6/14/8eb6148c1d0480746646a319dc278ff1.jpg"  
+  },
+  {
+    "id": 6,
+    "name": "Dr. Elena Petrova",
+    "experience_years": 11,
+    "background": "Software architect and academic with dual focus in software design patterns and software lifecycle methodologies. She has developed university curricula and led research in scalable software systems.",
+    "lecpic": "https://i.pinimg.com/736x/80/4c/33/804c33f866afd34545a17cacbabb1f4c.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ms. Priya Menon",
+    "experience_years": 10,
+    "background": "Lead UX strategist with a decade of experience in user-centered design across healthcare and edtech platforms. Known for her workshops on accessibility and inclusive design.",
+    "lecpic": "https://i.pinimg.com/736x/81/db/94/81db94eca161f0d01f75f0b7df9123f1.jpg"  
+  }
+]
+    }
