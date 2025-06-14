@@ -17,7 +17,10 @@ import {
     CalendarIcon,
     LaptopIcon,
     ToolIcon,
-    GradCapIcon} 
+    GradCapIcon,
+    ListIcon,
+    ContractIcon,
+    PencilIcon} 
     from '../../..'
 import {CiRead} from 'react-icons/ci'
 //back-end
@@ -39,6 +42,14 @@ function JobCard({doc}) {
     }, [jobInfo])
 
 
+    const formatSalary = (salary) => {
+        const min = salary.value.minValue.toLocaleString();
+        const max = salary.value.maxValue.toLocaleString();
+        const currency = salary.currency === "USD" ? "$" : salary.currency;
+        const unit = salary.value.unitText === "YEAR" ? "/yr" : ""
+        
+        return `${currency}${min} - ${currency}${max} ${unit}`;
+    }
   return (
     <>
     <div 
@@ -141,9 +152,14 @@ function JobCard({doc}) {
         </header>
         <div className="h-[84%] w-full flex flex-col items-start px-5 py-3 space-y-4 overflow-y-scroll scrollbar-thin scrollbar-track-slate-800 scrollbar-thumb-sky-400">
             <span className="flex flex-col items-start space-y-3 w-full">
-                <h1 className="text-2xl text-sky-300 font-merriweather font-bold">
+                <span className="flex items-center space-x-5">
+                    <h1 className="text-2xl text-sky-300 font-merriweather font-bold">
                     {doc?.title}
                 </h1>
+                <strong className="text-sm text-sky-600 font-merriweather">
+                    {formatSalary(doc?.baseSalary)}
+                </strong>
+                </span>
                 <span className="w-[95%] flex items-center space-x-10 overflow-x-scroll scrollbar-thin scrollbar-track-slate-800 scrollbar-thumb-sky-400">
                     <span className="flex min-w-min max-w-max items-center space-x-2 text-sky-400">
                     <PinIcon 
@@ -204,6 +220,21 @@ function JobCard({doc}) {
                 ))}
             </span>
             <span className="flex items-center space-x-2 text-sky-500">
+                <ListIcon 
+                style={{
+                    fontSize: '1.5em'
+                }}
+                />
+            <h3 className="font-merriweather font-semibold text-lg ">
+                Description
+            </h3>
+            </span>
+            <span className="h-[140px] w-[95%] min-h-min max-h-max mx-auto space-y-2 bg-sky-700 px-3 bg-opacity-5 flex flex-col items-start overflow-y-scroll scrollbar-hide">
+                    <p className="font-merriweather font-light text-sm text-sky-100">
+                     {doc?.description}
+                    </p>
+            </span>
+            <span className="flex items-center space-x-2 text-sky-500">
                 <LaptopIcon 
                 style={{
                     fontSize: '1.5em'
@@ -213,14 +244,12 @@ function JobCard({doc}) {
                 Skills
             </h3>
             </span>
-            <span className="w-[95%] min-h-min max-h-max mx-auto space-y-2 bg-sky-700 px-3 bg-opacity-5 flex flex-col items-start overflow-y-scroll scrollbar-hide">
+            <span className="w-[95%] min-h-min max-h-max mx-auto space-x-2 bg-sky-700 px-3 bg-opacity-5 flex items-center overflow-x-scroll scrollbar-hide">
                 {doc?.skills?.map(skill => (
                     <span className="flex items-center space-x-2 text-sky-100">
-                    <ToolIcon 
-                    style={{
-                        fontSize: '1.0em'
-                    }}
-                    />
+                    <p className="font-merriweather font-light text-sm ">
+                    -
+                    </p>
                     <p className="font-merriweather font-light text-sm ">
                      {skill}
                     </p>
@@ -247,6 +276,30 @@ function JobCard({doc}) {
                     />
                     <p className="font-merriweather font-light text-sm ">
                      {resp}
+                    </p>
+                    </span>
+                ))}
+            </span>
+            <span className="flex items-center space-x-2 text-sky-500">
+                <ContractIcon 
+                style={{
+                    fontSize: '1.5em'
+                }}
+                />
+            <h3 className="font-merriweather font-semibold text-lg ">
+                Benefits
+            </h3>
+            </span>
+            <span className="w-[95%] min-h-min max-h-max mx-auto space-y-2 bg-sky-700 px-3 bg-opacity-5 flex flex-col items-start overflow-y-scroll scrollbar-hide">
+                {doc?.jobBenefits?.map(benefit => (
+                    <span className="flex items-center space-x-2 text-sky-100">
+                    <PencilIcon 
+                    style={{
+                        fontSize: '1.0em'
+                    }}
+                    />
+                    <p className="font-merriweather font-light text-sm ">
+                     {benefit}
                     </p>
                     </span>
                 ))}

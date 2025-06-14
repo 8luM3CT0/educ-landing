@@ -17,9 +17,9 @@ export {FaConnectdevelop, FaLightbulb as BulbIcon, FaGraduationCap as CapIcon, F
 export {SiBmcsoftware} from 'react-icons/si'
 export {AiOutlineHome} from 'react-icons/ai'
 export {IoMdHammer as HammerIcon} from 'react-icons/io'
-export {CiPen as PenIcon, CiLocationOn as PinIcon, CiMapPin as AltPinIcon, CiCalendar as CalendarIcon} from 'react-icons/ci'
+export {CiPen as PenIcon, CiLocationOn as PinIcon, CiMapPin as AltPinIcon, CiCalendar as CalendarIcon, CiCircleList as ListIcon} from 'react-icons/ci'
 export {MdOutlineWork as WorkIcon, MdOutlineCloseFullscreen as CloseIcon} from 'react-icons/md'
-export {FaInfo as InfoIcon, FaEye as ViewIcon, FaRegBuilding as IndustryIcon, FaClipboard as ClipboardIcon, FaCheck as CheckIcon} from 'react-icons/fa'
+export {FaInfo as InfoIcon, FaEye as ViewIcon, FaRegBuilding as IndustryIcon, FaClipboard as ClipboardIcon, FaCheck as CheckIcon, FaFileContract as ContractIcon, FaPencilAlt as PencilIcon} from 'react-icons/fa'
 export {SlPeople as PeopleIcon} from 'react-icons/sl'
 export {GiThorHammer as QualIcon} from 'react-icons/gi'
 //local components
