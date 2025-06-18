@@ -14,13 +14,15 @@ import { useRouter } from 'next/router'
 
 function CourseCard({
   title,
-  router_link,
   backgroundImage
 }) {
   const router = useRouter()
+  const [courseCardInfo, setCourseCardInfo] = useState(false)
+  const [openCourseCardInfo, setOpenCourseCardInfo] = useState(false)
+  const [closeCourseCardInfo, setCloseCourseCardInfo] = useState(false)
   return (
+    <>
     <div 
-    onClick={() => router.push(`/courses/${router_link}`)}
     className='
     courseCardDiv
     group
@@ -55,6 +57,7 @@ function CourseCard({
           </h1>
         </div>
     </div>
+    </>
   )
 }
 

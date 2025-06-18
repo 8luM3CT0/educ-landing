@@ -81,6 +81,7 @@ function Course() {
                   {courses?.cyb_data && courses?.cyb_data.map(data => (
                     <ShortCard 
                     data={data}
+                    lecData={courses?.lecturers}
                     />
                   ))}
                 </div>
@@ -104,8 +105,9 @@ function Course() {
                 ">
                                     {courses?.dsci_data && courses?.dsci_data.map(data => (
                     <ShortCard 
-data={data}
-/>
+                    data={data}
+                    lecData={courses?.lecturers}
+                    />
                   ))}
                 </div>
             </div>
@@ -128,8 +130,9 @@ data={data}
                 ">
                                     {courses?.fend_data && courses?.fend_data.map(data => (
                     <ShortCard 
-data={data}
-/>
+                    data={data}
+                    lecData={courses?.lecturers}
+                    />
                   ))}
                 </div>
             </div>
@@ -152,8 +155,9 @@ data={data}
                 ">
                                     {courses?.projman_data && courses?.projman_data.map(data => (
                     <ShortCard 
-data={data}
-/>
+                    data={data}
+                    lecData={courses?.lecturers}
+                    />
                   ))}
                 </div>
             </div>
@@ -177,8 +181,9 @@ data={data}
                 ">
                                     {courses?.se_data && courses?.se_data.map(data => (
                     <ShortCard 
-data={data}
-/>
+                    data={data}
+                    lecData={courses?.lecturers}
+                    />
                   ))}
                 </div>
             </div>
@@ -201,8 +206,9 @@ data={data}
                 ">
                                     {courses?.ux_design && courses?.ux_design.map(data => (
                     <ShortCard 
-data={data}
-/>
+                    data={data}
+                    lecData={courses?.lecturers}
+                    />
                   ))}
                 </div>
             </div>

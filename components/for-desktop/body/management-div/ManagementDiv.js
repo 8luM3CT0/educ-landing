@@ -4,6 +4,7 @@ import React from 'react'
 import {useRef, useState} from 'react'
 import { courses } from '../../..'
 
+
 function ManagementDiv({
     closeManagementModal,
     setCloseManagementModal,

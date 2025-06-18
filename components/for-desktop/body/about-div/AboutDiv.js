@@ -9,7 +9,7 @@ function AboutDiv({
 }) {
   return (
     <div className="h-full w-full bg-slate-700 bg-opacity-80">
-                  <header className="bg-slate-800 bg-opacity-95 lg:h-[5%] h-[12%] w-full border-b-2 border-emerald-300 px-6 flex items-center justify-between">
+                  <header className="bg-slate-800 bg-opacity-95 h-[8%] w-full border-b-2 border-emerald-300 px-6 flex items-center justify-between">
                     <h3 className="font-montserr font-semibold text-2xl text-emerald-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       About Us
                     </h3>
@@ -19,15 +19,15 @@ function AboutDiv({
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="lg:h-[95%] h-[88%] lg:overflow-hidden overflow-y-scroll scrollbar-hide w-full flex flex-col items-center justify-evenly space-y-3 px-4 py-3">
+                  <div className="h-[92%] lg:overflow-hidden overflow-y-scroll scrollbar-hide w-full flex items-center space-x-3 px-4 py-3">
                     
-                    <span className=" h-[33%] w-full flex items-center rounded">
-                    <span className="w-[40%] h-full bg-about bg-center bg-no-repeat"></span>
-                    <span className="flex flex-col h-full items-start w-[60%] space-y-3 px-3 bg-slate-700 bg-opacity-80">
+                    <span className=" h-full w-fit flex items-center rounded">
+                      <span className="w-[35%] h-full bg-cover bg-no-repeat bg-about" />
+                    <span className="flex flex-col h-full items-start w-[65%] space-y-3 px-3 bg-slate-700 bg-opacity-80">
                       <h3 className="font-gothic-cond font-semibold text-3xl text-emerald-200">
                         Outstanding & amiable
                       </h3>
-                      <span className="h-[85%] overflow-y-scroll scrollbar-hide scrollbar-track-slate-800 scrollbar-thumb-emerald-400 w-full px-3 py-2 rounded-md group">
+                      <span className="h-[85%] overflow-y-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-emerald-400 w-full px-3 py-2 rounded-md group">
                         <p className="font-merriweather font-normal text-base text-emerald-50 transition-transform duration-300 ease-in-out ">
                         Located in the heart of Silicon Valley, our institution in Los Altos stands at the forefront of technology education, specializing in software engineering and data science. We are driven by a mission to equip learners with the technical expertise, critical thinking skills, and ethical foundations needed to thrive in today’s fast-evolving digital world.
 
@@ -41,8 +41,8 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                     </span>
                   </span>
                     
-                    <span className="bg-no-repeat h-[33%] flex items-center w-full rounded">
-                        <span className="flex flex-col h-full items-start w-[60%] space-y-3 px-3 bg-slate-700 bg-opacity-80">
+                    <span className="bg-no-repeat h-full flex flex-col items-start w-fit rounded">
+                        <span className="flex flex-col h-[45%] items-start w-full space-y-3 px-3 bg-slate-700 bg-opacity-80">
                       <h3 className="font-gothic-cond font-semibold text-3xl text-emerald-200">
                         Vision
                       </h3>
@@ -52,12 +52,11 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                         </p>
                       </span>
                     </span>
-                      <span className="h-full w-[40%] bg-about-alt bg-cover bg-no-repeat"></span>
+                    <span className='w-full h-[55%] bg-cover bg-no-repeat bg-about-alt' />
                     </span>
                 
-                <span className=" h-[33%] flex items-center w-full rounded">
-                  <span className="h-full w-[40%] bg-no-repeat bg-cover bg-about-alt-sec"></span>
-                    <span className="flex flex-col h-full items-start w-[60%] space-y-3 px-3 bg-slate-700 bg-opacity-80">
+                <span className=" h-full flex items-center w-fit rounded">
+                    <span className="flex flex-col h-full items-start w-[80%] space-y-3 px-3 bg-slate-700 bg-opacity-80">
                       <h3 className="font-gothic-cond font-semibold text-3xl text-emerald-200">
                         Mission statement
                       </h3>
@@ -65,7 +64,7 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                         <h4 className="font-merriweather font-normal text-base text-emerald-50 transition-transform duration-300 ease-in-out ">
                           Our mission is to cultivate a new generation of skilled software and data professionals by delivering industry-relevant, research-driven, and accessible education. We are committed to:
                           </h4>
-                          <span className="flex flex-col overflow-y-scroll scrollbar-hide bg-sky-700 bg-opacity-50 rounded h-[60%] items-start w-full px-3 mx-auto space-y-2">
+                          <span className="flex flex-col overflow-y-scroll scrollbar-hide bg-sky-700 bg-opacity-50 rounded h-fit items-start w-full py-2 px-3 mx-auto space-y-2">
                             <p className="font-playfair-disp font-extrabold text-emerald-50 text-sm">
                             Providing cutting-edge curricula in software development, data science, artificial intelligence, and related fields.
                             </p>
@@ -81,6 +80,7 @@ With small class sizes, expert faculty, and a commitment to hands-on learning, w
                           </span>
                       </span>
                     </span>
+                    <span className='w-[20%] h-full bg-about-alt-sec bg-cover bg-no-repeat' />
                 </span>
                   </div>
                 </div>

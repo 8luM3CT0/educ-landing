@@ -251,10 +251,7 @@ export default function Home () {
       />
       {/**top of home page */}
       <main className="
-      h-full
-      w-full
-      overflow-y-scroll
-      scrollbar-hide
+      mainModal
       ">
         <div className="
       h-[60%]
@@ -595,7 +592,6 @@ toptextDesc
               <CourseCard 
               backgroundImage={data?.bgImg}
               title={data?.title}
-              router_link={data?.router_link}
               />
             ))}
             </div>
@@ -649,7 +645,7 @@ toptextDesc
             ">
               
                 <div className={`
-                lg:w-[50%]
+                lg:w-[80%]
                 w-[90%]
                 h-full
               border-r-2
@@ -674,14 +670,14 @@ toptextDesc
               </div>
               <div 
               onClick={() => setCloseAboutModal(true)}
-              className="lg:w-[50%] w-[10%] h-full"/>
+              className="lg:w-[20%] w-[10%] h-full"/>
             </div>
           )}
           {(managementModal || closeManagementModal) && (
             <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex items-center ">
-              <div onClick={() => setCloseManagementModal(true)} className="w-[30%] h-full"></div>
+              <div onClick={() => setCloseManagementModal(true)} className="w-[20%] h-full"></div>
               <div className= {`
-                w-[70%] 
+                w-[80%] 
                 h-full 
                 border-l-2 
                 border-pink-300 
@@ -704,7 +700,7 @@ toptextDesc
                 bg-slate-700
                 bg-opacity-80
                 ">
-                  <header className="bg-slate-800 bg-opacity-95 lg:h-[5%] h-[12%] w-full border-b-2 border-pink-300 px-6 flex items-center justify-between">
+                  <header className="bg-slate-800 bg-opacity-95 h-[8%] w-full border-b-2 border-pink-300 px-6 flex items-center justify-between">
                     <h3 className="font-montserr font-semibold text-2xl text-pink-300 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       Management
                     </h3>
@@ -714,7 +710,7 @@ toptextDesc
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="lg:h-[95%] h-[88%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
+                  <div className="h-[92%] w-full mx-auto flex flex-col items-start py-3 space-y-3 ">
                     {/**div that shows the team */}
                     <ManagementDiv 
                     closeManagementModal={closeManagementModal}
@@ -754,7 +750,7 @@ toptextDesc
                   }
                 }}
                 >
-                  <header className="lg:h-[5%] h-[12%] w-full bg-slate-800 border-b-2 border-amber-500 px-4 flex items-center justify-between ">
+                  <header className="h-[8%] w-full bg-slate-800 border-b-2 border-amber-500 px-4 flex items-center justify-between ">
                   <h3 className="font-montserr font-semibold text-2xl text-amber-500 hover:-skew-x-6 hover:font-bold transition-transform duration-500 ease-in-out">
                       Course
                     </h3>
@@ -764,7 +760,7 @@ toptextDesc
                       <CloseIcon />
                     </button>
                   </header>
-                  <div className="lg:h-[95%] h-[88%] w-full ">
+                  <div className="h-[92%] w-full ">
                     <Course />
                   </div>
                 </div>

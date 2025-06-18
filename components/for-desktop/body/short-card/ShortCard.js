@@ -4,8 +4,7 @@ import {Modal, ModalHeader, ModalBody, ModalFooter, Button, StarIcon} from '../.
 //back-end
 import { useEffect, useState } from 'react'
 
-
-function ShortCard({data}) {  
+function ShortCard({data, lecData}) {  
     const [courseInfo, setCourseInfo] = useState(false)
     const [openingCard, setOpeningCard] = useState(false)
     const [closingCard, setClosingCard] = useState(false)
@@ -13,8 +12,6 @@ function ShortCard({data}) {
     const [enrollmentCard, setEnrollmentCard] = useState(false)
     const [closeEnrollmentCard, setCloseEnrollmentCard] = useState(false)
   
-    console.log('Data for course materials >>>>', data.course_materials)
-
     useEffect(() => {
       if(courseInfo && !openingCard){
         setTimeout(() => {
@@ -164,20 +161,25 @@ function ShortCard({data}) {
           space-y-3
           px-4
           py-3
+          overflow-y-scroll
+          scrollbar-thin
+          scrollbar-track-slate-700
+          scrollbar-thumb-sky-400
           ">
             <h1 className="font-playfair-disp font-bold text-slate-100 text-2xl">
               {data.title}
             </h1>
-            <span className="w-full min-h-[40px] max-h-[100px] px-4 py-3 bg-slate-800 bg-opacity-30 rounded overflow-y-scroll scrollbar-hide font-playfair-disp font-normal text-base text-slate-400">
+            <span className="w-full min-h-[100px] max-h-[240px] px-4 py-3 bg-slate-800 bg-opacity-30 rounded overflow-y-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-slate-600 font-playfair-disp font-normal text-base text-slate-400">
               {data.description}
             </span>
-            <div className="flex flex-col items-center w-full">
+              {data.prerequisites.length > 0 && (
+                <div className="flex flex-col items-center w-full">
               <header className="w-full flex items-center">
                 <h4 className="font-playfair-disp font-semibold text-sky-400 text-lg">
                   Prerequisites
                 </h4>
               </header>
-              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-hide space-x-8 justify-between">
+              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-sky-500 space-x-8 justify-between">
               {data.prerequisites.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-sky-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-sky-200">
@@ -187,13 +189,14 @@ function ShortCard({data}) {
               ))}
               </div>
             </div>
+              )}
             <div className="flex flex-col items-center w-full">
               <header className="w-full flex items-center">
                 <h4 className="font-playfair-disp font-semibold text-emerald-400 text-lg">
                   Course materials
                 </h4>
               </header>
-              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-hide space-x-8 justify-between">
+              <div className="w-full flex items-center bg-slate-900 bg-opacity-30 py-3 px-4 overflow-x-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-emerald-200 space-x-8 justify-between">
               {data.course_materials.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-emerald-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-emerald-200">
@@ -209,7 +212,7 @@ function ShortCard({data}) {
                   Learning outcomes
                 </h4>
               </header>
-              <div className="w-full max-h-[150px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
+              <div className="w-full max-h-[150px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-sky-500 space-y-4 justify-between">
               {data.learning_outcomes.map(subdata => (
                   <span className="min-w-fit max-w-[400px] px-3 bg-purple-700 rounded-lg bg-opacity-30">
                     <h3 className="font-playfair-disp font-bold text-base text-purple-200">
@@ -225,7 +228,7 @@ function ShortCard({data}) {
                   Testimonials
                 </h4>
               </header>
-              <div className="w-full min-h-[150px] max-h-[200px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-hide space-y-4 justify-between">
+              <div className="w-full min-h-[150px] max-h-[200px] bg-slate-900 bg-opacity-30 px-4 py-3 flex flex-col items-start overflow-y-scroll scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-sky-500 space-y-4 justify-between">
               {data.testimonials.map(subdata => (
                   <span className="min-w-[90%] max-w-full px-3 bg-indigo-700 rounded-lg bg-opacity-30 flex flex-col items-start">
                     <span className="flex items-center w-full px-3 py-2 justify-between">
@@ -327,18 +330,42 @@ function ShortCard({data}) {
           >
             <header className="h-[8%] w-full bg-slate-800">
               <div className="bg-sky-800 bg-opacity-20 w-full h-full px-4  flex items-center justify-between">
-              </div>
-            </header>
-            <div className="h-[80%] w-full bg-slate-800 hover:bg-slate-700 transform transition-colors duration-300 ease-in-out">
-              <div className="h-full w-full bg-opacity-30 bg-sky-900 flex flex-col items-center justify-center space-y-2">
                 <h1 className="
                 font-merriweather
                 font-bold
                 text-sky-100
-                text-2xl
+                text-xl
                 ">
                   You are officially enrolled to: {data?.title}
                 </h1>
+              </div>
+            </header>
+            <div className="h-[80%] w-full bg-slate-800 hover:bg-slate-700 transform transition-colors duration-300 ease-in-out">
+              <div className="h-full w-full bg-opacity-30 bg-sky-900 flex flex-col items-start space-y-2 px-3 py-2">
+                <h3 className="font-playfair-disp text-base text-sky-500 font-semibold">
+                  The course will be taught by
+                </h3>
+                <h1 className="font-merriweather font-bold text-2xl text-sky-400 mx-auto">
+                  {data?.name}
+                </h1>
+              <span className="w-full h-full flex flex-col items-start space-y-4">
+                <span className="flex items-center space-x-3">
+                  <p className="font-merriweather font-semibold text-lg text-sky-500">
+                    Years of experience:
+                  </p>
+                  <p className="font-merriweather font-extrabold text-base text-sky-600">
+                    {data?.experience_years}
+                  </p>
+                </span>
+                <span className="h-full w-full flex flex-col items-start space-y-2">
+                  <p className="font-merriweather font-semibold text-lg text-sky-500">
+                    Background:
+                  </p>
+                  <span className="font-merriweather font-normal text-sm text-sky-100 h-[70%] w-full overflow-y-scroll scrollbar-thin scrollbar-track-slate-800 scrollbar-thumb-sky-400 px-3 py-2">
+                    {data?.background}
+                  </span>
+                </span>
+              </span>
               </div>
             </div>
             <footer className="h-[12%] w-full bg-slate-800">
