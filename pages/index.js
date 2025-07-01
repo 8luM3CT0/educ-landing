@@ -23,6 +23,7 @@ import Course from './course'
 import JobFeed from './jobs'
 import AboutDiv from '../components/for-desktop/body/about-div/AboutDiv'
 import ManagementDiv from '../components/for-desktop/body/management-div/ManagementDiv'
+import LoginModal from '../backend/login'
 
 
 export default function Home () {
@@ -95,6 +96,14 @@ export default function Home () {
    const [jobModal, setJobModal] = useState(false)
    const [openJobModal, setOpenJobModal] = useState(false)
    const [closeJobModal, setCloseJobModal] = useState(false) 
+   //for login modal
+   const [loginModal, setLoginModal] = useState(false)
+   const [openLoginModal, setOpenLoginModal] = useState(false)
+   const [closeLoginModal, setCloseLoginModal] = useState(false)
+   //for query modal
+   const [queryModal, setQueryModal] = useState(false)
+   const [openQueryModal, setOpenQueryModal] = useState(false)
+   const [closeQueryModal, setCloseQueryModal] = useState(false)
 
    //for open & close of aboutModal
    useEffect(() => {
@@ -174,6 +183,30 @@ export default function Home () {
     {!jobModal && setJobModal(true)}
    }
    
+   //for open & close of login modal
+   useEffect(() => {
+    if(loginModal && !openLoginModal){
+      setTimeout(() => {
+        setOpenLoginModal(true)
+      }, 15)
+    } else if(!loginModal){
+      setOpenLoginModal(false)
+    }
+   }, [loginModal])
+
+
+   //for open & close of queryModal
+   useEffect(() => {
+    if(queryModal && !openQueryModal){
+      setTimeout(() => {
+        setOpenQueryModal(true)
+      }, 15)
+    } else if(!queryModal){
+      setOpenQueryModal(false)
+    }
+   }, [queryModal])
+
+   
   return (
    <>
     <div
@@ -218,6 +251,8 @@ export default function Home () {
       closeJobModal={closeJobModal}
       setCloseJobModal={setCloseJobModal}
       openJModal={openJModal}
+      loginModal={loginModal}
+      setLoginModal={setLoginModal}
       />
       <MIHeader 
       aboutModal={aboutModal}
@@ -816,6 +851,57 @@ toptextDesc
                   </div>
                 </div>
               </div>
+            </div>
+          )}
+
+          {(loginModal || closeLoginModal) && (
+            <div className="h-full w-full inset-0 z-50 fixed bg-slate-800 bg-opacity-30 flex items-center overflow-hidden">
+              <div 
+              onClick={() => setCloseLoginModal(true)}
+              className="h-full w-[12%]"></div>
+              <div 
+              className="h-full w-[76%] flex flex-col items-center">
+                <div 
+                onClick={() => setCloseLoginModal(true)}
+                className="w-full h-[5%]"></div>
+                <div 
+                className={`h-[90%] w-full bg-slate-900 rounded-xl border-4 border-t-amber-500 border-r-sky-500 border-b-indigo-500 border-emerald-500 transition-all duration-300 ${openLoginModal && !closeLoginModal ? 'translate-x-0 translate-y-0':'-translate-x-full -translate-y-full'} `}
+                onTransitionEnd={() => {
+                  if(closeLoginModal){
+                    setLoginModal(false)
+                    setCloseLoginModal(false)
+                  }
+                }}
+                >
+                  <LoginModal />
+                </div>
+                <div 
+                onClick={() => setCloseLoginModal(true)}
+                className="w-full h-[5%]"></div>
+              </div>
+              <div 
+              onClick={() => setCloseLoginModal(true)}
+              className="h-full w-[12%]"></div>
+            </div>
+          )}
+                    {(queryModal || closeQueryModal) && (
+            <div className="h-full w-full bg-slate-800 bg-opacity-50 fixed inset-0 z-50 flex items-center">
+              <div  
+              onClick={() => setCloseQueryModal(false)}
+              className="w-[12%] h-full"></div>
+              <div className="h-full w-[76%] flex flex-col items-center">
+                <div onClick={() => setCloseQueryModal(true)} className="w-full h-[7.5%]"></div>
+                <div className={`h-[85%] w-full bg-slate-900 rounded-xl border-2 border-t-amber-500 border-r-sky-500 border-b-indigo-500 border-emerald-500 transition-all duration-300 ${openQueryModal && !closeQueryModal ? 'translate-x-0 translate-y-0':'-translate-x-full -translate-y-full'}`} onTransitionEnd={() => {
+                  if(closeQueryModal){
+                    setQueryModal(false)
+                    setCloseQueryModal(false)
+                  }
+                }}></div>
+                <div onClick={() => setCloseQueryModal(true)} className="w-full h-[7.5%]"></div>
+              </div>
+              <div  
+              onClick={() => setCloseQueryModal(false)}
+              className="w-[12%] h-full"></div>
             </div>
           )}
           </>

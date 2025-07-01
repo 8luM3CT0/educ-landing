@@ -2,7 +2,7 @@
 import React from 'react'
 import {FcAcceptDatabase} from 'react-icons/fc'
 import {FaConnectdevelop} from 'react-icons/fa'
-import {BulbIcon, CapIcon, HammerIcon, InfoIcon, PeopleIcon, SiBmcsoftware, WorkIcon} from '../../'
+import {BulbIcon, CapIcon, HammerIcon, InfoIcon, LoginIcon, PeopleIcon, SiBmcsoftware, WorkIcon} from '../../'
 //back-end
 import { useRouter } from 'next/router'
 import {useState} from 'react'
@@ -35,7 +35,11 @@ function DesktopIndHeader({
     setOpenJobModal,
     closeJobModal,
     setCloseJobModal,
-    openJModal
+    openJModal,
+    openQueryModal,
+    loginModal,
+    setLoginModal,
+    openLoginModal
 }) {
   const router = useRouter()
   //for opening of about modal
@@ -124,7 +128,7 @@ function DesktopIndHeader({
         </span>
 
         <span 
-        onClick={() => router.push('/support')}
+        onClick={() => setLoginModal(true)}
         className="
         w-[0.2]
         bg-sky-900
@@ -144,18 +148,18 @@ function DesktopIndHeader({
         ease-in-out
         group
         ">
-                    <FaConnectdevelop 
-        style={{
-            color: 'cyan',
-            fontSize: '1.5em'
-        }}
-        />
+         <LoginIcon 
+         style={{
+            fontSize: '1.3em',
+            color: 'goldenrod'
+         }}
+         />
         <h1 className="    
-    font-robot-condensed
+    font-playfair-disp
     font-bold
     text-sm
     text-slate-300">
-            Connect with us
+        Login
         </h1>
         </span>
     </div>
