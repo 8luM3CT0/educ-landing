@@ -2,48 +2,36 @@
 import React from 'react'
 import {FcAcceptDatabase} from 'react-icons/fc'
 import {FaConnectdevelop} from 'react-icons/fa'
-import {BulbIcon, CapIcon, HammerIcon, InfoIcon, LoginIcon, PeopleIcon, SiBmcsoftware, WorkIcon} from '../../'
+import {
+    BulbIcon, 
+    CapIcon, 
+    HammerIcon, 
+    InfoIcon, 
+    LoginIcon, 
+    PeopleIcon, 
+    SiBmcsoftware, 
+    WorkIcon,
+    CustomDropdown
+} from '../../'
 //back-end
 import { useRouter } from 'next/router'
-import {useState} from 'react'
+import {useRef ,useState, useEffect} from 'react'
+import { useUser } from '@supabase/auth-helpers-react'
 
 function DesktopIndHeader({
-    aboutModal,
-    setAboutModal,
-    openAboutModal,
-    setOpenAboutModal,
-    closeAboutModal,
-    setCloseAboutModal,
     openAModal,
-    managementModal,
-    setManagementModal,
-    openManagementModal,
-    setOpenManagementModal,
-    closeManagementModal,
-    setCloseManagementModal,
     openMModal,
-    courseModal,
-    setCourseModal,
-    openCourseModal,
-    setOpenCourseModal,
-    closeCourseModal,
-    setCloseCourseModal,
     openCModal,
-    jobModal,
-    setJobModal,
-    openJobModal,
-    setOpenJobModal,
-    closeJobModal,
-    setCloseJobModal,
     openJModal,
-    openQueryModal,
-    loginModal,
-    setLoginModal,
-    openLoginModal
+    options = [],
+    onSelect
 }) {
-  const router = useRouter()
-  //for opening of about modal
+  const user = useUser()
+    const handleDropdownSelect = value => {
+        console.log('Selected', value)
+    }
   
+
     return (
     <>
     <div
@@ -127,6 +115,15 @@ function DesktopIndHeader({
             </span>
         </span>
 
+        {user ? (
+            <>
+            <CustomDropdown 
+            options={['Logout']}
+            onSelect={handleDropdownSelect}
+            userEmail={user?.email}
+            />
+            </>
+        ): (
         <span 
         onClick={() => setLoginModal(true)}
         className="
@@ -162,6 +159,7 @@ function DesktopIndHeader({
         Login
         </h1>
         </span>
+        )}
     </div>
     </>
   )

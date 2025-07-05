@@ -31,7 +31,7 @@ export default function LoginModal(){
     }
 
        return(
-        <form onSubmit={handleSignUp} className="h-full w-full flex flex-col items-start">
+        <div className="h-full w-full flex flex-col items-start">
             <header className="top-0 h-[8%] w-full border-b-4 border-amber-500 flex items-center px-3 py-2">
                 <h1 className="font-merriweather font-bold text-lg text-slate-100">
                     User login options
@@ -39,14 +39,23 @@ export default function LoginModal(){
             </header>
             <div className="h-[92%] w-full flex flex-col items-center px-3 py-2">
                 <div className="h-[10%] w-full flex items-center justify-between">
-                    <button className="focus:outline-none h-[60px] w-[45%] rounded border-2 border-indigo-500 text-base text-indigo-500 px-3 py-2 font-merriweather font-semibold hover:border-indigo-300 hover:text-indigo-300 transform transition-all duration-300 ease-in-out">
+                    <button 
+                    onClick={() =>{
+                        setSignUpTab(true);
+                        setLoginTab(false)
+                    }}
+                    className={`focus:outline-none h-[60px] w-[45%] rounded border-2 border-indigo-500 text-base text-indigo-500 px-3 py-2 font-merriweather font-semibold hover:bg-indigo-900 hover:border-slate-50 hover:text-slate-50 transform transition-all duration-300 ease-in-out ${signUpTab && 'bg-slate-50'}`}>
                         Sign up
                     </button>
-                    <button className="focus:outline-none h-[60px] w-[45%] rounded border-2 border-emerald-500 text-base text-emerald-500 px-3 py-2 font-merriweather font-semibold hover:border-emerald-300 hover:text-emerald-300 transform transition-all duration-300 ease-in-out">
+                    <button onClick={() => {
+                        setSignUpTab(false);
+                        setLoginTab(true)
+                    }} className={`focus:outline-none h-[60px] w-[45%] rounded border-2 border-indigo-500 text-base text-indigo-500 px-3 py-2 font-merriweather font-semibold hover:bg-indigo-900 hover:border-slate-50 hover:text-slate-50 transform transition-all duration-300 ease-in-out ${loginTab && 'bg-slate-50'}`}>
                         Log in
                     </button>
                 </div>
-                <div className="h-[85%] w-full flex flex-col items-start px-3 py-2 space-y-3">
+               {signUpTab ? (
+                 <div onSubmit={handleSignUp} className="h-[85%] w-full flex flex-col items-start px-3 py-2 space-y-3">
                     <h1 className="font-playfair-disp font-semibold text-sky-100 text-lg">
                         Email
                     </h1>
@@ -62,7 +71,25 @@ export default function LoginModal(){
                     </button>
                 </div>
                 </div>
+               ): loginTab &&(
+                 <form onSubmit={handleLogin} className="h-[85%] w-full flex flex-col items-start px-3 py-2 space-y-3">
+                    <h1 className="font-playfair-disp font-semibold text-sky-100 text-lg">
+                        Email
+                    </h1>
+                    <input placeholder='Email' value={email} onChange={e => setEmail(e.target.value)} type="text" className='focus:outline-none w-[85%] h-[60px] mx-auto bg-slate-900 rounded border border-amber-500 px-3 py-2 text-base text-amber-500 placeholder-amber-700 font-merriweather font-semibold' />
+                    <h1 className="font-playfair-disp font-semibold text-sky-100 text-lg">
+                        Password
+                    </h1>
+                    <input placeholder='Password' value={password} onChange={e => setPassword(e.target.value)} type="password" className='focus:outline-none w-[85%] h-[60px] mx-auto bg-slate-900 rounded border border-amber-500 px-3 py-2 text-base text-amber-500 placeholder-amber-700 font-merriweather font-semibold' />
+                <div className="w-full flex items-center justify-between px-3 py-2">
+                    <span className="w-[50%]"></span>
+                    <button type="submit" className="focus:outline-none h-[60px] w-[45%] rounded border-2 border-indigo-500 text-base text-indigo-500 px-3 py-2 font-merriweather font-semibold hover:border-indigo-300 hover:text-indigo-300 transform transition duration-300 ease-in-out">
+                        Login
+                    </button>
+                </div>
+                </form>
+               )}
             </div>
-        </form>
+        </div>
        )
 }
