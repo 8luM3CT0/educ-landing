@@ -17,6 +17,8 @@ import {
 import { useRouter } from 'next/router'
 import {useRef ,useState, useEffect} from 'react'
 import { useUser } from '@supabase/auth-helpers-react'
+import { creds, store, provider } from '../../../backend/firebase'
+import { useAuthState } from 'react-firebase-hooks/auth'
 
 function DesktopIndHeader({
     openAModal,
@@ -26,11 +28,38 @@ function DesktopIndHeader({
     options = [],
     onSelect
 }) {
-  const user = useUser()
     const handleDropdownSelect = value => {
         console.log('Selected', value)
     }
-  
+    
+const [user] = useAuthState(creds)
+const date = new Date().toLocaleString()
+const logIn = (e) => {
+    e.preventDefault()
+
+    creds.signInWithPopup(provider).catch(err => console.error(`Error in signing in >>>>`, err))
+}
+
+useEffect(() => {
+    if(user){
+        store.collection('educ_users').doc(user?.uid).set({
+            displayName: user?.displayName,
+            photoURL: user?.photoURL,
+            email: user?.email,
+            loggedInOn: date
+        }, {
+            merge: true
+        })
+    }
+}, [user])
+
+const logOut = e => {
+    e.preventDefault()
+
+    creds.signOut().catch(err => console.error(`Error in signing out >>>>`, err))
+}
+
+const [dropDown, setDropDown] = useState(false)
 
     return (
     <>
@@ -116,16 +145,18 @@ function DesktopIndHeader({
         </span>
 
         {user ? (
-            <>
-            <CustomDropdown 
-            options={['Logout']}
-            onSelect={handleDropdownSelect}
-            userEmail={user?.email}
-            />
-            </>
+            <button className='border-0 flex flex-col items-center font-playfair-disp font-semibold text-sky-100 hover:text-sky-500 hover:underline transform transition-all duration-300 ease-in-out'>
+                <img 
+                src={user?.photoURL} 
+                alt="" 
+                className="rounded-3xl h-[35px] w-[35px]" />
+                <h1 className="text-sm">
+                    {user?.displayName}
+                </h1>
+            </button>
         ): (
         <span 
-        onClick={() => setLoginModal(true)}
+        onClick={logIn}
         className="
         w-[0.2]
         bg-sky-900
