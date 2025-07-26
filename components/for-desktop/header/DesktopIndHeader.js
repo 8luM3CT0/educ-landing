@@ -60,6 +60,22 @@ const logOut = e => {
 }
 
 const [dropDown, setDropDown] = useState(false)
+const [supportModal, setSupportModal] = useState(false)
+const [supportText, setSupportText] = useState('')
+
+const sendIssue = e => {
+    e.preventDefault()
+
+    store.collection('issues').add({
+        supportText,
+        addedOn: date,
+        addedBy: user?.displayName,
+        picOfUser: user?.photoURL
+    })
+
+    setSupportText('')
+    setSupportModal(false)
+}
 
     return (
     <>
@@ -162,7 +178,16 @@ const [dropDown, setDropDown] = useState(false)
                 </h1>
             </button>
             {dropDown && (
-                <div className="absolute top-full right-0 z-50 min-h-[120px] max-h-[120px] min-w-[200px] max-w-[200px] bg-slate-800 bg-opacity-[0.87] rounded border border-t-amber-400 border-b-emerald-400 border-l-sky-400 border-r-indigo-400 shadow-lg shadow-slate-800"></div>
+                <div className="absolute top-full right-0 z-50 min-h-[120px] max-h-[120px] min-w-[200px] max-w-[200px] py-4 bg-slate-800 bg-opacity-[0.87] rounded border border-t-amber-400 border-b-emerald-400 border-l-sky-400 border-r-indigo-400 shadow-lg shadow-slate-800 flex flex-col items-center">
+                    <button 
+                    onClick={() => {
+                        setSupportModal(true)
+                        setDropDown(false)
+                    }}
+                    className="focus:outline-none h-[50px] w-[85%] mx-auto font-merriweather font-semibold rounded bg-slate-700  bg-opacity-70 text-sky-400 border border-sky-400 hover:text-sky-600 hover:border-sky-600 transform transition-all duration-300 ease-in-out">
+                        Support
+                    </button>
+                </div>
             )}
             </>
         ): (
@@ -203,6 +228,47 @@ const [dropDown, setDropDown] = useState(false)
         </span>
         )}
     </div>
+    {supportModal && (
+        <div className="fixed inset-0 z-50 bg-slate-800 bg-opacity-[0.77] h-screen w-screen flex items-center overflow-hidden">
+            <div onClick={() => setSupportModal(false)} className="h-full w-[14.5%]"></div>
+            <div className="h-full w-[71%] flex flex-col items-center">
+                <div className="h-[75%] bg-slate-800 bg-opacity-[0.93] w-full border-2 border-t-sky-400 border-b-amber-400 border-l-emerald-400 border-r-indigo-400 rounded">
+                    <header className="h-[10%] w-full flex items-center justify-between border-b-2 border-slate-400 px-4 py-3">
+                        <h2 className="text-lg text-slate-400 font-merriweather font-semibold">
+                            Support modal
+                        </h2>
+                    <button 
+                    onClick={() => setSupportModal(false) }
+                    className="flex items-center focus:outline-none border border-red-500 px-3 rounded text-lg text-red-500 hover:border-red-700 hover:bg-red-700 hover:text-slate-900 transition-all transform duration-300 ease-in-out">
+                        X
+                    </button>
+                    </header>
+                    <div className="h-[90%] w-full px-4 py-3 space-y-3 flex flex-col items-start">
+                        <h3 className="font-merriweather font-semibold text-slate-400 text-base">
+                            What seems to be the issue ?
+                        </h3>
+                        <textarea 
+                        value={supportText}
+                        onChange={e => setSupportText(e.target.value)}
+                        placeholder={`Issue:`} 
+                        className='h-[75%] w-[85%] px-3 py-2 mx-auto focus:outline-none bg-slate-700 bg-opacity-75 rounded-lg font-playfair-disp font-normal text-lg text-sky-400 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-slate-800 scrollbar-thumb-sky-400'
+                        ></textarea>
+                        <span className="h-[10%] w-[95%] mx-auto flex items-center justify-between">
+                            <span></span>
+                            <button 
+                            disabled={!supportText} 
+                            onClick={sendIssue}
+                            className="h-full w-[30%] px-4 py-1 rounded font-merriweather font-semibold text-slate-400 text-lg border border-slate-400 hover:text-slate-100 hover:border-slate-100 transform transition duration-300 ease-in-out">
+                                Send
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div onClick={() => setSupportModal(false)} className="h-[25%] w-full"></div>
+            </div>
+            <div onClick={() => setSupportModal(false)} className="h-full w-[14.5%]"></div>
+        </div>
+    )}
     </>
   )
 }
