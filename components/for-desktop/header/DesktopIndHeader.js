@@ -139,13 +139,20 @@ const [dropDown, setDropDown] = useState(false)
         transition
         duration-300
         ease-in-out
-        ">  <WorkIcon />
+        ">  
+        <WorkIcon />
         </button>
             </span>
         </span>
 
         {user ? (
-            <button className='border-0 flex flex-col items-center font-playfair-disp font-semibold text-sky-100 hover:text-sky-500 hover:underline transform transition-all duration-300 ease-in-out'>
+            <>
+            <button 
+            onClick={() => {
+                if(dropDown) setDropDown(false) 
+                else setDropDown(true)
+            }}
+            className={`focus:outline-none border-0 flex flex-col items-center font-playfair-disp font-semibold text-sky-300 hover:text-sky-500 hover:underline transform transition-all duration-300 ease-in-out ${dropDown && 'text-sky-100 underline'}`}>
                 <img 
                 src={user?.photoURL} 
                 alt="" 
@@ -154,6 +161,10 @@ const [dropDown, setDropDown] = useState(false)
                     {user?.displayName}
                 </h1>
             </button>
+            {dropDown && (
+                <div className="absolute top-full right-0 z-50 min-h-[120px] max-h-[120px] min-w-[200px] max-w-[200px] bg-slate-800 bg-opacity-[0.87] rounded border border-t-amber-400 border-b-emerald-400 border-l-sky-400 border-r-indigo-400 shadow-lg shadow-slate-800"></div>
+            )}
+            </>
         ): (
         <span 
         onClick={logIn}
